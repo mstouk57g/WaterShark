@@ -1,0 +1,63 @@
+﻿<Page
+    x:Class="WaterShark.Views.英语老师专用抽Page"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid x:Name="ContentArea">
+        <RelativePanel>
+            <ToggleButton x:Name="A1" Content="ToggleButton"/>
+            <ToggleButton x:Name="A2" Content="ToggleButton" RelativePanel.RightOf="A1" Margin="20,0,0,0"/>
+            <ToggleButton x:Name="A3" Content="ToggleButton" RelativePanel.RightOf="A2" Margin="50,0,0,0"/>
+            <ToggleButton x:Name="A4" Content="ToggleButton" RelativePanel.RightOf="A3" Margin="20,0,0,0"/>
+            <ToggleButton x:Name="A5" Content="ToggleButton" RelativePanel.RightOf="A4" Margin="50,0,0,0"/>
+            <ToggleButton x:Name="A6" Content="ToggleButton" RelativePanel.RightOf="A5" Margin="20,0,0,0"/>
+            <ToggleButton x:Name="A7" Content="ToggleButton" RelativePanel.RightOf="A6" Margin="50,0,0,0"/>
+            <ToggleButton x:Name="A8" Content="ToggleButton" RelativePanel.RightOf="A7" Margin="20,0,0,0"/>
+            <ToggleButton x:Name="B1" Content="ToggleButton" RelativePanel.Below="A1" Margin="0,20,0,0"/>
+            <ToggleButton x:Name="B2" Content="ToggleButton" RelativePanel.Below="A2" RelativePanel.RightOf="B1" Margin="20,20,0,0"/>
+            <ToggleButton x:Name="B3" Content="ToggleButton" RelativePanel.Below="A3" RelativePanel.RightOf="B2" Margin="50,20,0,0"/>
+            <ToggleButton x:Name="B4" Content="ToggleButton" RelativePanel.Below="A4" RelativePanel.RightOf="B3" Margin="20,20,0,0"/>
+            <ToggleButton x:Name="B5" Content="ToggleButton" RelativePanel.Below="A5" RelativePanel.RightOf="B4" Margin="50,20,0,0"/>
+            <ToggleButton x:Name="B6" Content="ToggleButton" RelativePanel.Below="A6" RelativePanel.RightOf="B5" Margin="20,20,0,0"/>
+            <ToggleButton x:Name="B7" Content="ToggleButton" RelativePanel.Below="A7" RelativePanel.RightOf="B6" Margin="50,20,0,0"/>
+            <ToggleButton x:Name="B8" Content="ToggleButton" RelativePanel.Below="A8" RelativePanel.RightOf="B7" Margin="20,20,0,0"/>
+            <ToggleButton x:Name="C1" Content="ToggleButton" RelativePanel.Below="B1" Margin="0,20,0,0"/>
+            <ToggleButton x:Name="C2" Content="ToggleButton" RelativePanel.Below="B2" RelativePanel.RightOf="C1" Margin="20,20,0,0"/>
+            <ToggleButton x:Name="C3" Content="ToggleButton" RelativePanel.Below="B3" RelativePanel.RightOf="C2" Margin="50,20,0,0"/>
+            <ToggleButton x:Name="C4" Content="ToggleButton" RelativePanel.Below="B4" RelativePanel.RightOf="C3" Margin="20,20,0,0"/>
+            <ToggleButton x:Name="C5" Content="ToggleButton" RelativePanel.Below="B5" RelativePanel.RightOf="C4" Margin="50,20,0,0"/>
+            <ToggleButton x:Name="C6" Content="ToggleButton" RelativePanel.Below="B6" RelativePanel.RightOf="C5" Margin="20,20,0,0"/>
+            <ToggleButton x:Name="C7" Content="ToggleButton" RelativePanel.Below="B7" RelativePanel.RightOf="C6" Margin="50,20,0,0"/>
+            <ToggleButton x:Name="C8" Content="ToggleButton" RelativePanel.Below="B8" RelativePanel.RightOf="C7" Margin="20,20,0,0"/>
+            <ToggleButton x:Name="D1" Content="ToggleButton" RelativePanel.Below="C1" Margin="0,20,0,0"/>
+            <ToggleButton x:Name="D2" Content="ToggleButton" RelativePanel.Below="C2" RelativePanel.RightOf="D1" Margin="20,20,0,0"/>
+            <ToggleButton x:Name="D3" Content="ToggleButton" RelativePanel.Below="C3" RelativePanel.RightOf="D2" Margin="50,20,0,0"/>
+            <ToggleButton x:Name="D4" Content="ToggleButton" RelativePanel.Below="C4" RelativePanel.RightOf="D3" Margin="20,20,0,0"/>
+            <ToggleButton x:Name="D5" Content="ToggleButton" RelativePanel.Below="C5" RelativePanel.RightOf="D4" Margin="50,20,0,0"/>
+            <ToggleButton x:Name="D6" Content="ToggleButton" RelativePanel.Below="C6" RelativePanel.RightOf="D5" Margin="20,20,0,0"/>
+            <ToggleButton x:Name="D7" Content="ToggleButton" RelativePanel.Below="C7" RelativePanel.RightOf="D6" Margin="50,20,0,0"/>
+            <ToggleButton x:Name="D8" Content="ToggleButton" RelativePanel.Below="C8" RelativePanel.RightOf="D7" Margin="20,20,0,0"/>
+            <ToggleButton x:Name="E1" Content="ToggleButton" RelativePanel.Below="D1" Margin="0,20,0,0"/>
+            <ToggleButton x:Name="E2" Content="ToggleButton" RelativePanel.Below="D2" RelativePanel.RightOf="E1" Margin="20,20,0,0"/>
+            <ToggleButton x:Name="E3" Content="ToggleButton" RelativePanel.Below="D3" RelativePanel.RightOf="E2" Margin="50,20,0,0"/>
+            <ToggleButton x:Name="E4" Content="ToggleButton" RelativePanel.Below="D4" RelativePanel.RightOf="E3" Margin="20,20,0,0"/>
+            <ToggleButton x:Name="E5" Content="ToggleButton" RelativePanel.Below="D5" RelativePanel.RightOf="E4" Margin="50,20,0,0"/>
+            <ToggleButton x:Name="E6" Content="ToggleButton" RelativePanel.Below="D6" RelativePanel.RightOf="E5" Margin="20,20,0,0"/>
+            <ToggleButton x:Name="E7" Content="ToggleButton" RelativePanel.Below="D7" RelativePanel.RightOf="E6" Margin="50,20,0,0"/>
+            <ToggleButton x:Name="E8" Content="ToggleButton" RelativePanel.Below="D8" RelativePanel.RightOf="E7" Margin="20,20,0,0"/>
+            <ToggleButton x:Name="F1" Content="ToggleButton" RelativePanel.Below="E1" Margin="0,20,0,0"/>
+            <ToggleButton x:Name="F2" Content="ToggleButton" RelativePanel.Below="E2" RelativePanel.RightOf="F1" Margin="20,20,0,0"/>
+            <ToggleButton x:Name="F3" Content="ToggleButton" RelativePanel.Below="E3" RelativePanel.RightOf="F2" Margin="50,20,0,0"/>
+            <ToggleButton x:Name="F4" Content="ToggleButton" RelativePanel.Below="E4" RelativePanel.RightOf="F3" Margin="20,20,0,0"/>
+            <ToggleButton x:Name="F5" Content="ToggleButton" RelativePanel.Below="E5" RelativePanel.RightOf="F4" Margin="50,20,0,0"/>
+            <ToggleButton x:Name="F6" Content="ToggleButton" RelativePanel.Below="E6" RelativePanel.RightOf="F5" Margin="20,20,0,0"/>
+            <ToggleButton x:Name="F7" Content="ToggleButton" RelativePanel.Below="E7" RelativePanel.RightOf="F6" Margin="50,20,0,0"/>
+            <ToggleButton x:Name="F8" Content="ToggleButton" RelativePanel.Below="E8" RelativePanel.RightOf="F7" Margin="20,20,0,0"/>
+            <Button x:Name="boom" Style="{StaticResource AccentButtonStyle}" Content="抽" RelativePanel.Below="F8" Click="clickboom" Margin="0,50,0,0"/>
+            <Button  Content="归零" RelativePanel.Below="F8"  RelativePanel.RightOf="boom" Click="clickZERO" Margin="10,50,0,0"/>
+        </RelativePanel>
+    </Grid>
+</Page>

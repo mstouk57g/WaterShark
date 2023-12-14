@@ -1,0 +1,10 @@
+﻿{
+    "profiles": {
+      "WaterShark (Package)": {
+        "commandName": "MsixPackage"
+      },
+      "WaterShark (Unpackaged)": {
+        "commandName": "Project"
+      }
+    }
+}
