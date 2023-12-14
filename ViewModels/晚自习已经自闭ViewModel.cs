@@ -6,5 +6,6 @@ public partial class 晚自习已经自闭ViewModel : ObservableRecipient
 {
     public 晚自习已经自闭ViewModel()
     {
+
     }
 }

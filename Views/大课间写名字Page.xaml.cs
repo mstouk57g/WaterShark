@@ -160,7 +160,6 @@ public sealed partial class 大课间写名字Page : Page
     }
 
     private Window m_window;
-    string jsonjsonjson = "D:/KissL/Desktop/test3.json";
     private async void ClickA1(object sender, RoutedEventArgs e)
     {
         using (System.IO.StreamReader file = System.IO.File.OpenText(jsonfile))

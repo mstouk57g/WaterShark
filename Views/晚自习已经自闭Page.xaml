@@ -8,13 +8,6 @@
     mc:Ignorable="d">
 
     <Grid x:Name="ContentArea">
-        <RelativePanel>
-            <TextBlock x:Name="min"/>
-            <TextBlock x:Name="dot" Text="：" RelativePanel.RightOf="min"/>
-            <TextBlock x:Name="sec" RelativePanel.RightOf="dot"/>
-
-
-            <Button x:Name="Start" Style="{StaticResource AccentButtonStyle}" Content="开始" RelativePanel.Below="min" Click="ClickStart" Margin="0,50,0,0"/>
-        </RelativePanel>
+        <TextBlock Name="lblTime" FontSize="48" HorizontalAlignment="Center" VerticalAlignment="Center" />
     </Grid>
 </Page>
