@@ -3,7 +3,9 @@ using System;
 using System.Windows;
 using System.Windows.Threading;
 using WaterShark.ViewModels;
-
+using CommunityToolkit.WinUI.Controls;
+using CommunityToolkit.WinUI.Behaviors;
+using CommunityToolkit.WinUI;
 
 namespace WaterShark.Views;
 
@@ -19,14 +21,18 @@ public sealed partial class 晚自习已经自闭Page : Page
     {
         ViewModel = App.GetService<晚自习已经自闭ViewModel>();
         InitializeComponent();
-        DispatcherTimer timer = new DispatcherTimer();
-        timer.Interval = TimeSpan.FromSeconds(1);
-        timer.Tick += timer_Tick;
-        timer.Start();
-    }
-    void timer_Tick(object sender, EventArgs e)
-    {
-        lblTime.Text = DateTime.Now.ToLongTimeString();
+        var notification = new Notification
+        {
+            Title = $"温馨提醒：",
+            Message = "开始计时将会调起另一个新窗口实例。请注意：请勿中途关闭实例，否则计时将会归零",
+            Severity = InfoBarSeverity.Informational,
+        };
+
+        NotificationQueue.Show(notification);
     }
     
+
 }
+    
+    
+
