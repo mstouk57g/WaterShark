@@ -7,6 +7,5 @@
     mc:Ignorable="d">
 
     <Grid x:Name="ContentArea">
-        //303
     </Grid>
 </Page>
