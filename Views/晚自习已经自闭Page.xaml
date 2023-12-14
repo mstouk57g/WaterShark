@@ -13,15 +13,16 @@
     mc:Ignorable="d">
 
     <StackPanel x:Name="ContentArea">
-        <TextBlock x:Name="read" Text="使用前请确保以下设置均完善"/>
-        <muxc:InfoBar x:Name="InfoBar">
+        <TextBlock x:Name="read" FontWeight="Bold" Text="使用前请确保以下设置均完善" Margin="0,10,0,0"></TextBlock>
+        <muxc:InfoBar x:Name="InfoBar" Margin="0,10,0,0">
             <interactivity:Interaction.Behaviors>
                 <behaviors:StackedNotificationsBehavior x:Name="NotificationQueue" />
             </interactivity:Interaction.Behaviors>
         </muxc:InfoBar>
         <local:SettingsExpander x:Name="settingsCard"
                     Header="SettingsExpander"
-                    HeaderIcon="{ui:FontIcon Glyph=&#xE91B;}">
+                    HeaderIcon="{ui:FontIcon Glyph=&#xE91B;}" 
+                    Margin="0,10,0,0">
             <local:SettingsExpander.Items>
                 <local:SettingsCard Description="You can override the Left indention of a SettingsCard by overriding the SettingsCardLeftIndention"
                     Header="Customization">
