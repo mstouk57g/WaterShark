@@ -20,12 +20,71 @@
             </interactivity:Interaction.Behaviors>
         </muxc:InfoBar>
         <local:SettingsExpander x:Name="settingsCard"
-                    Header="SettingsExpander"
+                    Header="科目时间设置"
                     HeaderIcon="{ui:FontIcon Glyph=&#xE91B;}" 
                     Margin="0,10,0,0">
             <local:SettingsExpander.Items>
-                <local:SettingsCard Header="语文">
-                    <Slider Width="200" Minimum="0" Maximum="30" StepFrequency="1" Value="25"/>
+                <local:SettingsCard Header="语文" IsEnabled="False">
+                    <StackPanel Orientation="Horizontal">
+                    <NumberBox 
+                        Header="顺序"
+                        Value="1"
+                        SpinButtonPlacementMode="Compact"
+                        SmallChange="1"/>
+                        <Slider Header="时间" Width="200" Minimum="0" Maximum="30" StepFrequency="1" Value="23"  Margin="20,0,0,0"/>
+                    </StackPanel>
+                    <local:SettingsCard.Resources>
+                        <x:Double x:Key="SettingsCardLeftIndention">80</x:Double>
+                    </local:SettingsCard.Resources>
+                </local:SettingsCard>
+                <local:SettingsCard Header="数学" IsEnabled="False">
+                    <StackPanel Orientation="Horizontal">
+                        <NumberBox 
+                        Header="顺序"
+                        Value="2"
+                        SpinButtonPlacementMode="Compact"
+                        SmallChange="1" />
+                        <Slider Header="时间" Width="200" Minimum="0" Maximum="30" StepFrequency="1" Value="23"  Margin="20,0,0,0"/>
+                    </StackPanel>
+                    <local:SettingsCard.Resources>
+                        <x:Double x:Key="SettingsCardLeftIndention">40</x:Double>
+                    </local:SettingsCard.Resources>
+                </local:SettingsCard>
+                <local:SettingsCard Header="英语" IsEnabled="False">
+                    <StackPanel Orientation="Horizontal">
+                        <NumberBox 
+                        Header="顺序"
+                        Value="3"
+                        SpinButtonPlacementMode="Compact"
+                        SmallChange="1"/>
+                        <Slider Header="时间" Width="200" Minimum="0" Maximum="30" StepFrequency="1" Value="23"  Margin="20,0,0,0"/>
+                    </StackPanel>
+                    <local:SettingsCard.Resources>
+                        <x:Double x:Key="SettingsCardLeftIndention">40</x:Double>
+                    </local:SettingsCard.Resources>
+                </local:SettingsCard>
+                <local:SettingsCard Header="物理" IsEnabled="False">
+                    <StackPanel Orientation="Horizontal">
+                        <NumberBox 
+                        Header="顺序"
+                        Value="4"
+                        SpinButtonPlacementMode="Compact"
+                        SmallChange="1" />
+                        <Slider Header="时间" Width="200" Minimum="0" Maximum="30" StepFrequency="1" Value="13"  Margin="20,0,0,0"/>
+                    </StackPanel>
+                    <local:SettingsCard.Resources>
+                        <x:Double x:Key="SettingsCardLeftIndention">40</x:Double>
+                    </local:SettingsCard.Resources>
+                </local:SettingsCard>
+                <local:SettingsCard Header="化学" IsEnabled="False">
+                    <StackPanel Orientation="Horizontal">
+                        <NumberBox 
+                        Header="顺序"
+                        Value="5"
+                        SpinButtonPlacementMode="Compact"
+                        SmallChange="1"/>
+                        <Slider Header="时间" Width="200" Minimum="0" Maximum="30" StepFrequency="1" Value="8"  Margin="20,0,0,0"/>
+                    </StackPanel>
                     <local:SettingsCard.Resources>
                         <x:Double x:Key="SettingsCardLeftIndention">40</x:Double>
                     </local:SettingsCard.Resources>
