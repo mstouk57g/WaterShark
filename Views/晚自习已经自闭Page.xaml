@@ -24,8 +24,8 @@
                     HeaderIcon="{ui:FontIcon Glyph=&#xE91B;}" 
                     Margin="0,10,0,0">
             <local:SettingsExpander.Items>
-                <local:SettingsCard Description="You can override the Left indention of a SettingsCard by overriding the SettingsCardLeftIndention"
-                    Header="Customization">
+                <local:SettingsCard Header="语文">
+                    <Slider Width="200" Minimum="0" Maximum="30" StepFrequency="1" Value="25"/>
                     <local:SettingsCard.Resources>
                         <x:Double x:Key="SettingsCardLeftIndention">40</x:Double>
                     </local:SettingsCard.Resources>
