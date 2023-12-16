@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WaterShark")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4bfab792d4fedcd1e12eb3799ea997ace61bc6e8")]
 [assembly: System.Reflection.AssemblyProductAttribute("WaterShark")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WaterShark")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

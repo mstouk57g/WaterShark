@@ -5,6 +5,8 @@ using Newtonsoft.Json.Linq;
 using WaterShark.ViewModels;
 using Newtonsoft.Json;
 using Windows.Media.AppBroadcasting;
+using System.Net;
+using System.Text;
 
 namespace WaterShark.Views;
 
@@ -16,7 +18,25 @@ public sealed partial class 大课间写名字Page : Page
     {
         get;
     }
+    public static string HttpWebRequest_Get(string url)
+    {
+        //ServicePointManager.ServerCertificateValidationCallback = new RemoteCertificateValidationCallback(CheckValidationResult);
+        Encoding encoding = Encoding.UTF8;
 
+        //构造一个Web请求的对象
+        HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
+        request.Method = "GET";
+        request.Accept = "text/html, application/xhtml+xml, */*";
+        request.ContentType = "application/json";
+
+        //获取web请求的响应的内容
+        HttpWebResponse response = (HttpWebResponse)request.GetResponse();
+
+        using (StreamReader reader = new StreamReader(response.GetResponseStream(), Encoding.UTF8))
+        {
+            return reader.ReadToEnd();
+        }
+    }
     public 大课间写名字Page()
     {
         ViewModel = App.GetService<大课间写名字ViewModel>();
@@ -49,7 +69,7 @@ public sealed partial class 大课间写名字Page : Page
             }
             c = b[1]["name"].ToString();
             A2.Content = c;
-            c = b[2]["name"].ToString();
+            c = HttpWebRequest_Get("http://localhost:5000/toggle?value=2&key=name");
             A3.Content = c;
             c = b[3]["name"].ToString();
             A4.Content = c;
