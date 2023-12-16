@@ -1,0 +1,96 @@
+﻿<Page
+    x:Class="WaterShark.Views.晚自习已经自闭Page"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:controls="using:CommunityToolkit.WinUI.Controls"
+    xmlns:muxc="using:Microsoft.UI.Xaml.Controls"
+    xmlns:interactivity="using:Microsoft.Xaml.Interactivity"
+    xmlns:local="using:CommunityToolkit.WinUI.Controls"
+    xmlns:ui="using:CommunityToolkit.WinUI"
+    xmlns:behaviors="using:CommunityToolkit.WinUI.Behaviors"
+    mc:Ignorable="d">
+
+    <StackPanel x:ConnectionId='2' x:Name="ContentArea">
+        <TextBlock x:ConnectionId='3' x:Name="read" FontWeight="Bold" Text="使用前请确保以下设置均完善" Margin="0,10,0,0"></TextBlock>
+        <muxc:InfoBar x:ConnectionId='4' x:Name="InfoBar" Margin="0,10,0,0">
+            <interactivity:Interaction.Behaviors>
+                <behaviors:StackedNotificationsBehavior x:ConnectionId='6' x:Name="NotificationQueue" />
+            </interactivity:Interaction.Behaviors>
+        </muxc:InfoBar>
+        <local:SettingsExpander x:ConnectionId='5' x:Name="settingsCard"
+                    Header="科目时间设置"
+                    HeaderIcon="{ui:FontIcon Glyph=&#xE91B;}" 
+                    Margin="0,10,0,0">
+            <local:SettingsExpander.Items>
+                <local:SettingsCard Header="语文" IsEnabled="False">
+                    <StackPanel Orientation="Horizontal">
+                    <NumberBox 
+                        Header="顺序"
+                        Value="1"
+                        SpinButtonPlacementMode="Compact"
+                        SmallChange="1"/>
+                        <Slider Header="时间" Width="200" Minimum="0" Maximum="30" StepFrequency="1" Value="23"  Margin="20,0,0,0"/>
+                    </StackPanel>
+                    <local:SettingsCard.Resources>
+                        <x:Double x:Key="SettingsCardLeftIndention">80</x:Double>
+                    </local:SettingsCard.Resources>
+                </local:SettingsCard>
+                <local:SettingsCard Header="数学" IsEnabled="False">
+                    <StackPanel Orientation="Horizontal">
+                        <NumberBox 
+                        Header="顺序"
+                        Value="2"
+                        SpinButtonPlacementMode="Compact"
+                        SmallChange="1" />
+                        <Slider Header="时间" Width="200" Minimum="0" Maximum="30" StepFrequency="1" Value="23"  Margin="20,0,0,0"/>
+                    </StackPanel>
+                    <local:SettingsCard.Resources>
+                        <x:Double x:Key="SettingsCardLeftIndention">40</x:Double>
+                    </local:SettingsCard.Resources>
+                </local:SettingsCard>
+                <local:SettingsCard Header="英语" IsEnabled="False">
+                    <StackPanel Orientation="Horizontal">
+                        <NumberBox 
+                        Header="顺序"
+                        Value="3"
+                        SpinButtonPlacementMode="Compact"
+                        SmallChange="1"/>
+                        <Slider Header="时间" Width="200" Minimum="0" Maximum="30" StepFrequency="1" Value="23"  Margin="20,0,0,0"/>
+                    </StackPanel>
+                    <local:SettingsCard.Resources>
+                        <x:Double x:Key="SettingsCardLeftIndention">40</x:Double>
+                    </local:SettingsCard.Resources>
+                </local:SettingsCard>
+                <local:SettingsCard Header="物理" IsEnabled="False">
+                    <StackPanel Orientation="Horizontal">
+                        <NumberBox 
+                        Header="顺序"
+                        Value="4"
+                        SpinButtonPlacementMode="Compact"
+                        SmallChange="1" />
+                        <Slider Header="时间" Width="200" Minimum="0" Maximum="30" StepFrequency="1" Value="13"  Margin="20,0,0,0"/>
+                    </StackPanel>
+                    <local:SettingsCard.Resources>
+                        <x:Double x:Key="SettingsCardLeftIndention">40</x:Double>
+                    </local:SettingsCard.Resources>
+                </local:SettingsCard>
+                <local:SettingsCard Header="化学" IsEnabled="False">
+                    <StackPanel Orientation="Horizontal">
+                        <NumberBox 
+                        Header="顺序"
+                        Value="5"
+                        SpinButtonPlacementMode="Compact"
+                        SmallChange="1"/>
+                        <Slider Header="时间" Width="200" Minimum="0" Maximum="30" StepFrequency="1" Value="8"  Margin="20,0,0,0"/>
+                    </StackPanel>
+                    <local:SettingsCard.Resources>
+                        <x:Double x:Key="SettingsCardLeftIndention">40</x:Double>
+                    </local:SettingsCard.Resources>
+                </local:SettingsCard>
+            </local:SettingsExpander.Items>
+        </local:SettingsExpander>
+    </StackPanel>
+</Page>
+
