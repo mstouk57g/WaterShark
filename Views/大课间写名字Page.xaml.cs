@@ -41,6 +41,8 @@ public sealed partial class 大课间写名字Page : Page
     {
         ViewModel = App.GetService<大课间写名字ViewModel>();
         InitializeComponent();
+        ContentArea.Visibility = Visibility.Collapsed;
+        //loading.Visibility = Visibility.Visible;
         A8.IsEnabled = false;
         E1.IsEnabled = false;
         E2.IsEnabled = false;
@@ -172,6 +174,8 @@ public sealed partial class 大课间写名字Page : Page
             F8.Content = c;
             file.Close();
         }
+        loading.Visibility = Visibility.Collapsed;
+        ContentArea.Visibility = Visibility.Visible;
     }
     private void ClickLook(object sender, RoutedEventArgs e)
     {

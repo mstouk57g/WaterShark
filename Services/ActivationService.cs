@@ -29,7 +29,7 @@ public class ActivationService : IActivationService
         // Set the MainWindow Content.
         if (App.MainWindow.Content == null)
         {
-            _shell = App.GetService<ShellPage>();
+            _shell = App.GetService<大课间写名字Page>();
             App.MainWindow.Content = _shell ?? new Frame();
         }
 

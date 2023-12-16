@@ -15,5 +15,7 @@ public sealed partial class 空白3Page : Page
     {
         ViewModel = App.GetService<空白3ViewModel>();
         InitializeComponent();
+
+        //loading.Visibility = Visibility.Visible;
     }
 }

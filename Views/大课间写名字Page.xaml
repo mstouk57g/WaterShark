@@ -7,8 +7,9 @@
     xmlns:muxc="using:Microsoft.UI.Xaml.Controls"
     mc:Ignorable="d">
 
-    <Grid x:Name="ContentArea">
-        <RelativePanel>
+    <Grid >
+        <ProgressRing x:Name="loading"  IsActive="True" Background="LightGray"/>
+        <RelativePanel x:Name="ContentArea">
             <ToggleButton x:Name="A1" Content="ToggleButton" Click="ClickA1"/>
             <ToggleButton x:Name="A2" Content="ToggleButton" RelativePanel.RightOf="A1" Click="ClickA2" Margin="20,0,0,0"/>
             <ToggleButton x:Name="A3" Content="ToggleButton" RelativePanel.RightOf="A2" Click="ClickA3" Margin="50,0,0,0"/>
