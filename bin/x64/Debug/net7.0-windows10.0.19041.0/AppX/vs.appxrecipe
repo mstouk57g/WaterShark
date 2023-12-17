@@ -29,7 +29,7 @@
     <AppXManifest Include="F:\WaterShark\WaterShark\bin\x64\Debug\net7.0-windows10.0.19041.0\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-12-17T07:42:17.890</Modified>
+      <Modified>2023-12-17T07:56:44.495</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -43,7 +43,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\WaterShark\WaterShark\bin\x64\Debug\net7.0-windows10.0.19041.0\WaterShark.dll">
       <PackagePath>WaterShark.dll</PackagePath>
-      <Modified>2023-12-17T07:42:16.949</Modified>
+      <Modified>2023-12-17T07:56:44.161</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\WaterShark\WaterShark\appsettings.json">
       <PackagePath>appsettings.json</PackagePath>
@@ -51,7 +51,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\WaterShark\WaterShark\obj\x64\Debug\net7.0-windows10.0.19041.0\apphost.exe">
       <PackagePath>WaterShark.exe</PackagePath>
-      <Modified>2023-12-17T07:42:17.048</Modified>
+      <Modified>2023-12-17T07:56:44.191</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\WaterShark\WaterShark\bin\x64\Debug\net7.0-windows10.0.19041.0\WaterShark.deps.json">
       <PackagePath>WaterShark.deps.json</PackagePath>
