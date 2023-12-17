@@ -1,10 +1,12 @@
 ﻿using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
-
+using System.Net;
+using System.Text;
 using WaterShark.Activation;
 using WaterShark.Contracts.Services;
+using WaterShark.Helpers;
 using WaterShark.Views;
-
+using System.Diagnostics;
 namespace WaterShark.Services;
 
 public class ActivationService : IActivationService
@@ -13,6 +15,7 @@ public class ActivationService : IActivationService
     private readonly IEnumerable<IActivationHandler> _activationHandlers;
     private readonly IThemeSelectorService _themeSelectorService;
     private UIElement? _shell = null;
+    private UIElement? _shell2 = null;
 
     public ActivationService(ActivationHandler<LaunchActivatedEventArgs> defaultHandler, IEnumerable<IActivationHandler> activationHandlers, IThemeSelectorService themeSelectorService)
     {
@@ -20,7 +23,7 @@ public class ActivationService : IActivationService
         _activationHandlers = activationHandlers;
         _themeSelectorService = themeSelectorService;
     }
-
+    
     public async Task ActivateAsync(object activationArgs)
     {
         // Execute tasks before activation.
@@ -29,15 +32,20 @@ public class ActivationService : IActivationService
         // Set the MainWindow Content.
         if (App.MainWindow.Content == null)
         {
-            _shell = App.GetService<大课间写名字Page>();
+            _shell = App.GetService<ShellPage>();
+            _shell2 = App.GetService<空白Page>();
             App.MainWindow.Content = _shell ?? new Frame();
         }
 
         // Handle activation via ActivationHandlers.
         await HandleActivationAsync(activationArgs);
 
+
+
         // Activate the MainWindow.
         App.MainWindow.Activate();
+
+        //App.MainWindow.Content = _shell ?? new Frame();
 
         // Execute tasks after activation.
         await StartupAsync();

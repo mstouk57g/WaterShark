@@ -7,7 +7,7 @@
     mc:Ignorable="d">
 
     <Grid x:ConnectionId='2' x:Name="ContentArea">
-        
+        <TextBlock Text="6666"/>
     </Grid>
 </Page>
 

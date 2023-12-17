@@ -1,7 +1,8 @@
-﻿using WaterShark.Helpers;
-
+﻿using System.Net;
+using System.Text;
+using WaterShark.Helpers;
+using WaterShark.Views;
 using Windows.UI.ViewManagement;
-
 namespace WaterShark;
 
 public sealed partial class MainWindow : WindowEx
@@ -9,7 +10,7 @@ public sealed partial class MainWindow : WindowEx
     private Microsoft.UI.Dispatching.DispatcherQueue dispatcherQueue;
 
     private UISettings settings;
-
+  
     public MainWindow()
     {
         InitializeComponent();
@@ -21,7 +22,9 @@ public sealed partial class MainWindow : WindowEx
         // Theme change code picked from https://github.com/microsoft/WinUI-Gallery/pull/1239
         dispatcherQueue = Microsoft.UI.Dispatching.DispatcherQueue.GetForCurrentThread();
         settings = new UISettings();
-        settings.ColorValuesChanged += Settings_ColorValuesChanged; // cannot use FrameworkElement.ActualThemeChanged event
+        settings.ColorValuesChanged += Settings_ColorValuesChanged;
+        // cannot use FrameworkElement.ActualThemeChanged event
+
     }
 
     // this handles updating the caption button colors correctly when indows system theme is changed

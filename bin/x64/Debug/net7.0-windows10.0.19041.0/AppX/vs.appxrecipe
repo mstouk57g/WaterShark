@@ -29,21 +29,21 @@
     <AppXManifest Include="F:\WaterShark\WaterShark\bin\x64\Debug\net7.0-windows10.0.19041.0\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-12-16T19:20:18.664</Modified>
+      <Modified>2023-12-17T07:42:17.890</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="F:\WaterShark\WaterShark\bin\x64\Debug\net7.0-windows10.0.19041.0\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-12-16T19:11:29.236</Modified>
+      <Modified>2023-12-17T06:47:35.411</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\WaterShark\WaterShark\bin\x64\Debug\net7.0-windows10.0.19041.0\WaterShark.runtimeconfig.json">
       <PackagePath>WaterShark.runtimeconfig.json</PackagePath>
-      <Modified>2023-12-16T09:26:18.534</Modified>
+      <Modified>2023-12-17T06:47:34.737</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\WaterShark\WaterShark\bin\x64\Debug\net7.0-windows10.0.19041.0\WaterShark.dll">
       <PackagePath>WaterShark.dll</PackagePath>
-      <Modified>2023-12-16T19:20:18.423</Modified>
+      <Modified>2023-12-17T07:42:16.949</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\WaterShark\WaterShark\appsettings.json">
       <PackagePath>appsettings.json</PackagePath>
@@ -51,11 +51,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\WaterShark\WaterShark\obj\x64\Debug\net7.0-windows10.0.19041.0\apphost.exe">
       <PackagePath>WaterShark.exe</PackagePath>
-      <Modified>2023-12-16T19:20:18.445</Modified>
+      <Modified>2023-12-17T07:42:17.048</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\WaterShark\WaterShark\bin\x64\Debug\net7.0-windows10.0.19041.0\WaterShark.deps.json">
       <PackagePath>WaterShark.deps.json</PackagePath>
-      <Modified>2023-12-16T09:26:18.379</Modified>
+      <Modified>2023-12-17T06:47:34.582</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\KissL\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
@@ -477,9 +477,25 @@
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2023-12-13T14:35:14.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\WaterShark\WaterShark\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <Modified>2023-12-17T04:47:36.188</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\WaterShark\WaterShark\Assets\SplashScreen.scale-125.png">
+      <PackagePath>Assets\SplashScreen.scale-125.png</PackagePath>
+      <Modified>2023-12-17T04:47:30.571</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\WaterShark\WaterShark\Assets\SplashScreen.scale-150.png">
+      <PackagePath>Assets\SplashScreen.scale-150.png</PackagePath>
+      <Modified>2023-12-17T04:47:22.878</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="F:\WaterShark\WaterShark\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
-      <Modified>2023-12-13T14:35:14.000</Modified>
+      <Modified>2023-12-17T04:48:42.196</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\WaterShark\WaterShark\Assets\SplashScreen.scale-400.png">
+      <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
+      <Modified>2023-12-17T04:47:19.753</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\WaterShark\WaterShark\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>

@@ -12,168 +12,71 @@ namespace WaterShark.Views;
 
 public sealed partial class 大课间写名字Page : Page
 {
+    
     string jsonfile = "C:/Test/test.json";
     JArray jarr = new JArray();
     public 大课间写名字ViewModel ViewModel
     {
         get;
     }
-    public static string HttpWebRequest_Get(string url)
-    {
-        //ServicePointManager.ServerCertificateValidationCallback = new RemoteCertificateValidationCallback(CheckValidationResult);
-        Encoding encoding = Encoding.UTF8;
-
-        //构造一个Web请求的对象
-        HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
-        request.Method = "GET";
-        request.Accept = "text/html, application/xhtml+xml, */*";
-        request.ContentType = "application/json";
-
-        //获取web请求的响应的内容
-        HttpWebResponse response = (HttpWebResponse)request.GetResponse();
-
-        using (StreamReader reader = new StreamReader(response.GetResponseStream(), Encoding.UTF8))
-        {
-            return reader.ReadToEnd();
-        }
-    }
+    
+    public static 大课间写名字Page 大课间写名字;
     public 大课间写名字Page()
     {
         ViewModel = App.GetService<大课间写名字ViewModel>();
         InitializeComponent();
+        大课间写名字 = this;
         ContentArea.Visibility = Visibility.Collapsed;
         //loading.Visibility = Visibility.Visible;
-        A8.IsEnabled = false;
-        E1.IsEnabled = false;
-        E2.IsEnabled = false;
-        F1.IsEnabled = false;
-        F2.IsEnabled = false;
-        F6.IsEnabled = false;
-        F7.IsEnabled = false;
-        F8.IsEnabled = false;
-        using (System.IO.StreamReader file = System.IO.File.OpenText(jsonfile))
-        {
-            JsonTextReader reader = new JsonTextReader(file);
-
-            JObject o = (JObject)JToken.ReadFrom(reader);
-            string a = o["names"].ToString();
-            JArray b = JArray.Parse(a);
-            string c = b[0]["name"].ToString();
-            string d = b[0]["enable"].ToString();
-            A1.Content = c;
-            if(d == "true")
-            {
-                A1.IsEnabled = true;
-            }
-            if (d == "false")
-            {
-                A1.IsEnabled = false;
-            }
-            c = b[1]["name"].ToString();
-            A2.Content = c;
-            c = HttpWebRequest_Get("http://localhost:5000/toggle?value=2&key=name");
-            A3.Content = c;
-            c = b[3]["name"].ToString();
-            A4.Content = c;
-            c = b[4]["name"].ToString();
-            A5.Content = c;
-            c = b[5]["name"].ToString();
-            A6.Content = c;
-            c = b[6]["name"].ToString();
-            A7.Content = c;
-            c = b[7]["name"].ToString();
-            d = b[0]["enable"].ToString();
-            A8.Content = c;
-            if (d == "true")
-            {
-                A8.IsEnabled = true;
-            }
-            if (d == "false")
-            {
-                A8.IsEnabled = false;
-            }
-            c = b[8]["name"].ToString();
-            B1.Content = c;
-            c = b[9]["name"].ToString();
-            B2.Content = c;
-            c = b[10]["name"].ToString();
-            B3.Content = c;
-            c = b[11]["name"].ToString();
-            B4.Content = c;
-            c = b[12]["name"].ToString();
-            B5.Content = c;
-            c = b[13]["name"].ToString();
-            B6.Content = c;
-            c = b[14]["name"].ToString();
-            B7.Content = c;
-            c = b[15]["name"].ToString();
-            B8.Content = c;
-            c = b[16]["name"].ToString();
-            C1.Content = c;
-            c = b[17]["name"].ToString();
-            C2.Content = c;
-            c = b[18]["name"].ToString();
-            C3.Content = c;
-            c = b[19]["name"].ToString();
-            C4.Content = c;
-            c = b[20]["name"].ToString();
-            C5.Content = c;
-            c = b[21]["name"].ToString();
-            C6.Content = c;
-            c = b[22]["name"].ToString();
-            C7.Content = c;
-            c = b[23]["name"].ToString();
-            C8.Content = c;
-            c = b[24]["name"].ToString();
-            D1.Content = c;
-            c = b[25]["name"].ToString();
-            D2.Content = c;
-            c = b[26]["name"].ToString();
-            D3.Content = c;
-            c = b[27]["name"].ToString();
-            D4.Content = c;
-            c = b[28]["name"].ToString();
-            D5.Content = c;
-            c = b[29]["name"].ToString();
-            D6.Content = c;
-            c = b[30]["name"].ToString();
-            D7.Content = c;
-            c = b[31]["name"].ToString();
-            D8.Content = c;
-            c = b[32]["name"].ToString();
-            E1.Content = c;
-            c = b[33]["name"].ToString();
-            E2.Content = c;
-            c = b[34]["name"].ToString();
-            E3.Content = c;
-            c = b[35]["name"].ToString();
-            E4.Content = c;
-            c = b[36]["name"].ToString();
-            E5.Content = c;
-            c = b[37]["name"].ToString();
-            E6.Content = c;
-            c = b[38]["name"].ToString();
-            E7.Content = c;
-            c = b[39]["name"].ToString();
-            E8.Content = c;
-            c = b[40]["name"].ToString();
-            F1.Content = c;
-            c = b[41]["name"].ToString();
-            F2.Content = c;
-            c = b[42]["name"].ToString();
-            F3.Content = c;
-            c = b[43]["name"].ToString();
-            F4.Content = c;
-            c = b[44]["name"].ToString();
-            F5.Content = c;
-            c = b[45]["name"].ToString();
-            F6.Content = c;
-            c = b[46]["name"].ToString();
-            F7.Content = c;
-            c = b[47]["name"].ToString();
-            F8.Content = c;
-            file.Close();
-        }
+        
+            A1.Content = App.Global.A1;
+            A2.Content = App.Global.A2;
+            A3.Content = App.Global.A3;
+            A4.Content = App.Global.A4;
+            A5.Content = App.Global.A5;
+            A6.Content = App.Global.A6;
+            A7.Content = App.Global.A7;
+            A8.Content = App.Global.A8;
+            B1.Content = App.Global.B1;
+            B2.Content = App.Global.B2;
+            B3.Content = App.Global.B3;
+            B4.Content = App.Global.B4;
+            B5.Content = App.Global.B5;
+            B6.Content = App.Global.B6;
+            B7.Content = App.Global.B7;
+            B8.Content = App.Global.B8;
+            C1.Content = App.Global.C1;
+            C2.Content = App.Global.C2;
+            C3.Content = App.Global.C3;
+            C4.Content = App.Global.C4;
+            C5.Content = App.Global.C5;
+            C6.Content = App.Global.C6;
+            C7.Content = App.Global.C7;
+            C8.Content = App.Global.C8;
+            D1.Content = App.Global.D1;
+            D2.Content = App.Global.D2;
+            D3.Content = App.Global.D3;
+            D4.Content = App.Global.D4;
+            D5.Content = App.Global.D5;
+            D6.Content = App.Global.D6;
+            D7.Content = App.Global.D7;
+            D8.Content = App.Global.D8;
+            E1.Content = App.Global.E1;
+            E2.Content = App.Global.E2;
+            E3.Content = App.Global.E3;
+            E4.Content = App.Global.E4;
+            E5.Content = App.Global.E5;
+            E6.Content = App.Global.E6;
+            E7.Content = App.Global.E7;
+            E8.Content = App.Global.E8;
+            F1.Content = App.Global.F1;
+            F2.Content = App.Global.F2;
+            F3.Content = App.Global.F3;
+            F4.Content = App.Global.F4;
+            F5.Content = App.Global.F5;
+            F6.Content = App.Global.F6;
+            F7.Content = App.Global.F7;
+            F8.Content = App.Global.F8;
         loading.Visibility = Visibility.Collapsed;
         ContentArea.Visibility = Visibility.Visible;
     }
