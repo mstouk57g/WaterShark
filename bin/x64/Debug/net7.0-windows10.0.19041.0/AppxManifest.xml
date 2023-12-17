@@ -7,7 +7,7 @@
 
   有关程序包清单文件的详细信息，请参阅 http://go.microsoft.com/fwlink/?LinkID=241727
  -->
-  <Identity Name="ntcho.kh92.WaterShark" Publisher="CN=ntcho" Version="0.2.0.0" ProcessorArchitecture="x64" />
+  <Identity Name="ntcho.kh92.WaterShark" Publisher="CN=ntcho" Version="0.3.1.0" ProcessorArchitecture="x64" />
   <mp:PhoneIdentity PhoneProductId="0fb2c2a5-6b9b-4a09-9921-678818825e54" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>WaterShark</DisplayName>

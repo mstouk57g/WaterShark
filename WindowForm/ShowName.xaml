@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window
+    x:Class="WaterShark.WindowForm.ShowName"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:WaterShark.WindowForm"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <Window.SystemBackdrop>
+        <MicaBackdrop Kind="Base"/>
+    </Window.SystemBackdrop>
+    <RelativePanel>
+        <TextBlock x:Name="Homo" Text="名单：" Margin="20,20,0,0"/>
+        <ComboBox x:Name="NameJson" SelectionChanged="ColorComboBox_SelectionChanged" PlaceholderText="请选择标头" Width="400" Margin="20,50,0,0" RelativePanel.RightOf="Homo"/>
+        <TextBlock x:Name="Homo1145" FontSize="30" RelativePanel.Below="NameJson"/>
+    </RelativePanel>
+</Window>

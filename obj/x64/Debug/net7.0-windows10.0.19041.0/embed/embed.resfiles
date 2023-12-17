@@ -1,6 +1,5 @@
 App.xbf
 MainWindow.xbf
-ShowName.xbf
 Styles\FontSizes.xbf
 Styles\TextBlock.xbf
 Styles\Thickness.xbf
@@ -29,3 +28,4 @@ Views\其他页面Page.xbf
 Views\晚自习已经自闭Page.xbf
 Views\英语老师专用抽Page.xbf
 Views\主页Page.xbf
+WindowForm\ShowName.xbf

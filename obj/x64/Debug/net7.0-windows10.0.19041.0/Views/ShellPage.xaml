@@ -10,7 +10,7 @@
                      >
 
     <Grid>
-        <Grid x:ConnectionId='2' x:Name="AppTitleBar"
+        <StackPanel x:ConnectionId='2' x:Name="AppTitleBar"  Orientation="Horizontal"
               Canvas.ZIndex="1"
               Height="{Binding ElementName=NavigationViewControl, Path=CompactPaneLength}"
               IsHitTestVisible="True"
@@ -23,13 +23,13 @@
                        VerticalAlignment="Center"
                        TextWrapping="NoWrap"
                        Style="{StaticResource CaptionTextBlockStyle}"
-                       Margin="28,0,0,0"/>
-            <TextBlock Margin="100,15,0,0" VerticalAlignment="Center" FontSize="10">
+                       Margin="15,0,0,0"/>
+            <TextBlock Margin="15,15,0,0" VerticalAlignment="Center" FontSize="10">
                 <Run Foreground="DarkGray">
                  Debug Channel</Run>
                 <LineBreak/>
             </TextBlock>
-        </Grid>
+        </StackPanel>
         <NavigationView x:ConnectionId='3'
             x:Name="NavigationViewControl"
             Canvas.ZIndex="0"
@@ -68,86 +68,7 @@
                         <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="&#xe7c3;"/>
                     </NavigationViewItem.Icon>
                 </NavigationViewItem>
-                <NavigationViewItem x:Uid="Shell_空白" helpers:NavigationHelper.NavigateTo="WaterShark.ViewModels.空白ViewModel">
-                    <NavigationViewItem.Icon>
-                        <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="&#xe7c3;"/>
-                    </NavigationViewItem.Icon>
-                </NavigationViewItem>
-                <NavigationViewItem x:Uid="Shell_空白1" helpers:NavigationHelper.NavigateTo="WaterShark.ViewModels.空白1ViewModel">
-                    <NavigationViewItem.Icon>
-                        <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="&#xe7c3;"/>
-                    </NavigationViewItem.Icon>
-                </NavigationViewItem>
-                <NavigationViewItem x:Uid="Shell_空白2" helpers:NavigationHelper.NavigateTo="WaterShark.ViewModels.空白2ViewModel">
-                    <NavigationViewItem.Icon>
-                        <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="&#xe7c3;"/>
-                    </NavigationViewItem.Icon>
-                </NavigationViewItem>
-                <NavigationViewItem x:Uid="Shell_空白3" helpers:NavigationHelper.NavigateTo="WaterShark.ViewModels.空白3ViewModel">
-                    <NavigationViewItem.Icon>
-                        <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="&#xe7c3;"/>
-                    </NavigationViewItem.Icon>
-                </NavigationViewItem>
-                <NavigationViewItem x:Uid="Shell_空白4" helpers:NavigationHelper.NavigateTo="WaterShark.ViewModels.空白4ViewModel">
-                    <NavigationViewItem.Icon>
-                        <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="&#xe7c3;"/>
-                    </NavigationViewItem.Icon>
-                </NavigationViewItem>
-                <NavigationViewItem x:Uid="Shell_空白6" helpers:NavigationHelper.NavigateTo="WaterShark.ViewModels.空白6ViewModel">
-                    <NavigationViewItem.Icon>
-                        <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="&#xe7c3;"/>
-                    </NavigationViewItem.Icon>
-                </NavigationViewItem>
-                <NavigationViewItem x:Uid="Shell_空白5" helpers:NavigationHelper.NavigateTo="WaterShark.ViewModels.空白5ViewModel">
-                    <NavigationViewItem.Icon>
-                        <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="&#xe7c3;"/>
-                    </NavigationViewItem.Icon>
-                </NavigationViewItem>
-                <NavigationViewItem x:Uid="Shell_空白7" helpers:NavigationHelper.NavigateTo="WaterShark.ViewModels.空白7ViewModel">
-                    <NavigationViewItem.Icon>
-                        <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="&#xe7c3;"/>
-                    </NavigationViewItem.Icon>
-                </NavigationViewItem>
-                <NavigationViewItem x:Uid="Shell_空白8" helpers:NavigationHelper.NavigateTo="WaterShark.ViewModels.空白8ViewModel">
-                    <NavigationViewItem.Icon>
-                        <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="&#xe7c3;"/>
-                    </NavigationViewItem.Icon>
-                </NavigationViewItem>
-                <NavigationViewItem x:Uid="Shell_空白9" helpers:NavigationHelper.NavigateTo="WaterShark.ViewModels.空白9ViewModel">
-                    <NavigationViewItem.Icon>
-                        <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="&#xe7c3;"/>
-                    </NavigationViewItem.Icon>
-                </NavigationViewItem>
-                <NavigationViewItem x:Uid="Shell_其他页面" helpers:NavigationHelper.NavigateTo="WaterShark.ViewModels.其他页面ViewModel">
-                    <NavigationViewItem.Icon>
-                        <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="&#xe7c3;"/>
-                    </NavigationViewItem.Icon>
-                </NavigationViewItem>
-                <NavigationViewItem x:Uid="Shell_Web视图" helpers:NavigationHelper.NavigateTo="WaterShark.ViewModels.Web视图ViewModel">
-                    <NavigationViewItem.Icon>
-                        <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="&#xe774;"/>
-                    </NavigationViewItem.Icon>
-                </NavigationViewItem>
-                <NavigationViewItem x:Uid="Shell_列表详细信息" helpers:NavigationHelper.NavigateTo="WaterShark.ViewModels.列表详细信息ViewModel">
-                    <NavigationViewItem.Icon>
-                        <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="&#xea37;"/>
-                    </NavigationViewItem.Icon>
-                </NavigationViewItem>
-                <NavigationViewItem x:Uid="Shell_内容网格" helpers:NavigationHelper.NavigateTo="WaterShark.ViewModels.内容网格ViewModel">
-                    <NavigationViewItem.Icon>
-                        <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="&#xf0e2;"/>
-                    </NavigationViewItem.Icon>
-                </NavigationViewItem>
-                <NavigationViewItem x:Uid="Shell_内容网格1" helpers:NavigationHelper.NavigateTo="WaterShark.ViewModels.内容网格1ViewModel">
-                    <NavigationViewItem.Icon>
-                        <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="&#xe80a;"/>
-                    </NavigationViewItem.Icon>
-                </NavigationViewItem>
-                <NavigationViewItem x:Uid="Shell_名单列表查看" helpers:NavigationHelper.NavigateTo="WaterShark.ViewModels.名单列表查看ViewModel">
-                    <NavigationViewItem.Icon>
-                        <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="&#xea37;"/>
-                    </NavigationViewItem.Icon>
-                </NavigationViewItem>
+                
             </NavigationView.MenuItems>
             <NavigationView.HeaderTemplate>
                 <DataTemplate>

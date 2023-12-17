@@ -245,162 +245,162 @@ namespace WaterShark.WaterShark_XamlTypeInfo
             _typeNameTable[17] = "Microsoft.UI.Xaml.Media.SystemBackdrop";
             _typeNameTable[18] = "Microsoft.UI.Composition.SystemBackdrops.MicaKind";
             _typeNameTable[19] = "WaterShark.MainWindow";
-            _typeNameTable[20] = "WaterShark.ShowName";
-            _typeNameTable[21] = "Microsoft.UI.Xaml.Thickness";
-            _typeNameTable[22] = "Microsoft.UI.Xaml.CornerRadius";
-            _typeNameTable[23] = "WaterShark.Helpers.EnumToBooleanConverter";
-            _typeNameTable[24] = "WaterShark.Views.SettingsPage";
-            _typeNameTable[25] = "Microsoft.UI.Xaml.Controls.Page";
-            _typeNameTable[26] = "Microsoft.UI.Xaml.Controls.UserControl";
-            _typeNameTable[27] = "WaterShark.ViewModels.SettingsViewModel";
-            _typeNameTable[28] = "CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient";
-            _typeNameTable[29] = "CommunityToolkit.Mvvm.ComponentModel.ObservableObject";
-            _typeNameTable[30] = "Microsoft.UI.Xaml.Controls.NavigationView";
-            _typeNameTable[31] = "Microsoft.UI.Xaml.Controls.ContentControl";
-            _typeNameTable[32] = "Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible";
-            _typeNameTable[33] = "System.Collections.Generic.IList`1<Object>";
-            _typeNameTable[34] = "Microsoft.UI.Xaml.DataTemplate";
-            _typeNameTable[35] = "Microsoft.UI.Xaml.Controls.AutoSuggestBox";
-            _typeNameTable[36] = "Microsoft.UI.Xaml.UIElement";
-            _typeNameTable[37] = "Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode";
-            _typeNameTable[38] = "Microsoft.UI.Xaml.Style";
-            _typeNameTable[39] = "Microsoft.UI.Xaml.Controls.StyleSelector";
-            _typeNameTable[40] = "Microsoft.UI.Xaml.Controls.DataTemplateSelector";
-            _typeNameTable[41] = "Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode";
-            _typeNameTable[42] = "Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode";
-            _typeNameTable[43] = "Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus";
-            _typeNameTable[44] = "Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled";
-            _typeNameTable[45] = "Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings";
-            _typeNameTable[46] = "Microsoft.UI.Xaml.DependencyObject";
-            _typeNameTable[47] = "Microsoft.Xaml.Interactivity.Interaction";
-            _typeNameTable[48] = "Microsoft.Xaml.Interactivity.BehaviorCollection";
-            _typeNameTable[49] = "Microsoft.UI.Xaml.DependencyObjectCollection";
-            _typeNameTable[50] = "Microsoft.UI.Xaml.Controls.NavigationViewItem";
-            _typeNameTable[51] = "Microsoft.UI.Xaml.Controls.NavigationViewItemBase";
-            _typeNameTable[52] = "Microsoft.UI.Xaml.Controls.IconElement";
-            _typeNameTable[53] = "Microsoft.UI.Xaml.Controls.InfoBadge";
-            _typeNameTable[54] = "Microsoft.UI.Xaml.Controls.Control";
-            _typeNameTable[55] = "WaterShark.Helpers.NavigationHelper";
-            _typeNameTable[56] = "WaterShark.Behaviors.NavigationViewHeaderBehavior";
-            _typeNameTable[57] = "Microsoft.Xaml.Interactivity.Behavior`1<Microsoft.UI.Xaml.Controls.NavigationView>";
-            _typeNameTable[58] = "Microsoft.Xaml.Interactivity.Behavior";
-            _typeNameTable[59] = "WaterShark.Behaviors.NavigationViewHeaderMode";
-            _typeNameTable[60] = "WaterShark.Views.ShellPage";
-            _typeNameTable[61] = "WaterShark.ViewModels.ShellViewModel";
-            _typeNameTable[62] = "Microsoft.UI.Xaml.Controls.WebView2";
-            _typeNameTable[63] = "Microsoft.UI.Xaml.FrameworkElement";
-            _typeNameTable[64] = "System.Uri";
-            _typeNameTable[65] = "Microsoft.Web.WebView2.Core.CoreWebView2";
-            _typeNameTable[66] = "Windows.UI.Color";
-            _typeNameTable[67] = "Microsoft.UI.Xaml.Controls.ProgressRing";
-            _typeNameTable[68] = "Microsoft.UI.Xaml.Controls.ProgressRingTemplateSettings";
-            _typeNameTable[69] = "WaterShark.Views.Web视图Page";
-            _typeNameTable[70] = "WaterShark.ViewModels.Web视图ViewModel";
-            _typeNameTable[71] = "WaterShark.Views.主页Page";
-            _typeNameTable[72] = "WaterShark.ViewModels.主页ViewModel";
-            _typeNameTable[73] = "WaterShark.Views.其他页面Page";
-            _typeNameTable[74] = "WaterShark.ViewModels.其他页面ViewModel";
-            _typeNameTable[75] = "CommunityToolkit.WinUI.UI.Controls.DataGrid";
-            _typeNameTable[76] = "CommunityToolkit.WinUI.UI.Controls.DataGridGridLinesVisibility";
-            _typeNameTable[77] = "System.Collections.IEnumerable";
-            _typeNameTable[78] = "System.Collections.ObjectModel.ObservableCollection`1<CommunityToolkit.WinUI.UI.Controls.DataGridColumn>";
-            _typeNameTable[79] = "System.Collections.ObjectModel.Collection`1<CommunityToolkit.WinUI.UI.Controls.DataGridColumn>";
-            _typeNameTable[80] = "CommunityToolkit.WinUI.UI.Controls.DataGridColumn";
-            _typeNameTable[81] = "Microsoft.UI.Xaml.Data.Binding";
-            _typeNameTable[82] = "Int32";
-            _typeNameTable[83] = "System.Nullable`1<CommunityToolkit.WinUI.UI.Controls.DataGridSortDirection>";
-            _typeNameTable[84] = "CommunityToolkit.WinUI.UI.Controls.DataGridSortDirection";
-            _typeNameTable[85] = "Microsoft.UI.Xaml.Visibility";
-            _typeNameTable[86] = "CommunityToolkit.WinUI.UI.Controls.DataGridLength";
-            _typeNameTable[87] = "Microsoft.UI.Xaml.Media.Brush";
-            _typeNameTable[88] = "CommunityToolkit.WinUI.UI.Controls.DataGridClipboardCopyMode";
-            _typeNameTable[89] = "CommunityToolkit.WinUI.UI.Controls.DataGridHeadersVisibility";
-            _typeNameTable[90] = "Microsoft.UI.Xaml.Controls.ScrollBarVisibility";
-            _typeNameTable[91] = "Microsoft.UI.Xaml.Controls.IncrementalLoadingTrigger";
-            _typeNameTable[92] = "CommunityToolkit.WinUI.UI.Controls.DataGridRowDetailsVisibilityMode";
-            _typeNameTable[93] = "CommunityToolkit.WinUI.UI.Controls.DataGridSelectionMode";
-            _typeNameTable[94] = "System.Collections.ObjectModel.ObservableCollection`1<Microsoft.UI.Xaml.Style>";
-            _typeNameTable[95] = "System.Collections.ObjectModel.Collection`1<Microsoft.UI.Xaml.Style>";
-            _typeNameTable[96] = "System.Collections.IList";
-            _typeNameTable[97] = "CommunityToolkit.WinUI.UI.Controls.DataGridTextColumn";
-            _typeNameTable[98] = "CommunityToolkit.WinUI.UI.Controls.DataGridBoundColumn";
-            _typeNameTable[99] = "Microsoft.UI.Xaml.Media.FontFamily";
-            _typeNameTable[100] = "Windows.UI.Text.FontStyle";
-            _typeNameTable[101] = "Windows.UI.Text.FontWeight";
-            _typeNameTable[102] = "CommunityToolkit.WinUI.UI.Controls.DataGridTemplateColumn";
-            _typeNameTable[103] = "WaterShark.Views.内容网格1Page";
-            _typeNameTable[104] = "WaterShark.ViewModels.内容网格1ViewModel";
-            _typeNameTable[105] = "WaterShark.Views.内容网格DetailPage";
-            _typeNameTable[106] = "WaterShark.ViewModels.内容网格DetailViewModel";
-            _typeNameTable[107] = "CommunityToolkit.WinUI.UI.Controls.AdaptiveGridView";
-            _typeNameTable[108] = "Microsoft.UI.Xaml.Controls.GridView";
-            _typeNameTable[109] = "Microsoft.UI.Xaml.Controls.ItemsControl";
-            _typeNameTable[110] = "System.Windows.Input.ICommand";
-            _typeNameTable[111] = "Microsoft.UI.Xaml.Controls.ItemsPanelTemplate";
-            _typeNameTable[112] = "CommunityToolkit.WinUI.UI.Animations.Connected";
-            _typeNameTable[113] = "WaterShark.Views.内容网格Page";
-            _typeNameTable[114] = "WaterShark.ViewModels.内容网格ViewModel";
-            _typeNameTable[115] = "WaterShark.Views.列表详细信息DetailControl";
-            _typeNameTable[116] = "WaterShark.Core.Models.SampleOrder";
-            _typeNameTable[117] = "CommunityToolkit.WinUI.UI.Controls.ListDetailsView";
-            _typeNameTable[118] = "CommunityToolkit.WinUI.UI.Controls.BackButtonBehavior";
-            _typeNameTable[119] = "CommunityToolkit.WinUI.UI.Controls.ListDetailsViewState";
-            _typeNameTable[120] = "Microsoft.UI.Xaml.Controls.CommandBar";
-            _typeNameTable[121] = "System.Func`2<Object, Object>";
-            _typeNameTable[122] = "System.MulticastDelegate";
-            _typeNameTable[123] = "System.Delegate";
-            _typeNameTable[124] = "WaterShark.Views.列表详细信息Page";
-            _typeNameTable[125] = "WaterShark.ViewModels.列表详细信息ViewModel";
-            _typeNameTable[126] = "WaterShark.Views.名单列表查看DetailControl";
-            _typeNameTable[127] = "WaterShark.Views.名单列表查看Page";
-            _typeNameTable[128] = "WaterShark.ViewModels.名单列表查看ViewModel";
-            _typeNameTable[129] = "WaterShark.Views.大课间写名字Page";
-            _typeNameTable[130] = "WaterShark.ViewModels.大课间写名字ViewModel";
-            _typeNameTable[131] = "Microsoft.UI.Xaml.Controls.InfoBar";
-            _typeNameTable[132] = "Microsoft.UI.Xaml.Controls.Primitives.ButtonBase";
-            _typeNameTable[133] = "Microsoft.UI.Xaml.Controls.IconSource";
-            _typeNameTable[134] = "Microsoft.UI.Xaml.Controls.InfoBarSeverity";
-            _typeNameTable[135] = "Microsoft.UI.Xaml.Controls.InfoBarTemplateSettings";
-            _typeNameTable[136] = "CommunityToolkit.WinUI.Controls.SettingsExpander";
-            _typeNameTable[137] = "CommunityToolkit.WinUI.FontIconExtension";
-            _typeNameTable[138] = "CommunityToolkit.WinUI.TextIconExtension";
-            _typeNameTable[139] = "Microsoft.UI.Xaml.Markup.MarkupExtension";
-            _typeNameTable[140] = "CommunityToolkit.WinUI.Controls.SettingsCard";
-            _typeNameTable[141] = "CommunityToolkit.WinUI.Controls.ContentAlignment";
-            _typeNameTable[142] = "Microsoft.UI.Xaml.Controls.NumberBox";
-            _typeNameTable[143] = "Microsoft.UI.Xaml.Controls.NumberBoxSpinButtonPlacementMode";
-            _typeNameTable[144] = "Windows.Globalization.NumberFormatting.INumberFormatter2";
-            _typeNameTable[145] = "Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase";
-            _typeNameTable[146] = "Microsoft.UI.Xaml.Media.SolidColorBrush";
-            _typeNameTable[147] = "Microsoft.UI.Xaml.TextReadingOrder";
-            _typeNameTable[148] = "Microsoft.UI.Xaml.Controls.NumberBoxValidationMode";
-            _typeNameTable[149] = "CommunityToolkit.WinUI.Behaviors.StackedNotificationsBehavior";
-            _typeNameTable[150] = "CommunityToolkit.WinUI.Behaviors.BehaviorBase`1<Microsoft.UI.Xaml.Controls.InfoBar>";
-            _typeNameTable[151] = "Microsoft.Xaml.Interactivity.Behavior`1<Microsoft.UI.Xaml.Controls.InfoBar>";
-            _typeNameTable[152] = "WaterShark.Views.晚自习已经自闭Page";
-            _typeNameTable[153] = "WaterShark.ViewModels.晚自习已经自闭ViewModel";
-            _typeNameTable[154] = "WaterShark.Views.空白1Page";
-            _typeNameTable[155] = "WaterShark.ViewModels.空白1ViewModel";
-            _typeNameTable[156] = "WaterShark.Views.空白2Page";
-            _typeNameTable[157] = "WaterShark.ViewModels.空白2ViewModel";
-            _typeNameTable[158] = "WaterShark.Views.空白3Page";
-            _typeNameTable[159] = "WaterShark.ViewModels.空白3ViewModel";
-            _typeNameTable[160] = "WaterShark.Views.空白4Page";
-            _typeNameTable[161] = "WaterShark.ViewModels.空白4ViewModel";
-            _typeNameTable[162] = "WaterShark.Views.空白5Page";
-            _typeNameTable[163] = "WaterShark.ViewModels.空白5ViewModel";
-            _typeNameTable[164] = "WaterShark.Views.空白6Page";
-            _typeNameTable[165] = "WaterShark.ViewModels.空白6ViewModel";
-            _typeNameTable[166] = "WaterShark.Views.空白7Page";
-            _typeNameTable[167] = "WaterShark.ViewModels.空白7ViewModel";
-            _typeNameTable[168] = "WaterShark.Views.空白8Page";
-            _typeNameTable[169] = "WaterShark.ViewModels.空白8ViewModel";
-            _typeNameTable[170] = "WaterShark.Views.空白9Page";
-            _typeNameTable[171] = "WaterShark.ViewModels.空白9ViewModel";
-            _typeNameTable[172] = "WaterShark.Views.空白Page";
-            _typeNameTable[173] = "WaterShark.ViewModels.空白ViewModel";
-            _typeNameTable[174] = "WaterShark.Views.英语老师专用抽Page";
-            _typeNameTable[175] = "WaterShark.ViewModels.英语老师专用抽ViewModel";
+            _typeNameTable[20] = "Microsoft.UI.Xaml.Thickness";
+            _typeNameTable[21] = "Microsoft.UI.Xaml.CornerRadius";
+            _typeNameTable[22] = "WaterShark.Helpers.EnumToBooleanConverter";
+            _typeNameTable[23] = "WaterShark.Views.SettingsPage";
+            _typeNameTable[24] = "Microsoft.UI.Xaml.Controls.Page";
+            _typeNameTable[25] = "Microsoft.UI.Xaml.Controls.UserControl";
+            _typeNameTable[26] = "WaterShark.ViewModels.SettingsViewModel";
+            _typeNameTable[27] = "CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient";
+            _typeNameTable[28] = "CommunityToolkit.Mvvm.ComponentModel.ObservableObject";
+            _typeNameTable[29] = "Microsoft.UI.Xaml.Controls.NavigationView";
+            _typeNameTable[30] = "Microsoft.UI.Xaml.Controls.ContentControl";
+            _typeNameTable[31] = "Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible";
+            _typeNameTable[32] = "System.Collections.Generic.IList`1<Object>";
+            _typeNameTable[33] = "Microsoft.UI.Xaml.DataTemplate";
+            _typeNameTable[34] = "Microsoft.UI.Xaml.Controls.AutoSuggestBox";
+            _typeNameTable[35] = "Microsoft.UI.Xaml.UIElement";
+            _typeNameTable[36] = "Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode";
+            _typeNameTable[37] = "Microsoft.UI.Xaml.Style";
+            _typeNameTable[38] = "Microsoft.UI.Xaml.Controls.StyleSelector";
+            _typeNameTable[39] = "Microsoft.UI.Xaml.Controls.DataTemplateSelector";
+            _typeNameTable[40] = "Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode";
+            _typeNameTable[41] = "Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode";
+            _typeNameTable[42] = "Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus";
+            _typeNameTable[43] = "Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled";
+            _typeNameTable[44] = "Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings";
+            _typeNameTable[45] = "Microsoft.UI.Xaml.DependencyObject";
+            _typeNameTable[46] = "Microsoft.Xaml.Interactivity.Interaction";
+            _typeNameTable[47] = "Microsoft.Xaml.Interactivity.BehaviorCollection";
+            _typeNameTable[48] = "Microsoft.UI.Xaml.DependencyObjectCollection";
+            _typeNameTable[49] = "Microsoft.UI.Xaml.Controls.NavigationViewItem";
+            _typeNameTable[50] = "Microsoft.UI.Xaml.Controls.NavigationViewItemBase";
+            _typeNameTable[51] = "Microsoft.UI.Xaml.Controls.IconElement";
+            _typeNameTable[52] = "Microsoft.UI.Xaml.Controls.InfoBadge";
+            _typeNameTable[53] = "Microsoft.UI.Xaml.Controls.Control";
+            _typeNameTable[54] = "WaterShark.Helpers.NavigationHelper";
+            _typeNameTable[55] = "WaterShark.Behaviors.NavigationViewHeaderBehavior";
+            _typeNameTable[56] = "Microsoft.Xaml.Interactivity.Behavior`1<Microsoft.UI.Xaml.Controls.NavigationView>";
+            _typeNameTable[57] = "Microsoft.Xaml.Interactivity.Behavior";
+            _typeNameTable[58] = "WaterShark.Behaviors.NavigationViewHeaderMode";
+            _typeNameTable[59] = "WaterShark.Views.ShellPage";
+            _typeNameTable[60] = "WaterShark.ViewModels.ShellViewModel";
+            _typeNameTable[61] = "Microsoft.UI.Xaml.Controls.WebView2";
+            _typeNameTable[62] = "Microsoft.UI.Xaml.FrameworkElement";
+            _typeNameTable[63] = "System.Uri";
+            _typeNameTable[64] = "Microsoft.Web.WebView2.Core.CoreWebView2";
+            _typeNameTable[65] = "Windows.UI.Color";
+            _typeNameTable[66] = "Microsoft.UI.Xaml.Controls.ProgressRing";
+            _typeNameTable[67] = "Microsoft.UI.Xaml.Controls.ProgressRingTemplateSettings";
+            _typeNameTable[68] = "WaterShark.Views.Web视图Page";
+            _typeNameTable[69] = "WaterShark.ViewModels.Web视图ViewModel";
+            _typeNameTable[70] = "WaterShark.Views.主页Page";
+            _typeNameTable[71] = "WaterShark.ViewModels.主页ViewModel";
+            _typeNameTable[72] = "WaterShark.Views.其他页面Page";
+            _typeNameTable[73] = "WaterShark.ViewModels.其他页面ViewModel";
+            _typeNameTable[74] = "CommunityToolkit.WinUI.UI.Controls.DataGrid";
+            _typeNameTable[75] = "CommunityToolkit.WinUI.UI.Controls.DataGridGridLinesVisibility";
+            _typeNameTable[76] = "System.Collections.IEnumerable";
+            _typeNameTable[77] = "System.Collections.ObjectModel.ObservableCollection`1<CommunityToolkit.WinUI.UI.Controls.DataGridColumn>";
+            _typeNameTable[78] = "System.Collections.ObjectModel.Collection`1<CommunityToolkit.WinUI.UI.Controls.DataGridColumn>";
+            _typeNameTable[79] = "CommunityToolkit.WinUI.UI.Controls.DataGridColumn";
+            _typeNameTable[80] = "Microsoft.UI.Xaml.Data.Binding";
+            _typeNameTable[81] = "Int32";
+            _typeNameTable[82] = "System.Nullable`1<CommunityToolkit.WinUI.UI.Controls.DataGridSortDirection>";
+            _typeNameTable[83] = "CommunityToolkit.WinUI.UI.Controls.DataGridSortDirection";
+            _typeNameTable[84] = "Microsoft.UI.Xaml.Visibility";
+            _typeNameTable[85] = "CommunityToolkit.WinUI.UI.Controls.DataGridLength";
+            _typeNameTable[86] = "Microsoft.UI.Xaml.Media.Brush";
+            _typeNameTable[87] = "CommunityToolkit.WinUI.UI.Controls.DataGridClipboardCopyMode";
+            _typeNameTable[88] = "CommunityToolkit.WinUI.UI.Controls.DataGridHeadersVisibility";
+            _typeNameTable[89] = "Microsoft.UI.Xaml.Controls.ScrollBarVisibility";
+            _typeNameTable[90] = "Microsoft.UI.Xaml.Controls.IncrementalLoadingTrigger";
+            _typeNameTable[91] = "CommunityToolkit.WinUI.UI.Controls.DataGridRowDetailsVisibilityMode";
+            _typeNameTable[92] = "CommunityToolkit.WinUI.UI.Controls.DataGridSelectionMode";
+            _typeNameTable[93] = "System.Collections.ObjectModel.ObservableCollection`1<Microsoft.UI.Xaml.Style>";
+            _typeNameTable[94] = "System.Collections.ObjectModel.Collection`1<Microsoft.UI.Xaml.Style>";
+            _typeNameTable[95] = "System.Collections.IList";
+            _typeNameTable[96] = "CommunityToolkit.WinUI.UI.Controls.DataGridTextColumn";
+            _typeNameTable[97] = "CommunityToolkit.WinUI.UI.Controls.DataGridBoundColumn";
+            _typeNameTable[98] = "Microsoft.UI.Xaml.Media.FontFamily";
+            _typeNameTable[99] = "Windows.UI.Text.FontStyle";
+            _typeNameTable[100] = "Windows.UI.Text.FontWeight";
+            _typeNameTable[101] = "CommunityToolkit.WinUI.UI.Controls.DataGridTemplateColumn";
+            _typeNameTable[102] = "WaterShark.Views.内容网格1Page";
+            _typeNameTable[103] = "WaterShark.ViewModels.内容网格1ViewModel";
+            _typeNameTable[104] = "WaterShark.Views.内容网格DetailPage";
+            _typeNameTable[105] = "WaterShark.ViewModels.内容网格DetailViewModel";
+            _typeNameTable[106] = "CommunityToolkit.WinUI.UI.Controls.AdaptiveGridView";
+            _typeNameTable[107] = "Microsoft.UI.Xaml.Controls.GridView";
+            _typeNameTable[108] = "Microsoft.UI.Xaml.Controls.ItemsControl";
+            _typeNameTable[109] = "System.Windows.Input.ICommand";
+            _typeNameTable[110] = "Microsoft.UI.Xaml.Controls.ItemsPanelTemplate";
+            _typeNameTable[111] = "CommunityToolkit.WinUI.UI.Animations.Connected";
+            _typeNameTable[112] = "WaterShark.Views.内容网格Page";
+            _typeNameTable[113] = "WaterShark.ViewModels.内容网格ViewModel";
+            _typeNameTable[114] = "WaterShark.Views.列表详细信息DetailControl";
+            _typeNameTable[115] = "WaterShark.Core.Models.SampleOrder";
+            _typeNameTable[116] = "CommunityToolkit.WinUI.UI.Controls.ListDetailsView";
+            _typeNameTable[117] = "CommunityToolkit.WinUI.UI.Controls.BackButtonBehavior";
+            _typeNameTable[118] = "CommunityToolkit.WinUI.UI.Controls.ListDetailsViewState";
+            _typeNameTable[119] = "Microsoft.UI.Xaml.Controls.CommandBar";
+            _typeNameTable[120] = "System.Func`2<Object, Object>";
+            _typeNameTable[121] = "System.MulticastDelegate";
+            _typeNameTable[122] = "System.Delegate";
+            _typeNameTable[123] = "WaterShark.Views.列表详细信息Page";
+            _typeNameTable[124] = "WaterShark.ViewModels.列表详细信息ViewModel";
+            _typeNameTable[125] = "WaterShark.Views.名单列表查看DetailControl";
+            _typeNameTable[126] = "WaterShark.Views.名单列表查看Page";
+            _typeNameTable[127] = "WaterShark.ViewModels.名单列表查看ViewModel";
+            _typeNameTable[128] = "WaterShark.Views.大课间写名字Page";
+            _typeNameTable[129] = "WaterShark.ViewModels.大课间写名字ViewModel";
+            _typeNameTable[130] = "Microsoft.UI.Xaml.Controls.InfoBar";
+            _typeNameTable[131] = "Microsoft.UI.Xaml.Controls.Primitives.ButtonBase";
+            _typeNameTable[132] = "Microsoft.UI.Xaml.Controls.IconSource";
+            _typeNameTable[133] = "Microsoft.UI.Xaml.Controls.InfoBarSeverity";
+            _typeNameTable[134] = "Microsoft.UI.Xaml.Controls.InfoBarTemplateSettings";
+            _typeNameTable[135] = "CommunityToolkit.WinUI.Controls.SettingsExpander";
+            _typeNameTable[136] = "CommunityToolkit.WinUI.FontIconExtension";
+            _typeNameTable[137] = "CommunityToolkit.WinUI.TextIconExtension";
+            _typeNameTable[138] = "Microsoft.UI.Xaml.Markup.MarkupExtension";
+            _typeNameTable[139] = "CommunityToolkit.WinUI.Controls.SettingsCard";
+            _typeNameTable[140] = "CommunityToolkit.WinUI.Controls.ContentAlignment";
+            _typeNameTable[141] = "Microsoft.UI.Xaml.Controls.NumberBox";
+            _typeNameTable[142] = "Microsoft.UI.Xaml.Controls.NumberBoxSpinButtonPlacementMode";
+            _typeNameTable[143] = "Windows.Globalization.NumberFormatting.INumberFormatter2";
+            _typeNameTable[144] = "Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase";
+            _typeNameTable[145] = "Microsoft.UI.Xaml.Media.SolidColorBrush";
+            _typeNameTable[146] = "Microsoft.UI.Xaml.TextReadingOrder";
+            _typeNameTable[147] = "Microsoft.UI.Xaml.Controls.NumberBoxValidationMode";
+            _typeNameTable[148] = "CommunityToolkit.WinUI.Behaviors.StackedNotificationsBehavior";
+            _typeNameTable[149] = "CommunityToolkit.WinUI.Behaviors.BehaviorBase`1<Microsoft.UI.Xaml.Controls.InfoBar>";
+            _typeNameTable[150] = "Microsoft.Xaml.Interactivity.Behavior`1<Microsoft.UI.Xaml.Controls.InfoBar>";
+            _typeNameTable[151] = "WaterShark.Views.晚自习已经自闭Page";
+            _typeNameTable[152] = "WaterShark.ViewModels.晚自习已经自闭ViewModel";
+            _typeNameTable[153] = "WaterShark.Views.空白1Page";
+            _typeNameTable[154] = "WaterShark.ViewModels.空白1ViewModel";
+            _typeNameTable[155] = "WaterShark.Views.空白2Page";
+            _typeNameTable[156] = "WaterShark.ViewModels.空白2ViewModel";
+            _typeNameTable[157] = "WaterShark.Views.空白3Page";
+            _typeNameTable[158] = "WaterShark.ViewModels.空白3ViewModel";
+            _typeNameTable[159] = "WaterShark.Views.空白4Page";
+            _typeNameTable[160] = "WaterShark.ViewModels.空白4ViewModel";
+            _typeNameTable[161] = "WaterShark.Views.空白5Page";
+            _typeNameTable[162] = "WaterShark.ViewModels.空白5ViewModel";
+            _typeNameTable[163] = "WaterShark.Views.空白6Page";
+            _typeNameTable[164] = "WaterShark.ViewModels.空白6ViewModel";
+            _typeNameTable[165] = "WaterShark.Views.空白7Page";
+            _typeNameTable[166] = "WaterShark.ViewModels.空白7ViewModel";
+            _typeNameTable[167] = "WaterShark.Views.空白8Page";
+            _typeNameTable[168] = "WaterShark.ViewModels.空白8ViewModel";
+            _typeNameTable[169] = "WaterShark.Views.空白9Page";
+            _typeNameTable[170] = "WaterShark.ViewModels.空白9ViewModel";
+            _typeNameTable[171] = "WaterShark.Views.空白Page";
+            _typeNameTable[172] = "WaterShark.ViewModels.空白ViewModel";
+            _typeNameTable[173] = "WaterShark.Views.英语老师专用抽Page";
+            _typeNameTable[174] = "WaterShark.ViewModels.英语老师专用抽ViewModel";
+            _typeNameTable[175] = "WaterShark.WindowForm.ShowName";
             _typeNameTable[176] = "Microsoft.UI.Xaml.Controls.TreeViewNode";
             _typeNameTable[177] = "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>";
             _typeNameTable[178] = "Syncfusion.UI.Xaml.Core.DoubleToObjectConverter";
@@ -429,162 +429,162 @@ namespace WaterShark.WaterShark_XamlTypeInfo
             _typeTable[17] = typeof(global::Microsoft.UI.Xaml.Media.SystemBackdrop);
             _typeTable[18] = typeof(global::Microsoft.UI.Composition.SystemBackdrops.MicaKind);
             _typeTable[19] = typeof(global::WaterShark.MainWindow);
-            _typeTable[20] = typeof(global::WaterShark.ShowName);
-            _typeTable[21] = typeof(global::Microsoft.UI.Xaml.Thickness);
-            _typeTable[22] = typeof(global::Microsoft.UI.Xaml.CornerRadius);
-            _typeTable[23] = typeof(global::WaterShark.Helpers.EnumToBooleanConverter);
-            _typeTable[24] = typeof(global::WaterShark.Views.SettingsPage);
-            _typeTable[25] = typeof(global::Microsoft.UI.Xaml.Controls.Page);
-            _typeTable[26] = typeof(global::Microsoft.UI.Xaml.Controls.UserControl);
-            _typeTable[27] = typeof(global::WaterShark.ViewModels.SettingsViewModel);
-            _typeTable[28] = typeof(global::CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient);
-            _typeTable[29] = typeof(global::CommunityToolkit.Mvvm.ComponentModel.ObservableObject);
-            _typeTable[30] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationView);
-            _typeTable[31] = typeof(global::Microsoft.UI.Xaml.Controls.ContentControl);
-            _typeTable[32] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible);
-            _typeTable[33] = typeof(global::System.Collections.Generic.IList<global::System.Object>);
-            _typeTable[34] = typeof(global::Microsoft.UI.Xaml.DataTemplate);
-            _typeTable[35] = typeof(global::Microsoft.UI.Xaml.Controls.AutoSuggestBox);
-            _typeTable[36] = typeof(global::Microsoft.UI.Xaml.UIElement);
-            _typeTable[37] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode);
-            _typeTable[38] = typeof(global::Microsoft.UI.Xaml.Style);
-            _typeTable[39] = typeof(global::Microsoft.UI.Xaml.Controls.StyleSelector);
-            _typeTable[40] = typeof(global::Microsoft.UI.Xaml.Controls.DataTemplateSelector);
-            _typeTable[41] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode);
-            _typeTable[42] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode);
-            _typeTable[43] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus);
-            _typeTable[44] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled);
-            _typeTable[45] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings);
-            _typeTable[46] = typeof(global::Microsoft.UI.Xaml.DependencyObject);
-            _typeTable[47] = typeof(global::Microsoft.Xaml.Interactivity.Interaction);
-            _typeTable[48] = typeof(global::Microsoft.Xaml.Interactivity.BehaviorCollection);
-            _typeTable[49] = typeof(global::Microsoft.UI.Xaml.DependencyObjectCollection);
-            _typeTable[50] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewItem);
-            _typeTable[51] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewItemBase);
-            _typeTable[52] = typeof(global::Microsoft.UI.Xaml.Controls.IconElement);
-            _typeTable[53] = typeof(global::Microsoft.UI.Xaml.Controls.InfoBadge);
-            _typeTable[54] = typeof(global::Microsoft.UI.Xaml.Controls.Control);
-            _typeTable[55] = typeof(global::WaterShark.Helpers.NavigationHelper);
-            _typeTable[56] = typeof(global::WaterShark.Behaviors.NavigationViewHeaderBehavior);
-            _typeTable[57] = typeof(global::Microsoft.Xaml.Interactivity.Behavior<global::Microsoft.UI.Xaml.Controls.NavigationView>);
-            _typeTable[58] = typeof(global::Microsoft.Xaml.Interactivity.Behavior);
-            _typeTable[59] = typeof(global::WaterShark.Behaviors.NavigationViewHeaderMode);
-            _typeTable[60] = typeof(global::WaterShark.Views.ShellPage);
-            _typeTable[61] = typeof(global::WaterShark.ViewModels.ShellViewModel);
-            _typeTable[62] = typeof(global::Microsoft.UI.Xaml.Controls.WebView2);
-            _typeTable[63] = typeof(global::Microsoft.UI.Xaml.FrameworkElement);
-            _typeTable[64] = typeof(global::System.Uri);
-            _typeTable[65] = typeof(global::Microsoft.Web.WebView2.Core.CoreWebView2);
-            _typeTable[66] = typeof(global::Windows.UI.Color);
-            _typeTable[67] = typeof(global::Microsoft.UI.Xaml.Controls.ProgressRing);
-            _typeTable[68] = typeof(global::Microsoft.UI.Xaml.Controls.ProgressRingTemplateSettings);
-            _typeTable[69] = typeof(global::WaterShark.Views.Web视图Page);
-            _typeTable[70] = typeof(global::WaterShark.ViewModels.Web视图ViewModel);
-            _typeTable[71] = typeof(global::WaterShark.Views.主页Page);
-            _typeTable[72] = typeof(global::WaterShark.ViewModels.主页ViewModel);
-            _typeTable[73] = typeof(global::WaterShark.Views.其他页面Page);
-            _typeTable[74] = typeof(global::WaterShark.ViewModels.其他页面ViewModel);
-            _typeTable[75] = typeof(global::CommunityToolkit.WinUI.UI.Controls.DataGrid);
-            _typeTable[76] = typeof(global::CommunityToolkit.WinUI.UI.Controls.DataGridGridLinesVisibility);
-            _typeTable[77] = typeof(global::System.Collections.IEnumerable);
-            _typeTable[78] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn>);
-            _typeTable[79] = typeof(global::System.Collections.ObjectModel.Collection<global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn>);
-            _typeTable[80] = typeof(global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn);
-            _typeTable[81] = typeof(global::Microsoft.UI.Xaml.Data.Binding);
-            _typeTable[82] = typeof(global::System.Int32);
-            _typeTable[83] = typeof(global::System.Nullable<global::CommunityToolkit.WinUI.UI.Controls.DataGridSortDirection>);
-            _typeTable[84] = typeof(global::CommunityToolkit.WinUI.UI.Controls.DataGridSortDirection);
-            _typeTable[85] = typeof(global::Microsoft.UI.Xaml.Visibility);
-            _typeTable[86] = typeof(global::CommunityToolkit.WinUI.UI.Controls.DataGridLength);
-            _typeTable[87] = typeof(global::Microsoft.UI.Xaml.Media.Brush);
-            _typeTable[88] = typeof(global::CommunityToolkit.WinUI.UI.Controls.DataGridClipboardCopyMode);
-            _typeTable[89] = typeof(global::CommunityToolkit.WinUI.UI.Controls.DataGridHeadersVisibility);
-            _typeTable[90] = typeof(global::Microsoft.UI.Xaml.Controls.ScrollBarVisibility);
-            _typeTable[91] = typeof(global::Microsoft.UI.Xaml.Controls.IncrementalLoadingTrigger);
-            _typeTable[92] = typeof(global::CommunityToolkit.WinUI.UI.Controls.DataGridRowDetailsVisibilityMode);
-            _typeTable[93] = typeof(global::CommunityToolkit.WinUI.UI.Controls.DataGridSelectionMode);
-            _typeTable[94] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::Microsoft.UI.Xaml.Style>);
-            _typeTable[95] = typeof(global::System.Collections.ObjectModel.Collection<global::Microsoft.UI.Xaml.Style>);
-            _typeTable[96] = typeof(global::System.Collections.IList);
-            _typeTable[97] = typeof(global::CommunityToolkit.WinUI.UI.Controls.DataGridTextColumn);
-            _typeTable[98] = typeof(global::CommunityToolkit.WinUI.UI.Controls.DataGridBoundColumn);
-            _typeTable[99] = typeof(global::Microsoft.UI.Xaml.Media.FontFamily);
-            _typeTable[100] = typeof(global::Windows.UI.Text.FontStyle);
-            _typeTable[101] = typeof(global::Windows.UI.Text.FontWeight);
-            _typeTable[102] = typeof(global::CommunityToolkit.WinUI.UI.Controls.DataGridTemplateColumn);
-            _typeTable[103] = typeof(global::WaterShark.Views.内容网格1Page);
-            _typeTable[104] = typeof(global::WaterShark.ViewModels.内容网格1ViewModel);
-            _typeTable[105] = typeof(global::WaterShark.Views.内容网格DetailPage);
-            _typeTable[106] = typeof(global::WaterShark.ViewModels.内容网格DetailViewModel);
-            _typeTable[107] = typeof(global::CommunityToolkit.WinUI.UI.Controls.AdaptiveGridView);
-            _typeTable[108] = typeof(global::Microsoft.UI.Xaml.Controls.GridView);
-            _typeTable[109] = typeof(global::Microsoft.UI.Xaml.Controls.ItemsControl);
-            _typeTable[110] = typeof(global::System.Windows.Input.ICommand);
-            _typeTable[111] = typeof(global::Microsoft.UI.Xaml.Controls.ItemsPanelTemplate);
-            _typeTable[112] = typeof(global::CommunityToolkit.WinUI.UI.Animations.Connected);
-            _typeTable[113] = typeof(global::WaterShark.Views.内容网格Page);
-            _typeTable[114] = typeof(global::WaterShark.ViewModels.内容网格ViewModel);
-            _typeTable[115] = typeof(global::WaterShark.Views.列表详细信息DetailControl);
-            _typeTable[116] = typeof(global::WaterShark.Core.Models.SampleOrder);
-            _typeTable[117] = typeof(global::CommunityToolkit.WinUI.UI.Controls.ListDetailsView);
-            _typeTable[118] = typeof(global::CommunityToolkit.WinUI.UI.Controls.BackButtonBehavior);
-            _typeTable[119] = typeof(global::CommunityToolkit.WinUI.UI.Controls.ListDetailsViewState);
-            _typeTable[120] = typeof(global::Microsoft.UI.Xaml.Controls.CommandBar);
-            _typeTable[121] = typeof(global::System.Func<global::System.Object, global::System.Object>);
-            _typeTable[122] = typeof(global::System.MulticastDelegate);
-            _typeTable[123] = typeof(global::System.Delegate);
-            _typeTable[124] = typeof(global::WaterShark.Views.列表详细信息Page);
-            _typeTable[125] = typeof(global::WaterShark.ViewModels.列表详细信息ViewModel);
-            _typeTable[126] = typeof(global::WaterShark.Views.名单列表查看DetailControl);
-            _typeTable[127] = typeof(global::WaterShark.Views.名单列表查看Page);
-            _typeTable[128] = typeof(global::WaterShark.ViewModels.名单列表查看ViewModel);
-            _typeTable[129] = typeof(global::WaterShark.Views.大课间写名字Page);
-            _typeTable[130] = typeof(global::WaterShark.ViewModels.大课间写名字ViewModel);
-            _typeTable[131] = typeof(global::Microsoft.UI.Xaml.Controls.InfoBar);
-            _typeTable[132] = typeof(global::Microsoft.UI.Xaml.Controls.Primitives.ButtonBase);
-            _typeTable[133] = typeof(global::Microsoft.UI.Xaml.Controls.IconSource);
-            _typeTable[134] = typeof(global::Microsoft.UI.Xaml.Controls.InfoBarSeverity);
-            _typeTable[135] = typeof(global::Microsoft.UI.Xaml.Controls.InfoBarTemplateSettings);
-            _typeTable[136] = typeof(global::CommunityToolkit.WinUI.Controls.SettingsExpander);
-            _typeTable[137] = typeof(global::CommunityToolkit.WinUI.FontIconExtension);
-            _typeTable[138] = typeof(global::CommunityToolkit.WinUI.TextIconExtension);
-            _typeTable[139] = typeof(global::Microsoft.UI.Xaml.Markup.MarkupExtension);
-            _typeTable[140] = typeof(global::CommunityToolkit.WinUI.Controls.SettingsCard);
-            _typeTable[141] = typeof(global::CommunityToolkit.WinUI.Controls.ContentAlignment);
-            _typeTable[142] = typeof(global::Microsoft.UI.Xaml.Controls.NumberBox);
-            _typeTable[143] = typeof(global::Microsoft.UI.Xaml.Controls.NumberBoxSpinButtonPlacementMode);
-            _typeTable[144] = typeof(global::Windows.Globalization.NumberFormatting.INumberFormatter2);
-            _typeTable[145] = typeof(global::Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase);
-            _typeTable[146] = typeof(global::Microsoft.UI.Xaml.Media.SolidColorBrush);
-            _typeTable[147] = typeof(global::Microsoft.UI.Xaml.TextReadingOrder);
-            _typeTable[148] = typeof(global::Microsoft.UI.Xaml.Controls.NumberBoxValidationMode);
-            _typeTable[149] = typeof(global::CommunityToolkit.WinUI.Behaviors.StackedNotificationsBehavior);
-            _typeTable[150] = typeof(global::CommunityToolkit.WinUI.Behaviors.BehaviorBase<global::Microsoft.UI.Xaml.Controls.InfoBar>);
-            _typeTable[151] = typeof(global::Microsoft.Xaml.Interactivity.Behavior<global::Microsoft.UI.Xaml.Controls.InfoBar>);
-            _typeTable[152] = typeof(global::WaterShark.Views.晚自习已经自闭Page);
-            _typeTable[153] = typeof(global::WaterShark.ViewModels.晚自习已经自闭ViewModel);
-            _typeTable[154] = typeof(global::WaterShark.Views.空白1Page);
-            _typeTable[155] = typeof(global::WaterShark.ViewModels.空白1ViewModel);
-            _typeTable[156] = typeof(global::WaterShark.Views.空白2Page);
-            _typeTable[157] = typeof(global::WaterShark.ViewModels.空白2ViewModel);
-            _typeTable[158] = typeof(global::WaterShark.Views.空白3Page);
-            _typeTable[159] = typeof(global::WaterShark.ViewModels.空白3ViewModel);
-            _typeTable[160] = typeof(global::WaterShark.Views.空白4Page);
-            _typeTable[161] = typeof(global::WaterShark.ViewModels.空白4ViewModel);
-            _typeTable[162] = typeof(global::WaterShark.Views.空白5Page);
-            _typeTable[163] = typeof(global::WaterShark.ViewModels.空白5ViewModel);
-            _typeTable[164] = typeof(global::WaterShark.Views.空白6Page);
-            _typeTable[165] = typeof(global::WaterShark.ViewModels.空白6ViewModel);
-            _typeTable[166] = typeof(global::WaterShark.Views.空白7Page);
-            _typeTable[167] = typeof(global::WaterShark.ViewModels.空白7ViewModel);
-            _typeTable[168] = typeof(global::WaterShark.Views.空白8Page);
-            _typeTable[169] = typeof(global::WaterShark.ViewModels.空白8ViewModel);
-            _typeTable[170] = typeof(global::WaterShark.Views.空白9Page);
-            _typeTable[171] = typeof(global::WaterShark.ViewModels.空白9ViewModel);
-            _typeTable[172] = typeof(global::WaterShark.Views.空白Page);
-            _typeTable[173] = typeof(global::WaterShark.ViewModels.空白ViewModel);
-            _typeTable[174] = typeof(global::WaterShark.Views.英语老师专用抽Page);
-            _typeTable[175] = typeof(global::WaterShark.ViewModels.英语老师专用抽ViewModel);
+            _typeTable[20] = typeof(global::Microsoft.UI.Xaml.Thickness);
+            _typeTable[21] = typeof(global::Microsoft.UI.Xaml.CornerRadius);
+            _typeTable[22] = typeof(global::WaterShark.Helpers.EnumToBooleanConverter);
+            _typeTable[23] = typeof(global::WaterShark.Views.SettingsPage);
+            _typeTable[24] = typeof(global::Microsoft.UI.Xaml.Controls.Page);
+            _typeTable[25] = typeof(global::Microsoft.UI.Xaml.Controls.UserControl);
+            _typeTable[26] = typeof(global::WaterShark.ViewModels.SettingsViewModel);
+            _typeTable[27] = typeof(global::CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient);
+            _typeTable[28] = typeof(global::CommunityToolkit.Mvvm.ComponentModel.ObservableObject);
+            _typeTable[29] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationView);
+            _typeTable[30] = typeof(global::Microsoft.UI.Xaml.Controls.ContentControl);
+            _typeTable[31] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible);
+            _typeTable[32] = typeof(global::System.Collections.Generic.IList<global::System.Object>);
+            _typeTable[33] = typeof(global::Microsoft.UI.Xaml.DataTemplate);
+            _typeTable[34] = typeof(global::Microsoft.UI.Xaml.Controls.AutoSuggestBox);
+            _typeTable[35] = typeof(global::Microsoft.UI.Xaml.UIElement);
+            _typeTable[36] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode);
+            _typeTable[37] = typeof(global::Microsoft.UI.Xaml.Style);
+            _typeTable[38] = typeof(global::Microsoft.UI.Xaml.Controls.StyleSelector);
+            _typeTable[39] = typeof(global::Microsoft.UI.Xaml.Controls.DataTemplateSelector);
+            _typeTable[40] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode);
+            _typeTable[41] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode);
+            _typeTable[42] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus);
+            _typeTable[43] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled);
+            _typeTable[44] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings);
+            _typeTable[45] = typeof(global::Microsoft.UI.Xaml.DependencyObject);
+            _typeTable[46] = typeof(global::Microsoft.Xaml.Interactivity.Interaction);
+            _typeTable[47] = typeof(global::Microsoft.Xaml.Interactivity.BehaviorCollection);
+            _typeTable[48] = typeof(global::Microsoft.UI.Xaml.DependencyObjectCollection);
+            _typeTable[49] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewItem);
+            _typeTable[50] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewItemBase);
+            _typeTable[51] = typeof(global::Microsoft.UI.Xaml.Controls.IconElement);
+            _typeTable[52] = typeof(global::Microsoft.UI.Xaml.Controls.InfoBadge);
+            _typeTable[53] = typeof(global::Microsoft.UI.Xaml.Controls.Control);
+            _typeTable[54] = typeof(global::WaterShark.Helpers.NavigationHelper);
+            _typeTable[55] = typeof(global::WaterShark.Behaviors.NavigationViewHeaderBehavior);
+            _typeTable[56] = typeof(global::Microsoft.Xaml.Interactivity.Behavior<global::Microsoft.UI.Xaml.Controls.NavigationView>);
+            _typeTable[57] = typeof(global::Microsoft.Xaml.Interactivity.Behavior);
+            _typeTable[58] = typeof(global::WaterShark.Behaviors.NavigationViewHeaderMode);
+            _typeTable[59] = typeof(global::WaterShark.Views.ShellPage);
+            _typeTable[60] = typeof(global::WaterShark.ViewModels.ShellViewModel);
+            _typeTable[61] = typeof(global::Microsoft.UI.Xaml.Controls.WebView2);
+            _typeTable[62] = typeof(global::Microsoft.UI.Xaml.FrameworkElement);
+            _typeTable[63] = typeof(global::System.Uri);
+            _typeTable[64] = typeof(global::Microsoft.Web.WebView2.Core.CoreWebView2);
+            _typeTable[65] = typeof(global::Windows.UI.Color);
+            _typeTable[66] = typeof(global::Microsoft.UI.Xaml.Controls.ProgressRing);
+            _typeTable[67] = typeof(global::Microsoft.UI.Xaml.Controls.ProgressRingTemplateSettings);
+            _typeTable[68] = typeof(global::WaterShark.Views.Web视图Page);
+            _typeTable[69] = typeof(global::WaterShark.ViewModels.Web视图ViewModel);
+            _typeTable[70] = typeof(global::WaterShark.Views.主页Page);
+            _typeTable[71] = typeof(global::WaterShark.ViewModels.主页ViewModel);
+            _typeTable[72] = typeof(global::WaterShark.Views.其他页面Page);
+            _typeTable[73] = typeof(global::WaterShark.ViewModels.其他页面ViewModel);
+            _typeTable[74] = typeof(global::CommunityToolkit.WinUI.UI.Controls.DataGrid);
+            _typeTable[75] = typeof(global::CommunityToolkit.WinUI.UI.Controls.DataGridGridLinesVisibility);
+            _typeTable[76] = typeof(global::System.Collections.IEnumerable);
+            _typeTable[77] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn>);
+            _typeTable[78] = typeof(global::System.Collections.ObjectModel.Collection<global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn>);
+            _typeTable[79] = typeof(global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn);
+            _typeTable[80] = typeof(global::Microsoft.UI.Xaml.Data.Binding);
+            _typeTable[81] = typeof(global::System.Int32);
+            _typeTable[82] = typeof(global::System.Nullable<global::CommunityToolkit.WinUI.UI.Controls.DataGridSortDirection>);
+            _typeTable[83] = typeof(global::CommunityToolkit.WinUI.UI.Controls.DataGridSortDirection);
+            _typeTable[84] = typeof(global::Microsoft.UI.Xaml.Visibility);
+            _typeTable[85] = typeof(global::CommunityToolkit.WinUI.UI.Controls.DataGridLength);
+            _typeTable[86] = typeof(global::Microsoft.UI.Xaml.Media.Brush);
+            _typeTable[87] = typeof(global::CommunityToolkit.WinUI.UI.Controls.DataGridClipboardCopyMode);
+            _typeTable[88] = typeof(global::CommunityToolkit.WinUI.UI.Controls.DataGridHeadersVisibility);
+            _typeTable[89] = typeof(global::Microsoft.UI.Xaml.Controls.ScrollBarVisibility);
+            _typeTable[90] = typeof(global::Microsoft.UI.Xaml.Controls.IncrementalLoadingTrigger);
+            _typeTable[91] = typeof(global::CommunityToolkit.WinUI.UI.Controls.DataGridRowDetailsVisibilityMode);
+            _typeTable[92] = typeof(global::CommunityToolkit.WinUI.UI.Controls.DataGridSelectionMode);
+            _typeTable[93] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::Microsoft.UI.Xaml.Style>);
+            _typeTable[94] = typeof(global::System.Collections.ObjectModel.Collection<global::Microsoft.UI.Xaml.Style>);
+            _typeTable[95] = typeof(global::System.Collections.IList);
+            _typeTable[96] = typeof(global::CommunityToolkit.WinUI.UI.Controls.DataGridTextColumn);
+            _typeTable[97] = typeof(global::CommunityToolkit.WinUI.UI.Controls.DataGridBoundColumn);
+            _typeTable[98] = typeof(global::Microsoft.UI.Xaml.Media.FontFamily);
+            _typeTable[99] = typeof(global::Windows.UI.Text.FontStyle);
+            _typeTable[100] = typeof(global::Windows.UI.Text.FontWeight);
+            _typeTable[101] = typeof(global::CommunityToolkit.WinUI.UI.Controls.DataGridTemplateColumn);
+            _typeTable[102] = typeof(global::WaterShark.Views.内容网格1Page);
+            _typeTable[103] = typeof(global::WaterShark.ViewModels.内容网格1ViewModel);
+            _typeTable[104] = typeof(global::WaterShark.Views.内容网格DetailPage);
+            _typeTable[105] = typeof(global::WaterShark.ViewModels.内容网格DetailViewModel);
+            _typeTable[106] = typeof(global::CommunityToolkit.WinUI.UI.Controls.AdaptiveGridView);
+            _typeTable[107] = typeof(global::Microsoft.UI.Xaml.Controls.GridView);
+            _typeTable[108] = typeof(global::Microsoft.UI.Xaml.Controls.ItemsControl);
+            _typeTable[109] = typeof(global::System.Windows.Input.ICommand);
+            _typeTable[110] = typeof(global::Microsoft.UI.Xaml.Controls.ItemsPanelTemplate);
+            _typeTable[111] = typeof(global::CommunityToolkit.WinUI.UI.Animations.Connected);
+            _typeTable[112] = typeof(global::WaterShark.Views.内容网格Page);
+            _typeTable[113] = typeof(global::WaterShark.ViewModels.内容网格ViewModel);
+            _typeTable[114] = typeof(global::WaterShark.Views.列表详细信息DetailControl);
+            _typeTable[115] = typeof(global::WaterShark.Core.Models.SampleOrder);
+            _typeTable[116] = typeof(global::CommunityToolkit.WinUI.UI.Controls.ListDetailsView);
+            _typeTable[117] = typeof(global::CommunityToolkit.WinUI.UI.Controls.BackButtonBehavior);
+            _typeTable[118] = typeof(global::CommunityToolkit.WinUI.UI.Controls.ListDetailsViewState);
+            _typeTable[119] = typeof(global::Microsoft.UI.Xaml.Controls.CommandBar);
+            _typeTable[120] = typeof(global::System.Func<global::System.Object, global::System.Object>);
+            _typeTable[121] = typeof(global::System.MulticastDelegate);
+            _typeTable[122] = typeof(global::System.Delegate);
+            _typeTable[123] = typeof(global::WaterShark.Views.列表详细信息Page);
+            _typeTable[124] = typeof(global::WaterShark.ViewModels.列表详细信息ViewModel);
+            _typeTable[125] = typeof(global::WaterShark.Views.名单列表查看DetailControl);
+            _typeTable[126] = typeof(global::WaterShark.Views.名单列表查看Page);
+            _typeTable[127] = typeof(global::WaterShark.ViewModels.名单列表查看ViewModel);
+            _typeTable[128] = typeof(global::WaterShark.Views.大课间写名字Page);
+            _typeTable[129] = typeof(global::WaterShark.ViewModels.大课间写名字ViewModel);
+            _typeTable[130] = typeof(global::Microsoft.UI.Xaml.Controls.InfoBar);
+            _typeTable[131] = typeof(global::Microsoft.UI.Xaml.Controls.Primitives.ButtonBase);
+            _typeTable[132] = typeof(global::Microsoft.UI.Xaml.Controls.IconSource);
+            _typeTable[133] = typeof(global::Microsoft.UI.Xaml.Controls.InfoBarSeverity);
+            _typeTable[134] = typeof(global::Microsoft.UI.Xaml.Controls.InfoBarTemplateSettings);
+            _typeTable[135] = typeof(global::CommunityToolkit.WinUI.Controls.SettingsExpander);
+            _typeTable[136] = typeof(global::CommunityToolkit.WinUI.FontIconExtension);
+            _typeTable[137] = typeof(global::CommunityToolkit.WinUI.TextIconExtension);
+            _typeTable[138] = typeof(global::Microsoft.UI.Xaml.Markup.MarkupExtension);
+            _typeTable[139] = typeof(global::CommunityToolkit.WinUI.Controls.SettingsCard);
+            _typeTable[140] = typeof(global::CommunityToolkit.WinUI.Controls.ContentAlignment);
+            _typeTable[141] = typeof(global::Microsoft.UI.Xaml.Controls.NumberBox);
+            _typeTable[142] = typeof(global::Microsoft.UI.Xaml.Controls.NumberBoxSpinButtonPlacementMode);
+            _typeTable[143] = typeof(global::Windows.Globalization.NumberFormatting.INumberFormatter2);
+            _typeTable[144] = typeof(global::Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase);
+            _typeTable[145] = typeof(global::Microsoft.UI.Xaml.Media.SolidColorBrush);
+            _typeTable[146] = typeof(global::Microsoft.UI.Xaml.TextReadingOrder);
+            _typeTable[147] = typeof(global::Microsoft.UI.Xaml.Controls.NumberBoxValidationMode);
+            _typeTable[148] = typeof(global::CommunityToolkit.WinUI.Behaviors.StackedNotificationsBehavior);
+            _typeTable[149] = typeof(global::CommunityToolkit.WinUI.Behaviors.BehaviorBase<global::Microsoft.UI.Xaml.Controls.InfoBar>);
+            _typeTable[150] = typeof(global::Microsoft.Xaml.Interactivity.Behavior<global::Microsoft.UI.Xaml.Controls.InfoBar>);
+            _typeTable[151] = typeof(global::WaterShark.Views.晚自习已经自闭Page);
+            _typeTable[152] = typeof(global::WaterShark.ViewModels.晚自习已经自闭ViewModel);
+            _typeTable[153] = typeof(global::WaterShark.Views.空白1Page);
+            _typeTable[154] = typeof(global::WaterShark.ViewModels.空白1ViewModel);
+            _typeTable[155] = typeof(global::WaterShark.Views.空白2Page);
+            _typeTable[156] = typeof(global::WaterShark.ViewModels.空白2ViewModel);
+            _typeTable[157] = typeof(global::WaterShark.Views.空白3Page);
+            _typeTable[158] = typeof(global::WaterShark.ViewModels.空白3ViewModel);
+            _typeTable[159] = typeof(global::WaterShark.Views.空白4Page);
+            _typeTable[160] = typeof(global::WaterShark.ViewModels.空白4ViewModel);
+            _typeTable[161] = typeof(global::WaterShark.Views.空白5Page);
+            _typeTable[162] = typeof(global::WaterShark.ViewModels.空白5ViewModel);
+            _typeTable[163] = typeof(global::WaterShark.Views.空白6Page);
+            _typeTable[164] = typeof(global::WaterShark.ViewModels.空白6ViewModel);
+            _typeTable[165] = typeof(global::WaterShark.Views.空白7Page);
+            _typeTable[166] = typeof(global::WaterShark.ViewModels.空白7ViewModel);
+            _typeTable[167] = typeof(global::WaterShark.Views.空白8Page);
+            _typeTable[168] = typeof(global::WaterShark.ViewModels.空白8ViewModel);
+            _typeTable[169] = typeof(global::WaterShark.Views.空白9Page);
+            _typeTable[170] = typeof(global::WaterShark.ViewModels.空白9ViewModel);
+            _typeTable[171] = typeof(global::WaterShark.Views.空白Page);
+            _typeTable[172] = typeof(global::WaterShark.ViewModels.空白ViewModel);
+            _typeTable[173] = typeof(global::WaterShark.Views.英语老师专用抽Page);
+            _typeTable[174] = typeof(global::WaterShark.ViewModels.英语老师专用抽ViewModel);
+            _typeTable[175] = typeof(global::WaterShark.WindowForm.ShowName);
             _typeTable[176] = typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode);
             _typeTable[177] = typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>);
             _typeTable[178] = typeof(global::Syncfusion.UI.Xaml.Core.DoubleToObjectConverter);
@@ -627,73 +627,73 @@ namespace WaterShark.WaterShark_XamlTypeInfo
         private object Activate_4_WindowEx() { return new global::WinUIEx.WindowEx(); }
         private object Activate_16_MicaBackdrop() { return new global::Microsoft.UI.Xaml.Media.MicaBackdrop(); }
         private object Activate_19_MainWindow() { return new global::WaterShark.MainWindow(); }
-        private object Activate_20_ShowName() { return new global::WaterShark.ShowName(); }
-        private object Activate_23_EnumToBooleanConverter() { return new global::WaterShark.Helpers.EnumToBooleanConverter(); }
-        private object Activate_24_SettingsPage() { return new global::WaterShark.Views.SettingsPage(); }
-        private object Activate_30_NavigationView() { return new global::Microsoft.UI.Xaml.Controls.NavigationView(); }
-        private object Activate_45_NavigationViewTemplateSettings() { return new global::Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings(); }
-        private object Activate_48_BehaviorCollection() { return new global::Microsoft.Xaml.Interactivity.BehaviorCollection(); }
-        private object Activate_50_NavigationViewItem() { return new global::Microsoft.UI.Xaml.Controls.NavigationViewItem(); }
-        private object Activate_53_InfoBadge() { return new global::Microsoft.UI.Xaml.Controls.InfoBadge(); }
-        private object Activate_55_NavigationHelper() { return new global::WaterShark.Helpers.NavigationHelper(); }
-        private object Activate_56_NavigationViewHeaderBehavior() { return new global::WaterShark.Behaviors.NavigationViewHeaderBehavior(); }
-        private object Activate_62_WebView2() { return new global::Microsoft.UI.Xaml.Controls.WebView2(); }
-        private object Activate_67_ProgressRing() { return new global::Microsoft.UI.Xaml.Controls.ProgressRing(); }
-        private object Activate_69_Web视图Page() { return new global::WaterShark.Views.Web视图Page(); }
-        private object Activate_71_主页Page() { return new global::WaterShark.Views.主页Page(); }
-        private object Activate_72_主页ViewModel() { return new global::WaterShark.ViewModels.主页ViewModel(); }
-        private object Activate_73_其他页面Page() { return new global::WaterShark.Views.其他页面Page(); }
-        private object Activate_74_其他页面ViewModel() { return new global::WaterShark.ViewModels.其他页面ViewModel(); }
-        private object Activate_75_DataGrid() { return new global::CommunityToolkit.WinUI.UI.Controls.DataGrid(); }
-        private object Activate_78_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn>(); }
-        private object Activate_79_Collection() { return new global::System.Collections.ObjectModel.Collection<global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn>(); }
-        private object Activate_94_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::Microsoft.UI.Xaml.Style>(); }
-        private object Activate_95_Collection() { return new global::System.Collections.ObjectModel.Collection<global::Microsoft.UI.Xaml.Style>(); }
-        private object Activate_97_DataGridTextColumn() { return new global::CommunityToolkit.WinUI.UI.Controls.DataGridTextColumn(); }
-        private object Activate_102_DataGridTemplateColumn() { return new global::CommunityToolkit.WinUI.UI.Controls.DataGridTemplateColumn(); }
-        private object Activate_103_内容网格1Page() { return new global::WaterShark.Views.内容网格1Page(); }
-        private object Activate_105_内容网格DetailPage() { return new global::WaterShark.Views.内容网格DetailPage(); }
-        private object Activate_107_AdaptiveGridView() { return new global::CommunityToolkit.WinUI.UI.Controls.AdaptiveGridView(); }
-        private object Activate_113_内容网格Page() { return new global::WaterShark.Views.内容网格Page(); }
-        private object Activate_115_列表详细信息DetailControl() { return new global::WaterShark.Views.列表详细信息DetailControl(); }
-        private object Activate_116_SampleOrder() { return new global::WaterShark.Core.Models.SampleOrder(); }
-        private object Activate_117_ListDetailsView() { return new global::CommunityToolkit.WinUI.UI.Controls.ListDetailsView(); }
-        private object Activate_124_列表详细信息Page() { return new global::WaterShark.Views.列表详细信息Page(); }
-        private object Activate_126_名单列表查看DetailControl() { return new global::WaterShark.Views.名单列表查看DetailControl(); }
-        private object Activate_127_名单列表查看Page() { return new global::WaterShark.Views.名单列表查看Page(); }
-        private object Activate_129_大课间写名字Page() { return new global::WaterShark.Views.大课间写名字Page(); }
-        private object Activate_130_大课间写名字ViewModel() { return new global::WaterShark.ViewModels.大课间写名字ViewModel(); }
-        private object Activate_131_InfoBar() { return new global::Microsoft.UI.Xaml.Controls.InfoBar(); }
-        private object Activate_135_InfoBarTemplateSettings() { return new global::Microsoft.UI.Xaml.Controls.InfoBarTemplateSettings(); }
-        private object Activate_136_SettingsExpander() { return new global::CommunityToolkit.WinUI.Controls.SettingsExpander(); }
-        private object Activate_137_FontIconExtension() { return new global::CommunityToolkit.WinUI.FontIconExtension(); }
-        private object Activate_140_SettingsCard() { return new global::CommunityToolkit.WinUI.Controls.SettingsCard(); }
-        private object Activate_142_NumberBox() { return new global::Microsoft.UI.Xaml.Controls.NumberBox(); }
-        private object Activate_149_StackedNotificationsBehavior() { return new global::CommunityToolkit.WinUI.Behaviors.StackedNotificationsBehavior(); }
-        private object Activate_152_晚自习已经自闭Page() { return new global::WaterShark.Views.晚自习已经自闭Page(); }
-        private object Activate_153_晚自习已经自闭ViewModel() { return new global::WaterShark.ViewModels.晚自习已经自闭ViewModel(); }
-        private object Activate_154_空白1Page() { return new global::WaterShark.Views.空白1Page(); }
-        private object Activate_155_空白1ViewModel() { return new global::WaterShark.ViewModels.空白1ViewModel(); }
-        private object Activate_156_空白2Page() { return new global::WaterShark.Views.空白2Page(); }
-        private object Activate_157_空白2ViewModel() { return new global::WaterShark.ViewModels.空白2ViewModel(); }
-        private object Activate_158_空白3Page() { return new global::WaterShark.Views.空白3Page(); }
-        private object Activate_159_空白3ViewModel() { return new global::WaterShark.ViewModels.空白3ViewModel(); }
-        private object Activate_160_空白4Page() { return new global::WaterShark.Views.空白4Page(); }
-        private object Activate_161_空白4ViewModel() { return new global::WaterShark.ViewModels.空白4ViewModel(); }
-        private object Activate_162_空白5Page() { return new global::WaterShark.Views.空白5Page(); }
-        private object Activate_163_空白5ViewModel() { return new global::WaterShark.ViewModels.空白5ViewModel(); }
-        private object Activate_164_空白6Page() { return new global::WaterShark.Views.空白6Page(); }
-        private object Activate_165_空白6ViewModel() { return new global::WaterShark.ViewModels.空白6ViewModel(); }
-        private object Activate_166_空白7Page() { return new global::WaterShark.Views.空白7Page(); }
-        private object Activate_167_空白7ViewModel() { return new global::WaterShark.ViewModels.空白7ViewModel(); }
-        private object Activate_168_空白8Page() { return new global::WaterShark.Views.空白8Page(); }
-        private object Activate_169_空白8ViewModel() { return new global::WaterShark.ViewModels.空白8ViewModel(); }
-        private object Activate_170_空白9Page() { return new global::WaterShark.Views.空白9Page(); }
-        private object Activate_171_空白9ViewModel() { return new global::WaterShark.ViewModels.空白9ViewModel(); }
-        private object Activate_172_空白Page() { return new global::WaterShark.Views.空白Page(); }
-        private object Activate_173_空白ViewModel() { return new global::WaterShark.ViewModels.空白ViewModel(); }
-        private object Activate_174_英语老师专用抽Page() { return new global::WaterShark.Views.英语老师专用抽Page(); }
-        private object Activate_175_英语老师专用抽ViewModel() { return new global::WaterShark.ViewModels.英语老师专用抽ViewModel(); }
+        private object Activate_22_EnumToBooleanConverter() { return new global::WaterShark.Helpers.EnumToBooleanConverter(); }
+        private object Activate_23_SettingsPage() { return new global::WaterShark.Views.SettingsPage(); }
+        private object Activate_29_NavigationView() { return new global::Microsoft.UI.Xaml.Controls.NavigationView(); }
+        private object Activate_44_NavigationViewTemplateSettings() { return new global::Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings(); }
+        private object Activate_47_BehaviorCollection() { return new global::Microsoft.Xaml.Interactivity.BehaviorCollection(); }
+        private object Activate_49_NavigationViewItem() { return new global::Microsoft.UI.Xaml.Controls.NavigationViewItem(); }
+        private object Activate_52_InfoBadge() { return new global::Microsoft.UI.Xaml.Controls.InfoBadge(); }
+        private object Activate_54_NavigationHelper() { return new global::WaterShark.Helpers.NavigationHelper(); }
+        private object Activate_55_NavigationViewHeaderBehavior() { return new global::WaterShark.Behaviors.NavigationViewHeaderBehavior(); }
+        private object Activate_61_WebView2() { return new global::Microsoft.UI.Xaml.Controls.WebView2(); }
+        private object Activate_66_ProgressRing() { return new global::Microsoft.UI.Xaml.Controls.ProgressRing(); }
+        private object Activate_68_Web视图Page() { return new global::WaterShark.Views.Web视图Page(); }
+        private object Activate_70_主页Page() { return new global::WaterShark.Views.主页Page(); }
+        private object Activate_71_主页ViewModel() { return new global::WaterShark.ViewModels.主页ViewModel(); }
+        private object Activate_72_其他页面Page() { return new global::WaterShark.Views.其他页面Page(); }
+        private object Activate_73_其他页面ViewModel() { return new global::WaterShark.ViewModels.其他页面ViewModel(); }
+        private object Activate_74_DataGrid() { return new global::CommunityToolkit.WinUI.UI.Controls.DataGrid(); }
+        private object Activate_77_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn>(); }
+        private object Activate_78_Collection() { return new global::System.Collections.ObjectModel.Collection<global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn>(); }
+        private object Activate_93_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::Microsoft.UI.Xaml.Style>(); }
+        private object Activate_94_Collection() { return new global::System.Collections.ObjectModel.Collection<global::Microsoft.UI.Xaml.Style>(); }
+        private object Activate_96_DataGridTextColumn() { return new global::CommunityToolkit.WinUI.UI.Controls.DataGridTextColumn(); }
+        private object Activate_101_DataGridTemplateColumn() { return new global::CommunityToolkit.WinUI.UI.Controls.DataGridTemplateColumn(); }
+        private object Activate_102_内容网格1Page() { return new global::WaterShark.Views.内容网格1Page(); }
+        private object Activate_104_内容网格DetailPage() { return new global::WaterShark.Views.内容网格DetailPage(); }
+        private object Activate_106_AdaptiveGridView() { return new global::CommunityToolkit.WinUI.UI.Controls.AdaptiveGridView(); }
+        private object Activate_112_内容网格Page() { return new global::WaterShark.Views.内容网格Page(); }
+        private object Activate_114_列表详细信息DetailControl() { return new global::WaterShark.Views.列表详细信息DetailControl(); }
+        private object Activate_115_SampleOrder() { return new global::WaterShark.Core.Models.SampleOrder(); }
+        private object Activate_116_ListDetailsView() { return new global::CommunityToolkit.WinUI.UI.Controls.ListDetailsView(); }
+        private object Activate_123_列表详细信息Page() { return new global::WaterShark.Views.列表详细信息Page(); }
+        private object Activate_125_名单列表查看DetailControl() { return new global::WaterShark.Views.名单列表查看DetailControl(); }
+        private object Activate_126_名单列表查看Page() { return new global::WaterShark.Views.名单列表查看Page(); }
+        private object Activate_128_大课间写名字Page() { return new global::WaterShark.Views.大课间写名字Page(); }
+        private object Activate_129_大课间写名字ViewModel() { return new global::WaterShark.ViewModels.大课间写名字ViewModel(); }
+        private object Activate_130_InfoBar() { return new global::Microsoft.UI.Xaml.Controls.InfoBar(); }
+        private object Activate_134_InfoBarTemplateSettings() { return new global::Microsoft.UI.Xaml.Controls.InfoBarTemplateSettings(); }
+        private object Activate_135_SettingsExpander() { return new global::CommunityToolkit.WinUI.Controls.SettingsExpander(); }
+        private object Activate_136_FontIconExtension() { return new global::CommunityToolkit.WinUI.FontIconExtension(); }
+        private object Activate_139_SettingsCard() { return new global::CommunityToolkit.WinUI.Controls.SettingsCard(); }
+        private object Activate_141_NumberBox() { return new global::Microsoft.UI.Xaml.Controls.NumberBox(); }
+        private object Activate_148_StackedNotificationsBehavior() { return new global::CommunityToolkit.WinUI.Behaviors.StackedNotificationsBehavior(); }
+        private object Activate_151_晚自习已经自闭Page() { return new global::WaterShark.Views.晚自习已经自闭Page(); }
+        private object Activate_152_晚自习已经自闭ViewModel() { return new global::WaterShark.ViewModels.晚自习已经自闭ViewModel(); }
+        private object Activate_153_空白1Page() { return new global::WaterShark.Views.空白1Page(); }
+        private object Activate_154_空白1ViewModel() { return new global::WaterShark.ViewModels.空白1ViewModel(); }
+        private object Activate_155_空白2Page() { return new global::WaterShark.Views.空白2Page(); }
+        private object Activate_156_空白2ViewModel() { return new global::WaterShark.ViewModels.空白2ViewModel(); }
+        private object Activate_157_空白3Page() { return new global::WaterShark.Views.空白3Page(); }
+        private object Activate_158_空白3ViewModel() { return new global::WaterShark.ViewModels.空白3ViewModel(); }
+        private object Activate_159_空白4Page() { return new global::WaterShark.Views.空白4Page(); }
+        private object Activate_160_空白4ViewModel() { return new global::WaterShark.ViewModels.空白4ViewModel(); }
+        private object Activate_161_空白5Page() { return new global::WaterShark.Views.空白5Page(); }
+        private object Activate_162_空白5ViewModel() { return new global::WaterShark.ViewModels.空白5ViewModel(); }
+        private object Activate_163_空白6Page() { return new global::WaterShark.Views.空白6Page(); }
+        private object Activate_164_空白6ViewModel() { return new global::WaterShark.ViewModels.空白6ViewModel(); }
+        private object Activate_165_空白7Page() { return new global::WaterShark.Views.空白7Page(); }
+        private object Activate_166_空白7ViewModel() { return new global::WaterShark.ViewModels.空白7ViewModel(); }
+        private object Activate_167_空白8Page() { return new global::WaterShark.Views.空白8Page(); }
+        private object Activate_168_空白8ViewModel() { return new global::WaterShark.ViewModels.空白8ViewModel(); }
+        private object Activate_169_空白9Page() { return new global::WaterShark.Views.空白9Page(); }
+        private object Activate_170_空白9ViewModel() { return new global::WaterShark.ViewModels.空白9ViewModel(); }
+        private object Activate_171_空白Page() { return new global::WaterShark.Views.空白Page(); }
+        private object Activate_172_空白ViewModel() { return new global::WaterShark.ViewModels.空白ViewModel(); }
+        private object Activate_173_英语老师专用抽Page() { return new global::WaterShark.Views.英语老师专用抽Page(); }
+        private object Activate_174_英语老师专用抽ViewModel() { return new global::WaterShark.ViewModels.英语老师专用抽ViewModel(); }
+        private object Activate_175_ShowName() { return new global::WaterShark.WindowForm.ShowName(); }
         private object Activate_176_TreeViewNode() { return new global::Microsoft.UI.Xaml.Controls.TreeViewNode(); }
         private object Activate_178_DoubleToObjectConverter() { return new global::Syncfusion.UI.Xaml.Core.DoubleToObjectConverter(); }
         private object Activate_179_DoubleToVisibilityConverter() { return new global::Syncfusion.UI.Xaml.Core.DoubleToVisibilityConverter(); }
@@ -704,37 +704,37 @@ namespace WaterShark.WaterShark_XamlTypeInfo
             var newItem = (global::System.Object)item;
             collection.Add(newKey, newItem);
         }
-        private void VectorAdd_33_IList(object instance, object item)
+        private void VectorAdd_32_IList(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::System.Object>)instance;
             var newItem = (global::System.Object)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_48_BehaviorCollection(object instance, object item)
+        private void VectorAdd_47_BehaviorCollection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Microsoft.UI.Xaml.DependencyObject>)instance;
             var newItem = (global::Microsoft.UI.Xaml.DependencyObject)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_78_ObservableCollection(object instance, object item)
+        private void VectorAdd_77_ObservableCollection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn>)instance;
             var newItem = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_79_Collection(object instance, object item)
+        private void VectorAdd_78_Collection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn>)instance;
             var newItem = (global::CommunityToolkit.WinUI.UI.Controls.DataGridColumn)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_94_ObservableCollection(object instance, object item)
+        private void VectorAdd_93_ObservableCollection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Microsoft.UI.Xaml.Style>)instance;
             var newItem = (global::Microsoft.UI.Xaml.Style)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_95_Collection(object instance, object item)
+        private void VectorAdd_94_Collection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Microsoft.UI.Xaml.Style>)instance;
             var newItem = (global::Microsoft.UI.Xaml.Style)item;
@@ -895,14 +895,7 @@ namespace WaterShark.WaterShark_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 20:   //  WaterShark.ShowName
-                userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Window"));
-                userType.Activator = Activate_20_ShowName;
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 21:   //  Microsoft.UI.Xaml.Thickness
+            case 20:   //  Microsoft.UI.Xaml.Thickness
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
                 userType.AddMemberName("Left");
                 userType.AddMemberName("Top");
@@ -911,7 +904,7 @@ namespace WaterShark.WaterShark_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 22:   //  Microsoft.UI.Xaml.CornerRadius
+            case 21:   //  Microsoft.UI.Xaml.CornerRadius
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
                 userType.AddMemberName("TopLeft");
                 userType.AddMemberName("TopRight");
@@ -920,49 +913,49 @@ namespace WaterShark.WaterShark_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 23:   //  WaterShark.Helpers.EnumToBooleanConverter
+            case 22:   //  WaterShark.Helpers.EnumToBooleanConverter
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_23_EnumToBooleanConverter;
+                userType.Activator = Activate_22_EnumToBooleanConverter;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 24:   //  WaterShark.Views.SettingsPage
+            case 23:   //  WaterShark.Views.SettingsPage
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_24_SettingsPage;
+                userType.Activator = Activate_23_SettingsPage;
                 userType.AddMemberName("ViewModel");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 25:   //  Microsoft.UI.Xaml.Controls.Page
+            case 24:   //  Microsoft.UI.Xaml.Controls.Page
                 xamlType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 26:   //  Microsoft.UI.Xaml.Controls.UserControl
+            case 25:   //  Microsoft.UI.Xaml.Controls.UserControl
                 xamlType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 27:   //  WaterShark.ViewModels.SettingsViewModel
+            case 26:   //  WaterShark.ViewModels.SettingsViewModel
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient"));
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 28:   //  CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient
+            case 27:   //  CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("CommunityToolkit.Mvvm.ComponentModel.ObservableObject"));
                 xamlType = userType;
                 break;
 
-            case 29:   //  CommunityToolkit.Mvvm.ComponentModel.ObservableObject
+            case 28:   //  CommunityToolkit.Mvvm.ComponentModel.ObservableObject
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 xamlType = userType;
                 break;
 
-            case 30:   //  Microsoft.UI.Xaml.Controls.NavigationView
+            case 29:   //  Microsoft.UI.Xaml.Controls.NavigationView
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ContentControl"));
-                userType.Activator = Activate_30_NavigationView;
+                userType.Activator = Activate_29_NavigationView;
                 userType.AddMemberName("IsBackButtonVisible");
                 userType.AddMemberName("IsBackEnabled");
                 userType.AddMemberName("SelectedItem");
@@ -1003,11 +996,11 @@ namespace WaterShark.WaterShark_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 31:   //  Microsoft.UI.Xaml.Controls.ContentControl
+            case 30:   //  Microsoft.UI.Xaml.Controls.ContentControl
                 xamlType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 32:   //  Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible
+            case 31:   //  Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("Collapsed", global::Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible.Collapsed);
                 userType.AddEnumValue("Visible", global::Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible.Visible);
@@ -1015,26 +1008,26 @@ namespace WaterShark.WaterShark_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 33:   //  System.Collections.Generic.IList`1<Object>
+            case 32:   //  System.Collections.Generic.IList`1<Object>
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, null);
-                userType.CollectionAdd = VectorAdd_33_IList;
+                userType.CollectionAdd = VectorAdd_32_IList;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 34:   //  Microsoft.UI.Xaml.DataTemplate
+            case 33:   //  Microsoft.UI.Xaml.DataTemplate
                 xamlType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 35:   //  Microsoft.UI.Xaml.Controls.AutoSuggestBox
+            case 34:   //  Microsoft.UI.Xaml.Controls.AutoSuggestBox
                 xamlType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 36:   //  Microsoft.UI.Xaml.UIElement
+            case 35:   //  Microsoft.UI.Xaml.UIElement
                 xamlType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 37:   //  Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode
+            case 36:   //  Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("Minimal", global::Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode.Minimal);
                 userType.AddEnumValue("Compact", global::Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode.Compact);
@@ -1042,26 +1035,26 @@ namespace WaterShark.WaterShark_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 38:   //  Microsoft.UI.Xaml.Style
+            case 37:   //  Microsoft.UI.Xaml.Style
                 xamlType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 39:   //  Microsoft.UI.Xaml.Controls.StyleSelector
+            case 38:   //  Microsoft.UI.Xaml.Controls.StyleSelector
                 xamlType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 40:   //  Microsoft.UI.Xaml.Controls.DataTemplateSelector
+            case 39:   //  Microsoft.UI.Xaml.Controls.DataTemplateSelector
                 xamlType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 41:   //  Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode
+            case 40:   //  Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("MoreLabel", global::Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode.MoreLabel);
                 userType.AddEnumValue("NoLabel", global::Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode.NoLabel);
                 xamlType = userType;
                 break;
 
-            case 42:   //  Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode
+            case 41:   //  Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("Auto", global::Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode.Auto);
                 userType.AddEnumValue("Left", global::Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode.Left);
@@ -1071,14 +1064,14 @@ namespace WaterShark.WaterShark_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 43:   //  Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus
+            case 42:   //  Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("Disabled", global::Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus.Disabled);
                 userType.AddEnumValue("Enabled", global::Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus.Enabled);
                 xamlType = userType;
                 break;
 
-            case 44:   //  Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled
+            case 43:   //  Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("WhenSelectionFollowsFocus", global::Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled.WhenSelectionFollowsFocus);
                 userType.AddEnumValue("Always", global::Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled.Always);
@@ -1086,36 +1079,36 @@ namespace WaterShark.WaterShark_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 45:   //  Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings
+            case 44:   //  Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.DependencyObject"));
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 46:   //  Microsoft.UI.Xaml.DependencyObject
+            case 45:   //  Microsoft.UI.Xaml.DependencyObject
                 xamlType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 47:   //  Microsoft.Xaml.Interactivity.Interaction
+            case 46:   //  Microsoft.Xaml.Interactivity.Interaction
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.AddMemberName("Behaviors");
                 xamlType = userType;
                 break;
 
-            case 48:   //  Microsoft.Xaml.Interactivity.BehaviorCollection
+            case 47:   //  Microsoft.Xaml.Interactivity.BehaviorCollection
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.DependencyObjectCollection"));
-                userType.CollectionAdd = VectorAdd_48_BehaviorCollection;
+                userType.CollectionAdd = VectorAdd_47_BehaviorCollection;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 49:   //  Microsoft.UI.Xaml.DependencyObjectCollection
+            case 48:   //  Microsoft.UI.Xaml.DependencyObjectCollection
                 xamlType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 50:   //  Microsoft.UI.Xaml.Controls.NavigationViewItem
+            case 49:   //  Microsoft.UI.Xaml.Controls.NavigationViewItem
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationViewItemBase"));
-                userType.Activator = Activate_50_NavigationViewItem;
+                userType.Activator = Activate_49_NavigationViewItem;
                 userType.AddMemberName("Icon");
                 userType.AddMemberName("CompactPaneLength");
                 userType.AddMemberName("HasUnrealizedChildren");
@@ -1128,37 +1121,37 @@ namespace WaterShark.WaterShark_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 51:   //  Microsoft.UI.Xaml.Controls.NavigationViewItemBase
+            case 50:   //  Microsoft.UI.Xaml.Controls.NavigationViewItemBase
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ContentControl"));
                 userType.AddMemberName("IsSelected");
                 xamlType = userType;
                 break;
 
-            case 52:   //  Microsoft.UI.Xaml.Controls.IconElement
+            case 51:   //  Microsoft.UI.Xaml.Controls.IconElement
                 xamlType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 53:   //  Microsoft.UI.Xaml.Controls.InfoBadge
+            case 52:   //  Microsoft.UI.Xaml.Controls.InfoBadge
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Control"));
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 54:   //  Microsoft.UI.Xaml.Controls.Control
+            case 53:   //  Microsoft.UI.Xaml.Controls.Control
                 xamlType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 55:   //  WaterShark.Helpers.NavigationHelper
+            case 54:   //  WaterShark.Helpers.NavigationHelper
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_55_NavigationHelper;
+                userType.Activator = Activate_54_NavigationHelper;
                 userType.AddMemberName("NavigateTo");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 56:   //  WaterShark.Behaviors.NavigationViewHeaderBehavior
+            case 55:   //  WaterShark.Behaviors.NavigationViewHeaderBehavior
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.Xaml.Interactivity.Behavior`1<Microsoft.UI.Xaml.Controls.NavigationView>"));
-                userType.Activator = Activate_56_NavigationViewHeaderBehavior;
+                userType.Activator = Activate_55_NavigationViewHeaderBehavior;
                 userType.AddMemberName("DefaultHeader");
                 userType.AddMemberName("DefaultHeaderTemplate");
                 userType.AddMemberName("HeaderMode");
@@ -1168,18 +1161,18 @@ namespace WaterShark.WaterShark_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 57:   //  Microsoft.Xaml.Interactivity.Behavior`1<Microsoft.UI.Xaml.Controls.NavigationView>
+            case 56:   //  Microsoft.Xaml.Interactivity.Behavior`1<Microsoft.UI.Xaml.Controls.NavigationView>
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.Xaml.Interactivity.Behavior"));
                 userType.AddMemberName("AssociatedObject");
                 xamlType = userType;
                 break;
 
-            case 58:   //  Microsoft.Xaml.Interactivity.Behavior
+            case 57:   //  Microsoft.Xaml.Interactivity.Behavior
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.DependencyObject"));
                 xamlType = userType;
                 break;
 
-            case 59:   //  WaterShark.Behaviors.NavigationViewHeaderMode
+            case 58:   //  WaterShark.Behaviors.NavigationViewHeaderMode
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("Always", global::WaterShark.Behaviors.NavigationViewHeaderMode.Always);
                 userType.AddEnumValue("Never", global::WaterShark.Behaviors.NavigationViewHeaderMode.Never);
@@ -1188,23 +1181,23 @@ namespace WaterShark.WaterShark_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 60:   //  WaterShark.Views.ShellPage
+            case 59:   //  WaterShark.Views.ShellPage
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
                 userType.AddMemberName("ViewModel");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 61:   //  WaterShark.ViewModels.ShellViewModel
+            case 60:   //  WaterShark.ViewModels.ShellViewModel
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient"));
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 62:   //  Microsoft.UI.Xaml.Controls.WebView2
+            case 61:   //  Microsoft.UI.Xaml.Controls.WebView2
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.FrameworkElement"));
-                userType.Activator = Activate_62_WebView2;
+                userType.Activator = Activate_61_WebView2;
                 userType.AddMemberName("Source");
                 userType.AddMemberName("CanGoBack");
                 userType.AddMemberName("CanGoForward");
@@ -1213,31 +1206,31 @@ namespace WaterShark.WaterShark_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 63:   //  Microsoft.UI.Xaml.FrameworkElement
+            case 62:   //  Microsoft.UI.Xaml.FrameworkElement
                 xamlType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 64:   //  System.Uri
+            case 63:   //  System.Uri
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 65:   //  Microsoft.Web.WebView2.Core.CoreWebView2
+            case 64:   //  Microsoft.Web.WebView2.Core.CoreWebView2
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 66:   //  Windows.UI.Color
+            case 65:   //  Windows.UI.Color
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 67:   //  Microsoft.UI.Xaml.Controls.ProgressRing
+            case 66:   //  Microsoft.UI.Xaml.Controls.ProgressRing
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Control"));
-                userType.Activator = Activate_67_ProgressRing;
+                userType.Activator = Activate_66_ProgressRing;
                 userType.AddMemberName("IsActive");
                 userType.AddMemberName("IsIndeterminate");
                 userType.AddMemberName("Maximum");
@@ -1247,60 +1240,60 @@ namespace WaterShark.WaterShark_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 68:   //  Microsoft.UI.Xaml.Controls.ProgressRingTemplateSettings
+            case 67:   //  Microsoft.UI.Xaml.Controls.ProgressRingTemplateSettings
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.DependencyObject"));
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 69:   //  WaterShark.Views.Web视图Page
+            case 68:   //  WaterShark.Views.Web视图Page
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_69_Web视图Page;
+                userType.Activator = Activate_68_Web视图Page;
                 userType.AddMemberName("ViewModel");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 70:   //  WaterShark.ViewModels.Web视图ViewModel
+            case 69:   //  WaterShark.ViewModels.Web视图ViewModel
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient"));
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 71:   //  WaterShark.Views.主页Page
+            case 70:   //  WaterShark.Views.主页Page
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_71_主页Page;
+                userType.Activator = Activate_70_主页Page;
                 userType.AddMemberName("ViewModel");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 72:   //  WaterShark.ViewModels.主页ViewModel
+            case 71:   //  WaterShark.ViewModels.主页ViewModel
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient"));
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 73:   //  WaterShark.Views.其他页面Page
+            case 72:   //  WaterShark.Views.其他页面Page
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_73_其他页面Page;
+                userType.Activator = Activate_72_其他页面Page;
                 userType.AddMemberName("ViewModel");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 74:   //  WaterShark.ViewModels.其他页面ViewModel
+            case 73:   //  WaterShark.ViewModels.其他页面ViewModel
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient"));
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 75:   //  CommunityToolkit.WinUI.UI.Controls.DataGrid
+            case 74:   //  CommunityToolkit.WinUI.UI.Controls.DataGrid
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Control"));
-                userType.Activator = Activate_75_DataGrid;
+                userType.Activator = Activate_74_DataGrid;
                 userType.AddMemberName("AutoGenerateColumns");
                 userType.AddMemberName("GridLinesVisibility");
                 userType.AddMemberName("ItemsSource");
@@ -1350,7 +1343,7 @@ namespace WaterShark.WaterShark_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 76:   //  CommunityToolkit.WinUI.UI.Controls.DataGridGridLinesVisibility
+            case 75:   //  CommunityToolkit.WinUI.UI.Controls.DataGridGridLinesVisibility
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("None", global::CommunityToolkit.WinUI.UI.Controls.DataGridGridLinesVisibility.None);
                 userType.AddEnumValue("Horizontal", global::CommunityToolkit.WinUI.UI.Controls.DataGridGridLinesVisibility.Horizontal);
@@ -1359,27 +1352,27 @@ namespace WaterShark.WaterShark_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 77:   //  System.Collections.IEnumerable
+            case 76:   //  System.Collections.IEnumerable
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, null);
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 78:   //  System.Collections.ObjectModel.ObservableCollection`1<CommunityToolkit.WinUI.UI.Controls.DataGridColumn>
+            case 77:   //  System.Collections.ObjectModel.ObservableCollection`1<CommunityToolkit.WinUI.UI.Controls.DataGridColumn>
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Collections.ObjectModel.Collection`1<CommunityToolkit.WinUI.UI.Controls.DataGridColumn>"));
-                userType.CollectionAdd = VectorAdd_78_ObservableCollection;
+                userType.CollectionAdd = VectorAdd_77_ObservableCollection;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 79:   //  System.Collections.ObjectModel.Collection`1<CommunityToolkit.WinUI.UI.Controls.DataGridColumn>
+            case 78:   //  System.Collections.ObjectModel.Collection`1<CommunityToolkit.WinUI.UI.Controls.DataGridColumn>
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_79_Collection;
-                userType.CollectionAdd = VectorAdd_79_Collection;
+                userType.Activator = Activate_78_Collection;
+                userType.CollectionAdd = VectorAdd_78_Collection;
                 xamlType = userType;
                 break;
 
-            case 80:   //  CommunityToolkit.WinUI.UI.Controls.DataGridColumn
+            case 79:   //  CommunityToolkit.WinUI.UI.Controls.DataGridColumn
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.DependencyObject"));
                 userType.AddMemberName("ActualWidth");
                 userType.AddMemberName("CanUserReorder");
@@ -1403,15 +1396,15 @@ namespace WaterShark.WaterShark_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 81:   //  Microsoft.UI.Xaml.Data.Binding
+            case 80:   //  Microsoft.UI.Xaml.Data.Binding
                 xamlType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 82:   //  Int32
+            case 81:   //  Int32
                 xamlType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 83:   //  System.Nullable`1<CommunityToolkit.WinUI.UI.Controls.DataGridSortDirection>
+            case 82:   //  System.Nullable`1<CommunityToolkit.WinUI.UI.Controls.DataGridSortDirection>
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
                 userType.SetBoxedType(GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGridSortDirection"));
                 userType.BoxInstance = userType.BoxType<global::CommunityToolkit.WinUI.UI.Controls.DataGridSortDirection>;
@@ -1419,29 +1412,29 @@ namespace WaterShark.WaterShark_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 84:   //  CommunityToolkit.WinUI.UI.Controls.DataGridSortDirection
+            case 83:   //  CommunityToolkit.WinUI.UI.Controls.DataGridSortDirection
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("Ascending", global::CommunityToolkit.WinUI.UI.Controls.DataGridSortDirection.Ascending);
                 userType.AddEnumValue("Descending", global::CommunityToolkit.WinUI.UI.Controls.DataGridSortDirection.Descending);
                 xamlType = userType;
                 break;
 
-            case 85:   //  Microsoft.UI.Xaml.Visibility
+            case 84:   //  Microsoft.UI.Xaml.Visibility
                 xamlType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 86:   //  CommunityToolkit.WinUI.UI.Controls.DataGridLength
+            case 85:   //  CommunityToolkit.WinUI.UI.Controls.DataGridLength
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
                 userType.CreateFromStringMethod = x => (global::System.Object)global::CommunityToolkit.WinUI.UI.Controls.DataGridLength.ConvertFromString(x);
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 87:   //  Microsoft.UI.Xaml.Media.Brush
+            case 86:   //  Microsoft.UI.Xaml.Media.Brush
                 xamlType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 88:   //  CommunityToolkit.WinUI.UI.Controls.DataGridClipboardCopyMode
+            case 87:   //  CommunityToolkit.WinUI.UI.Controls.DataGridClipboardCopyMode
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("None", global::CommunityToolkit.WinUI.UI.Controls.DataGridClipboardCopyMode.None);
                 userType.AddEnumValue("ExcludeHeader", global::CommunityToolkit.WinUI.UI.Controls.DataGridClipboardCopyMode.ExcludeHeader);
@@ -1449,7 +1442,7 @@ namespace WaterShark.WaterShark_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 89:   //  CommunityToolkit.WinUI.UI.Controls.DataGridHeadersVisibility
+            case 88:   //  CommunityToolkit.WinUI.UI.Controls.DataGridHeadersVisibility
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("None", global::CommunityToolkit.WinUI.UI.Controls.DataGridHeadersVisibility.None);
                 userType.AddEnumValue("Column", global::CommunityToolkit.WinUI.UI.Controls.DataGridHeadersVisibility.Column);
@@ -1458,15 +1451,15 @@ namespace WaterShark.WaterShark_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 90:   //  Microsoft.UI.Xaml.Controls.ScrollBarVisibility
+            case 89:   //  Microsoft.UI.Xaml.Controls.ScrollBarVisibility
                 xamlType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 91:   //  Microsoft.UI.Xaml.Controls.IncrementalLoadingTrigger
+            case 90:   //  Microsoft.UI.Xaml.Controls.IncrementalLoadingTrigger
                 xamlType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 92:   //  CommunityToolkit.WinUI.UI.Controls.DataGridRowDetailsVisibilityMode
+            case 91:   //  CommunityToolkit.WinUI.UI.Controls.DataGridRowDetailsVisibilityMode
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("VisibleWhenSelected", global::CommunityToolkit.WinUI.UI.Controls.DataGridRowDetailsVisibilityMode.VisibleWhenSelected);
                 userType.AddEnumValue("Visible", global::CommunityToolkit.WinUI.UI.Controls.DataGridRowDetailsVisibilityMode.Visible);
@@ -1474,36 +1467,36 @@ namespace WaterShark.WaterShark_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 93:   //  CommunityToolkit.WinUI.UI.Controls.DataGridSelectionMode
+            case 92:   //  CommunityToolkit.WinUI.UI.Controls.DataGridSelectionMode
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("Extended", global::CommunityToolkit.WinUI.UI.Controls.DataGridSelectionMode.Extended);
                 userType.AddEnumValue("Single", global::CommunityToolkit.WinUI.UI.Controls.DataGridSelectionMode.Single);
                 xamlType = userType;
                 break;
 
-            case 94:   //  System.Collections.ObjectModel.ObservableCollection`1<Microsoft.UI.Xaml.Style>
+            case 93:   //  System.Collections.ObjectModel.ObservableCollection`1<Microsoft.UI.Xaml.Style>
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Collections.ObjectModel.Collection`1<Microsoft.UI.Xaml.Style>"));
-                userType.CollectionAdd = VectorAdd_94_ObservableCollection;
+                userType.CollectionAdd = VectorAdd_93_ObservableCollection;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 95:   //  System.Collections.ObjectModel.Collection`1<Microsoft.UI.Xaml.Style>
+            case 94:   //  System.Collections.ObjectModel.Collection`1<Microsoft.UI.Xaml.Style>
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_95_Collection;
-                userType.CollectionAdd = VectorAdd_95_Collection;
+                userType.Activator = Activate_94_Collection;
+                userType.CollectionAdd = VectorAdd_94_Collection;
                 xamlType = userType;
                 break;
 
-            case 96:   //  System.Collections.IList
+            case 95:   //  System.Collections.IList
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, null);
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 97:   //  CommunityToolkit.WinUI.UI.Controls.DataGridTextColumn
+            case 96:   //  CommunityToolkit.WinUI.UI.Controls.DataGridTextColumn
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGridBoundColumn"));
-                userType.Activator = Activate_97_DataGridTextColumn;
+                userType.Activator = Activate_96_DataGridTextColumn;
                 userType.AddMemberName("FontFamily");
                 userType.AddMemberName("FontSize");
                 userType.AddMemberName("FontStyle");
@@ -1512,7 +1505,7 @@ namespace WaterShark.WaterShark_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 98:   //  CommunityToolkit.WinUI.UI.Controls.DataGridBoundColumn
+            case 97:   //  CommunityToolkit.WinUI.UI.Controls.DataGridBoundColumn
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGridColumn"));
                 userType.AddMemberName("Binding");
                 userType.AddMemberName("ClipboardContentBinding");
@@ -1521,11 +1514,11 @@ namespace WaterShark.WaterShark_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 99:   //  Microsoft.UI.Xaml.Media.FontFamily
+            case 98:   //  Microsoft.UI.Xaml.Media.FontFamily
                 xamlType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 100:   //  Windows.UI.Text.FontStyle
+            case 99:   //  Windows.UI.Text.FontStyle
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("Normal", global::Windows.UI.Text.FontStyle.Normal);
                 userType.AddEnumValue("Oblique", global::Windows.UI.Text.FontStyle.Oblique);
@@ -1533,53 +1526,53 @@ namespace WaterShark.WaterShark_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 101:   //  Windows.UI.Text.FontWeight
+            case 100:   //  Windows.UI.Text.FontWeight
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 102:   //  CommunityToolkit.WinUI.UI.Controls.DataGridTemplateColumn
+            case 101:   //  CommunityToolkit.WinUI.UI.Controls.DataGridTemplateColumn
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("CommunityToolkit.WinUI.UI.Controls.DataGridColumn"));
-                userType.Activator = Activate_102_DataGridTemplateColumn;
+                userType.Activator = Activate_101_DataGridTemplateColumn;
                 userType.AddMemberName("CellTemplate");
                 userType.AddMemberName("CellEditingTemplate");
                 xamlType = userType;
                 break;
 
-            case 103:   //  WaterShark.Views.内容网格1Page
+            case 102:   //  WaterShark.Views.内容网格1Page
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_103_内容网格1Page;
+                userType.Activator = Activate_102_内容网格1Page;
                 userType.AddMemberName("ViewModel");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 104:   //  WaterShark.ViewModels.内容网格1ViewModel
+            case 103:   //  WaterShark.ViewModels.内容网格1ViewModel
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient"));
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 105:   //  WaterShark.Views.内容网格DetailPage
+            case 104:   //  WaterShark.Views.内容网格DetailPage
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_105_内容网格DetailPage;
+                userType.Activator = Activate_104_内容网格DetailPage;
                 userType.AddMemberName("ViewModel");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 106:   //  WaterShark.ViewModels.内容网格DetailViewModel
+            case 105:   //  WaterShark.ViewModels.内容网格DetailViewModel
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient"));
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 107:   //  CommunityToolkit.WinUI.UI.Controls.AdaptiveGridView
+            case 106:   //  CommunityToolkit.WinUI.UI.Controls.AdaptiveGridView
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.GridView"));
-                userType.Activator = Activate_107_AdaptiveGridView;
+                userType.Activator = Activate_106_AdaptiveGridView;
                 userType.AddMemberName("DesiredWidth");
                 userType.AddMemberName("ItemHeight");
                 userType.AddMemberName("ItemClickCommand");
@@ -1589,25 +1582,25 @@ namespace WaterShark.WaterShark_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 108:   //  Microsoft.UI.Xaml.Controls.GridView
+            case 107:   //  Microsoft.UI.Xaml.Controls.GridView
                 xamlType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 109:   //  Microsoft.UI.Xaml.Controls.ItemsControl
+            case 108:   //  Microsoft.UI.Xaml.Controls.ItemsControl
                 xamlType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 110:   //  System.Windows.Input.ICommand
+            case 109:   //  System.Windows.Input.ICommand
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, null);
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 111:   //  Microsoft.UI.Xaml.Controls.ItemsPanelTemplate
+            case 110:   //  Microsoft.UI.Xaml.Controls.ItemsPanelTemplate
                 xamlType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 112:   //  CommunityToolkit.WinUI.UI.Animations.Connected
+            case 111:   //  CommunityToolkit.WinUI.UI.Animations.Connected
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.AddMemberName("ListItemElementName");
                 userType.AddMemberName("ListItemKey");
@@ -1616,38 +1609,38 @@ namespace WaterShark.WaterShark_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 113:   //  WaterShark.Views.内容网格Page
+            case 112:   //  WaterShark.Views.内容网格Page
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_113_内容网格Page;
+                userType.Activator = Activate_112_内容网格Page;
                 userType.AddMemberName("ViewModel");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 114:   //  WaterShark.ViewModels.内容网格ViewModel
+            case 113:   //  WaterShark.ViewModels.内容网格ViewModel
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient"));
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 115:   //  WaterShark.Views.列表详细信息DetailControl
+            case 114:   //  WaterShark.Views.列表详细信息DetailControl
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.UserControl"));
-                userType.Activator = Activate_115_列表详细信息DetailControl;
+                userType.Activator = Activate_114_列表详细信息DetailControl;
                 userType.AddMemberName("ListDetailsMenuItem");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 116:   //  WaterShark.Core.Models.SampleOrder
+            case 115:   //  WaterShark.Core.Models.SampleOrder
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 117:   //  CommunityToolkit.WinUI.UI.Controls.ListDetailsView
+            case 116:   //  CommunityToolkit.WinUI.UI.Controls.ListDetailsView
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ItemsControl"));
-                userType.Activator = Activate_117_ListDetailsView;
+                userType.Activator = Activate_116_ListDetailsView;
                 userType.AddMemberName("BackButtonBehavior");
                 userType.AddMemberName("DetailsTemplate");
                 userType.AddMemberName("ListHeaderTemplate");
@@ -1673,7 +1666,7 @@ namespace WaterShark.WaterShark_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 118:   //  CommunityToolkit.WinUI.UI.Controls.BackButtonBehavior
+            case 117:   //  CommunityToolkit.WinUI.UI.Controls.BackButtonBehavior
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("Automatic", global::CommunityToolkit.WinUI.UI.Controls.BackButtonBehavior.Automatic);
                 userType.AddEnumValue("Inline", global::CommunityToolkit.WinUI.UI.Controls.BackButtonBehavior.Inline);
@@ -1682,7 +1675,7 @@ namespace WaterShark.WaterShark_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 119:   //  CommunityToolkit.WinUI.UI.Controls.ListDetailsViewState
+            case 118:   //  CommunityToolkit.WinUI.UI.Controls.ListDetailsViewState
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("List", global::CommunityToolkit.WinUI.UI.Controls.ListDetailsViewState.List);
                 userType.AddEnumValue("Details", global::CommunityToolkit.WinUI.UI.Controls.ListDetailsViewState.Details);
@@ -1690,82 +1683,82 @@ namespace WaterShark.WaterShark_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 120:   //  Microsoft.UI.Xaml.Controls.CommandBar
+            case 119:   //  Microsoft.UI.Xaml.Controls.CommandBar
                 xamlType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 121:   //  System.Func`2<Object, Object>
+            case 120:   //  System.Func`2<Object, Object>
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.MulticastDelegate"));
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 122:   //  System.MulticastDelegate
+            case 121:   //  System.MulticastDelegate
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Delegate"));
                 xamlType = userType;
                 break;
 
-            case 123:   //  System.Delegate
+            case 122:   //  System.Delegate
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 xamlType = userType;
                 break;
 
-            case 124:   //  WaterShark.Views.列表详细信息Page
+            case 123:   //  WaterShark.Views.列表详细信息Page
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_124_列表详细信息Page;
+                userType.Activator = Activate_123_列表详细信息Page;
                 userType.AddMemberName("ViewModel");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 125:   //  WaterShark.ViewModels.列表详细信息ViewModel
+            case 124:   //  WaterShark.ViewModels.列表详细信息ViewModel
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient"));
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 126:   //  WaterShark.Views.名单列表查看DetailControl
+            case 125:   //  WaterShark.Views.名单列表查看DetailControl
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.UserControl"));
-                userType.Activator = Activate_126_名单列表查看DetailControl;
+                userType.Activator = Activate_125_名单列表查看DetailControl;
                 userType.AddMemberName("ListDetailsMenuItem");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 127:   //  WaterShark.Views.名单列表查看Page
+            case 126:   //  WaterShark.Views.名单列表查看Page
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_127_名单列表查看Page;
+                userType.Activator = Activate_126_名单列表查看Page;
                 userType.AddMemberName("ViewModel");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 128:   //  WaterShark.ViewModels.名单列表查看ViewModel
+            case 127:   //  WaterShark.ViewModels.名单列表查看ViewModel
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient"));
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 129:   //  WaterShark.Views.大课间写名字Page
+            case 128:   //  WaterShark.Views.大课间写名字Page
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_129_大课间写名字Page;
+                userType.Activator = Activate_128_大课间写名字Page;
                 userType.AddMemberName("ViewModel");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 130:   //  WaterShark.ViewModels.大课间写名字ViewModel
+            case 129:   //  WaterShark.ViewModels.大课间写名字ViewModel
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient"));
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 131:   //  Microsoft.UI.Xaml.Controls.InfoBar
+            case 130:   //  Microsoft.UI.Xaml.Controls.InfoBar
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Control"));
-                userType.Activator = Activate_131_InfoBar;
+                userType.Activator = Activate_130_InfoBar;
                 userType.SetContentPropertyName("Microsoft.UI.Xaml.Controls.InfoBar.Content");
                 userType.AddMemberName("Content");
                 userType.AddMemberName("ActionButton");
@@ -1784,15 +1777,15 @@ namespace WaterShark.WaterShark_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 132:   //  Microsoft.UI.Xaml.Controls.Primitives.ButtonBase
+            case 131:   //  Microsoft.UI.Xaml.Controls.Primitives.ButtonBase
                 xamlType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 133:   //  Microsoft.UI.Xaml.Controls.IconSource
+            case 132:   //  Microsoft.UI.Xaml.Controls.IconSource
                 xamlType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 134:   //  Microsoft.UI.Xaml.Controls.InfoBarSeverity
+            case 133:   //  Microsoft.UI.Xaml.Controls.InfoBarSeverity
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("Informational", global::Microsoft.UI.Xaml.Controls.InfoBarSeverity.Informational);
                 userType.AddEnumValue("Success", global::Microsoft.UI.Xaml.Controls.InfoBarSeverity.Success);
@@ -1801,15 +1794,15 @@ namespace WaterShark.WaterShark_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 135:   //  Microsoft.UI.Xaml.Controls.InfoBarTemplateSettings
+            case 134:   //  Microsoft.UI.Xaml.Controls.InfoBarTemplateSettings
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.DependencyObject"));
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 136:   //  CommunityToolkit.WinUI.Controls.SettingsExpander
+            case 135:   //  CommunityToolkit.WinUI.Controls.SettingsExpander
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Control"));
-                userType.Activator = Activate_136_SettingsExpander;
+                userType.Activator = Activate_135_SettingsExpander;
                 userType.SetContentPropertyName("CommunityToolkit.WinUI.Controls.SettingsExpander.Content");
                 userType.AddMemberName("Content");
                 userType.AddMemberName("Header");
@@ -1825,16 +1818,16 @@ namespace WaterShark.WaterShark_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 137:   //  CommunityToolkit.WinUI.FontIconExtension
+            case 136:   //  CommunityToolkit.WinUI.FontIconExtension
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("CommunityToolkit.WinUI.TextIconExtension"));
-                userType.Activator = Activate_137_FontIconExtension;
+                userType.Activator = Activate_136_FontIconExtension;
                 userType.AddMemberName("Glyph");
                 userType.AddMemberName("FontFamily");
                 userType.SetIsMarkupExtension();
                 xamlType = userType;
                 break;
 
-            case 138:   //  CommunityToolkit.WinUI.TextIconExtension
+            case 137:   //  CommunityToolkit.WinUI.TextIconExtension
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Markup.MarkupExtension"));
                 userType.AddMemberName("FontSize");
                 userType.AddMemberName("FontWeight");
@@ -1846,13 +1839,13 @@ namespace WaterShark.WaterShark_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 139:   //  Microsoft.UI.Xaml.Markup.MarkupExtension
+            case 138:   //  Microsoft.UI.Xaml.Markup.MarkupExtension
                 xamlType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 140:   //  CommunityToolkit.WinUI.Controls.SettingsCard
+            case 139:   //  CommunityToolkit.WinUI.Controls.SettingsCard
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Primitives.ButtonBase"));
-                userType.Activator = Activate_140_SettingsCard;
+                userType.Activator = Activate_139_SettingsCard;
                 userType.AddMemberName("Header");
                 userType.AddMemberName("Description");
                 userType.AddMemberName("HeaderIcon");
@@ -1864,7 +1857,7 @@ namespace WaterShark.WaterShark_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 141:   //  CommunityToolkit.WinUI.Controls.ContentAlignment
+            case 140:   //  CommunityToolkit.WinUI.Controls.ContentAlignment
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("Right", global::CommunityToolkit.WinUI.Controls.ContentAlignment.Right);
                 userType.AddEnumValue("Left", global::CommunityToolkit.WinUI.Controls.ContentAlignment.Left);
@@ -1872,9 +1865,9 @@ namespace WaterShark.WaterShark_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 142:   //  Microsoft.UI.Xaml.Controls.NumberBox
+            case 141:   //  Microsoft.UI.Xaml.Controls.NumberBox
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Control"));
-                userType.Activator = Activate_142_NumberBox;
+                userType.Activator = Activate_141_NumberBox;
                 userType.AddMemberName("Header");
                 userType.AddMemberName("Value");
                 userType.AddMemberName("SpinButtonPlacementMode");
@@ -1897,7 +1890,7 @@ namespace WaterShark.WaterShark_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 143:   //  Microsoft.UI.Xaml.Controls.NumberBoxSpinButtonPlacementMode
+            case 142:   //  Microsoft.UI.Xaml.Controls.NumberBoxSpinButtonPlacementMode
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("Hidden", global::Microsoft.UI.Xaml.Controls.NumberBoxSpinButtonPlacementMode.Hidden);
                 userType.AddEnumValue("Compact", global::Microsoft.UI.Xaml.Controls.NumberBoxSpinButtonPlacementMode.Compact);
@@ -1905,224 +1898,231 @@ namespace WaterShark.WaterShark_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 144:   //  Windows.Globalization.NumberFormatting.INumberFormatter2
+            case 143:   //  Windows.Globalization.NumberFormatting.INumberFormatter2
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, null);
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 145:   //  Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase
+            case 144:   //  Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase
                 xamlType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 146:   //  Microsoft.UI.Xaml.Media.SolidColorBrush
+            case 145:   //  Microsoft.UI.Xaml.Media.SolidColorBrush
                 xamlType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 147:   //  Microsoft.UI.Xaml.TextReadingOrder
+            case 146:   //  Microsoft.UI.Xaml.TextReadingOrder
                 xamlType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 148:   //  Microsoft.UI.Xaml.Controls.NumberBoxValidationMode
+            case 147:   //  Microsoft.UI.Xaml.Controls.NumberBoxValidationMode
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("InvalidInputOverwritten", global::Microsoft.UI.Xaml.Controls.NumberBoxValidationMode.InvalidInputOverwritten);
                 userType.AddEnumValue("Disabled", global::Microsoft.UI.Xaml.Controls.NumberBoxValidationMode.Disabled);
                 xamlType = userType;
                 break;
 
-            case 149:   //  CommunityToolkit.WinUI.Behaviors.StackedNotificationsBehavior
+            case 148:   //  CommunityToolkit.WinUI.Behaviors.StackedNotificationsBehavior
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("CommunityToolkit.WinUI.Behaviors.BehaviorBase`1<Microsoft.UI.Xaml.Controls.InfoBar>"));
-                userType.Activator = Activate_149_StackedNotificationsBehavior;
+                userType.Activator = Activate_148_StackedNotificationsBehavior;
                 xamlType = userType;
                 break;
 
-            case 150:   //  CommunityToolkit.WinUI.Behaviors.BehaviorBase`1<Microsoft.UI.Xaml.Controls.InfoBar>
+            case 149:   //  CommunityToolkit.WinUI.Behaviors.BehaviorBase`1<Microsoft.UI.Xaml.Controls.InfoBar>
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.Xaml.Interactivity.Behavior`1<Microsoft.UI.Xaml.Controls.InfoBar>"));
                 xamlType = userType;
                 break;
 
-            case 151:   //  Microsoft.Xaml.Interactivity.Behavior`1<Microsoft.UI.Xaml.Controls.InfoBar>
+            case 150:   //  Microsoft.Xaml.Interactivity.Behavior`1<Microsoft.UI.Xaml.Controls.InfoBar>
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.Xaml.Interactivity.Behavior"));
                 userType.AddMemberName("AssociatedObject");
                 xamlType = userType;
                 break;
 
-            case 152:   //  WaterShark.Views.晚自习已经自闭Page
+            case 151:   //  WaterShark.Views.晚自习已经自闭Page
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_152_晚自习已经自闭Page;
+                userType.Activator = Activate_151_晚自习已经自闭Page;
                 userType.AddMemberName("ViewModel");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 153:   //  WaterShark.ViewModels.晚自习已经自闭ViewModel
+            case 152:   //  WaterShark.ViewModels.晚自习已经自闭ViewModel
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient"));
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 154:   //  WaterShark.Views.空白1Page
+            case 153:   //  WaterShark.Views.空白1Page
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_154_空白1Page;
+                userType.Activator = Activate_153_空白1Page;
                 userType.AddMemberName("ViewModel");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 155:   //  WaterShark.ViewModels.空白1ViewModel
+            case 154:   //  WaterShark.ViewModels.空白1ViewModel
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient"));
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 156:   //  WaterShark.Views.空白2Page
+            case 155:   //  WaterShark.Views.空白2Page
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_156_空白2Page;
+                userType.Activator = Activate_155_空白2Page;
                 userType.AddMemberName("ViewModel");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 157:   //  WaterShark.ViewModels.空白2ViewModel
+            case 156:   //  WaterShark.ViewModels.空白2ViewModel
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient"));
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 158:   //  WaterShark.Views.空白3Page
+            case 157:   //  WaterShark.Views.空白3Page
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_158_空白3Page;
+                userType.Activator = Activate_157_空白3Page;
                 userType.AddMemberName("ViewModel");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 159:   //  WaterShark.ViewModels.空白3ViewModel
+            case 158:   //  WaterShark.ViewModels.空白3ViewModel
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient"));
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 160:   //  WaterShark.Views.空白4Page
+            case 159:   //  WaterShark.Views.空白4Page
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_160_空白4Page;
+                userType.Activator = Activate_159_空白4Page;
                 userType.AddMemberName("ViewModel");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 161:   //  WaterShark.ViewModels.空白4ViewModel
+            case 160:   //  WaterShark.ViewModels.空白4ViewModel
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient"));
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 162:   //  WaterShark.Views.空白5Page
+            case 161:   //  WaterShark.Views.空白5Page
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_162_空白5Page;
+                userType.Activator = Activate_161_空白5Page;
                 userType.AddMemberName("ViewModel");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 163:   //  WaterShark.ViewModels.空白5ViewModel
+            case 162:   //  WaterShark.ViewModels.空白5ViewModel
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient"));
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 164:   //  WaterShark.Views.空白6Page
+            case 163:   //  WaterShark.Views.空白6Page
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_164_空白6Page;
+                userType.Activator = Activate_163_空白6Page;
                 userType.AddMemberName("ViewModel");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 165:   //  WaterShark.ViewModels.空白6ViewModel
+            case 164:   //  WaterShark.ViewModels.空白6ViewModel
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient"));
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 166:   //  WaterShark.Views.空白7Page
+            case 165:   //  WaterShark.Views.空白7Page
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_166_空白7Page;
+                userType.Activator = Activate_165_空白7Page;
                 userType.AddMemberName("ViewModel");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 167:   //  WaterShark.ViewModels.空白7ViewModel
+            case 166:   //  WaterShark.ViewModels.空白7ViewModel
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient"));
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 168:   //  WaterShark.Views.空白8Page
+            case 167:   //  WaterShark.Views.空白8Page
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_168_空白8Page;
+                userType.Activator = Activate_167_空白8Page;
                 userType.AddMemberName("ViewModel");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 169:   //  WaterShark.ViewModels.空白8ViewModel
+            case 168:   //  WaterShark.ViewModels.空白8ViewModel
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient"));
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 170:   //  WaterShark.Views.空白9Page
+            case 169:   //  WaterShark.Views.空白9Page
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_170_空白9Page;
+                userType.Activator = Activate_169_空白9Page;
                 userType.AddMemberName("ViewModel");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 171:   //  WaterShark.ViewModels.空白9ViewModel
+            case 170:   //  WaterShark.ViewModels.空白9ViewModel
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient"));
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 172:   //  WaterShark.Views.空白Page
+            case 171:   //  WaterShark.Views.空白Page
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_172_空白Page;
+                userType.Activator = Activate_171_空白Page;
                 userType.AddMemberName("ViewModel");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 173:   //  WaterShark.ViewModels.空白ViewModel
+            case 172:   //  WaterShark.ViewModels.空白ViewModel
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient"));
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 174:   //  WaterShark.Views.英语老师专用抽Page
+            case 173:   //  WaterShark.Views.英语老师专用抽Page
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_174_英语老师专用抽Page;
+                userType.Activator = Activate_173_英语老师专用抽Page;
                 userType.AddMemberName("ViewModel");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 175:   //  WaterShark.ViewModels.英语老师专用抽ViewModel
+            case 174:   //  WaterShark.ViewModels.英语老师专用抽ViewModel
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient"));
                 userType.SetIsReturnTypeStub();
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 175:   //  WaterShark.WindowForm.ShowName
+                userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Window"));
+                userType.Activator = Activate_175_ShowName;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;

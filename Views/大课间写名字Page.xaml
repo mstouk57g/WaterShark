@@ -8,7 +8,6 @@
     mc:Ignorable="d">
 
     <Grid >
-        <ProgressRing x:Name="loading"  IsActive="True" Background="LightGray"/>
         <RelativePanel x:Name="ContentArea">
             <ToggleButton x:Name="A1" Content="ToggleButton" Click="ClickA1" x:FieldModifier="public"/>
             <ToggleButton x:Name="A2" Content="ToggleButton" RelativePanel.RightOf="A1" Click="ClickA2" Margin="20,0,0,0" x:FieldModifier="public"/>

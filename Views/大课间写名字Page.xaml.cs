@@ -7,6 +7,7 @@ using Newtonsoft.Json;
 using Windows.Media.AppBroadcasting;
 using System.Net;
 using System.Text;
+using WaterShark.WindowForm;
 
 namespace WaterShark.Views;
 
@@ -77,7 +78,6 @@ public sealed partial class 大课间写名字Page : Page
             F6.Content = App.Global.F6;
             F7.Content = App.Global.F7;
             F8.Content = App.Global.F8;
-        loading.Visibility = Visibility.Collapsed;
         ContentArea.Visibility = Visibility.Visible;
     }
     private void ClickLook(object sender, RoutedEventArgs e)

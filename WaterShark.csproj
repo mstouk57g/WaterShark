@@ -23,7 +23,10 @@
     <AppxBundle>Never</AppxBundle>
   </PropertyGroup>
   <ItemGroup>
-    <None Remove="ShowName.xaml" />
+    <Compile Remove="Windows\**" />
+    <EmbeddedResource Remove="Windows\**" />
+    <None Remove="Windows\**" />
+    <Page Remove="Windows\**" />
   </ItemGroup>
 
   <ItemGroup>
@@ -54,6 +57,12 @@
     <None Update="appsettings.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <Page Update="WindowForm\ShowTime.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Update="Window\ShowTimeEve.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Update="ShowName.xaml">
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -66,4 +75,12 @@
   <PropertyGroup Condition="'$(DisableHasPackageAndPublishMenuAddedByProject)'!='true' and '$(EnableMsixTooling)'=='true'">
     <HasPackageAndPublishMenu>true</HasPackageAndPublishMenu>
   </PropertyGroup>
+  
+  <ItemGroup>
+    <PRIResource Remove="Windows\**" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <None Remove="WindowForm\ShowTime.xaml" />
+  </ItemGroup>
 </Project>
