@@ -82,6 +82,12 @@ namespace WaterShark.WindowForm
 
             if(n6 == 0 && n7 == 0 && n1 == 0 && n2 == 0 && n4 == 1 && n5 == 0)
             {
+                //
+            }
+            if (n6 == 0 && n7 == 0 && n1 == 0 && n2 == 0 && n4 == 0 && n5 == 1)
+            {
+                num5.Text = "0";
+                Thread.Sleep(1000);
                 if (hour == 21 && min == 30 && sec == 00)
                 {
                     HttpWebRequest_Get.HttpWebRequest("http://localhost:5000/args?arg=" + hour + "-" + min + "-" + sec + "5");
@@ -109,6 +115,9 @@ namespace WaterShark.WindowForm
                     HttpWebRequest_Get.HttpWebRequest("http://localhost:5000/args?arg=" + hour + "-" + min + "-" + sec + "1");
                     min = 46;
                 }
+                DateTime liu = new DateTime(DateTime.Now.Year, DateTime.Now.Month, DateTime.Now.Day, hour, min, sec);
+                TimeSpan shi = liu - now;
+                kun = (int)shi.TotalSeconds;
             }
         }
         private async void shutdown()
