@@ -29,7 +29,7 @@
     <AppXManifest Include="F:\WaterShark\WaterShark\bin\x64\Debug\net7.0-windows10.0.19041.0\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-12-24T12:22:21.383</Modified>
+      <Modified>2023-12-24T12:22:01.896</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -43,7 +43,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\WaterShark\WaterShark\bin\x64\Debug\net7.0-windows10.0.19041.0\WaterShark.dll">
       <PackagePath>WaterShark.dll</PackagePath>
-      <Modified>2023-12-24T12:22:21.179</Modified>
+      <Modified>2023-12-24T12:22:01.695</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\WaterShark\WaterShark\appsettings.json">
       <PackagePath>appsettings.json</PackagePath>

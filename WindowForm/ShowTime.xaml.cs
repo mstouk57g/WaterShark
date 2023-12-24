@@ -93,33 +93,26 @@ namespace WaterShark.WindowForm
                 Thread.Sleep(1000);
                 if (hour == 21 && min == 30 && sec == 00)
                 {
-                    HttpWebRequest_Get.HttpWebRequest("http://localhost:5000/args?arg=" + hour + "-" + min + "-" + sec + "5");
                     shutdown();
                 }
                 if (hour == 21 && min == 22 && sec == 00)
                 {
-                    HttpWebRequest_Get.HttpWebRequest("http://localhost:5000/args?arg=" + hour + "-" + min + "-" + sec + "4");
                     min = 30;
                 }
                 if (hour == 21 && min == 09 && sec == 00)
                 {
-                    HttpWebRequest_Get.HttpWebRequest("http://localhost:5000/args?arg=" + hour + "-" + min + "-" + sec + "3");
                     min = 22;
                 }
                 if (hour == 20 && min == 46 && sec == 00)
                 {
-                    HttpWebRequest_Get.HttpWebRequest("http://localhost:5000/args?arg=" + hour + "-" + min + "-" + sec + "2");
                     hour = 21;
                     min = 09;
                 }
-                HttpWebRequest_Get.HttpWebRequest("http://localhost:5000/args?arg=" + hour + "-" + min + "-" + sec + "0");
                 if (hour == 20 && min == 23 && sec == 00)
                 {
-                    HttpWebRequest_Get.HttpWebRequest("http://localhost:5000/args?arg=" + hour + "-" + min + "-" + sec + "1");
                     min = 46;
                 }
                 DateTime now = DateTime.Now;
-                HttpWebRequest_Get.HttpWebRequest("http://localhost:5000/args?arg=" now.ToString);
                 DateTime liu = new DateTime(DateTime.Now.Year, DateTime.Now.Month, DateTime.Now.Day, hour, min, sec);
                 TimeSpan shi = liu - now;
                 kun = (int)shi.TotalSeconds;
