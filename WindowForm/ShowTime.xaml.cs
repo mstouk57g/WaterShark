@@ -105,20 +105,20 @@ namespace WaterShark.WindowForm
                     num5.Text = "0";
                     shutdown();
                 }
-                if (hour == 21 && min == 22 && sec == 00)
+                else if (hour == 21 && min == 22 && sec == 00)
                 {
                     min = 30;
                 }
-                if (hour == 21 && min == 09 && sec == 00)
+                else if (hour == 21 && min == 09 && sec == 00)
                 {
                     min = 22;
                 }
-                if (hour == 20 && min == 46 && sec == 00)
+                else if (hour == 20 && min == 46 && sec == 00)
                 {
                     hour = 21;
                     min = 09;
                 }
-                if (hour == 20 && min == 23 && sec == 00)
+                else if (hour == 20 && min == 23 && sec == 00)
                 {
                     min = 46;
                 }
@@ -142,14 +142,25 @@ namespace WaterShark.WindowForm
             {
                 Title = "关闭计算机",
                 Content = "计算机将在21:30:10时关闭",
-                PrimaryButtonText = "Save",
-                SecondaryButtonText = "Don't Save",
-                CloseButtonText = "Ok",
+                PrimaryButtonText = "确定",
+                SecondaryButtonText = "现在关闭",
+                CloseButtonText = "取消",
                 DefaultButton = ContentDialogButton.Primary
             }; 
             cd.XamlRoot = this.Content.XamlRoot;
             var result = await cd.ShowAsync();
-
+            if (result == ContentDialogResult.Primary)
+            {
+                DialogResult.Text = "User saved their work";
+            }
+            else if (result == ContentDialogResult.Secondary)
+            {
+                DialogResult.Text = "User did not save their work";
+            }
+            else
+            {
+                DialogResult.Text = "User cancelled the dialog";
+            }
         }
     }
 }
