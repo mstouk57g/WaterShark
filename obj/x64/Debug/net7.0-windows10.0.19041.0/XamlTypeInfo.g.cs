@@ -224,7 +224,7 @@ namespace WaterShark.WaterShark_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[180];
+            _typeNameTable = new string[181];
             _typeNameTable[0] = "Microsoft.UI.Xaml.Controls.XamlControlsResources";
             _typeNameTable[1] = "Microsoft.UI.Xaml.ResourceDictionary";
             _typeNameTable[2] = "Object";
@@ -401,12 +401,13 @@ namespace WaterShark.WaterShark_XamlTypeInfo
             _typeNameTable[173] = "WaterShark.Views.英语老师专用抽Page";
             _typeNameTable[174] = "WaterShark.ViewModels.英语老师专用抽ViewModel";
             _typeNameTable[175] = "WaterShark.WindowForm.ShowName";
-            _typeNameTable[176] = "Microsoft.UI.Xaml.Controls.TreeViewNode";
-            _typeNameTable[177] = "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>";
-            _typeNameTable[178] = "Syncfusion.UI.Xaml.Core.DoubleToObjectConverter";
-            _typeNameTable[179] = "Syncfusion.UI.Xaml.Core.DoubleToVisibilityConverter";
+            _typeNameTable[176] = "WaterShark.WindowForm.ShowTime";
+            _typeNameTable[177] = "Microsoft.UI.Xaml.Controls.TreeViewNode";
+            _typeNameTable[178] = "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>";
+            _typeNameTable[179] = "Syncfusion.UI.Xaml.Core.DoubleToObjectConverter";
+            _typeNameTable[180] = "Syncfusion.UI.Xaml.Core.DoubleToVisibilityConverter";
 
-            _typeTable = new global::System.Type[180];
+            _typeTable = new global::System.Type[181];
             _typeTable[0] = typeof(global::Microsoft.UI.Xaml.Controls.XamlControlsResources);
             _typeTable[1] = typeof(global::Microsoft.UI.Xaml.ResourceDictionary);
             _typeTable[2] = typeof(global::System.Object);
@@ -585,10 +586,11 @@ namespace WaterShark.WaterShark_XamlTypeInfo
             _typeTable[173] = typeof(global::WaterShark.Views.英语老师专用抽Page);
             _typeTable[174] = typeof(global::WaterShark.ViewModels.英语老师专用抽ViewModel);
             _typeTable[175] = typeof(global::WaterShark.WindowForm.ShowName);
-            _typeTable[176] = typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode);
-            _typeTable[177] = typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>);
-            _typeTable[178] = typeof(global::Syncfusion.UI.Xaml.Core.DoubleToObjectConverter);
-            _typeTable[179] = typeof(global::Syncfusion.UI.Xaml.Core.DoubleToVisibilityConverter);
+            _typeTable[176] = typeof(global::WaterShark.WindowForm.ShowTime);
+            _typeTable[177] = typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode);
+            _typeTable[178] = typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>);
+            _typeTable[179] = typeof(global::Syncfusion.UI.Xaml.Core.DoubleToObjectConverter);
+            _typeTable[180] = typeof(global::Syncfusion.UI.Xaml.Core.DoubleToVisibilityConverter);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -694,9 +696,10 @@ namespace WaterShark.WaterShark_XamlTypeInfo
         private object Activate_173_英语老师专用抽Page() { return new global::WaterShark.Views.英语老师专用抽Page(); }
         private object Activate_174_英语老师专用抽ViewModel() { return new global::WaterShark.ViewModels.英语老师专用抽ViewModel(); }
         private object Activate_175_ShowName() { return new global::WaterShark.WindowForm.ShowName(); }
-        private object Activate_176_TreeViewNode() { return new global::Microsoft.UI.Xaml.Controls.TreeViewNode(); }
-        private object Activate_178_DoubleToObjectConverter() { return new global::Syncfusion.UI.Xaml.Core.DoubleToObjectConverter(); }
-        private object Activate_179_DoubleToVisibilityConverter() { return new global::Syncfusion.UI.Xaml.Core.DoubleToVisibilityConverter(); }
+        private object Activate_176_ShowTime() { return new global::WaterShark.WindowForm.ShowTime(); }
+        private object Activate_177_TreeViewNode() { return new global::Microsoft.UI.Xaml.Controls.TreeViewNode(); }
+        private object Activate_179_DoubleToObjectConverter() { return new global::Syncfusion.UI.Xaml.Core.DoubleToObjectConverter(); }
+        private object Activate_180_DoubleToVisibilityConverter() { return new global::Syncfusion.UI.Xaml.Core.DoubleToVisibilityConverter(); }
         private void MapAdd_0_XamlControlsResources(object instance, object key, object item)
         {
             var collection = (global::System.Collections.Generic.IDictionary<global::System.Object, global::System.Object>)instance;
@@ -740,7 +743,7 @@ namespace WaterShark.WaterShark_XamlTypeInfo
             var newItem = (global::Microsoft.UI.Xaml.Style)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_177_IList(object instance, object item)
+        private void VectorAdd_178_IList(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Microsoft.UI.Xaml.Controls.TreeViewNode>)instance;
             var newItem = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)item;
@@ -2127,9 +2130,16 @@ namespace WaterShark.WaterShark_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 176:   //  Microsoft.UI.Xaml.Controls.TreeViewNode
+            case 176:   //  WaterShark.WindowForm.ShowTime
+                userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Window"));
+                userType.Activator = Activate_176_ShowTime;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 177:   //  Microsoft.UI.Xaml.Controls.TreeViewNode
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.DependencyObject"));
-                userType.Activator = Activate_176_TreeViewNode;
+                userType.Activator = Activate_177_TreeViewNode;
                 userType.AddMemberName("Children");
                 userType.AddMemberName("Content");
                 userType.AddMemberName("Depth");
@@ -2141,16 +2151,16 @@ namespace WaterShark.WaterShark_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 177:   //  System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>
+            case 178:   //  System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, null);
-                userType.CollectionAdd = VectorAdd_177_IList;
+                userType.CollectionAdd = VectorAdd_178_IList;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 178:   //  Syncfusion.UI.Xaml.Core.DoubleToObjectConverter
+            case 179:   //  Syncfusion.UI.Xaml.Core.DoubleToObjectConverter
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.DependencyObject"));
-                userType.Activator = Activate_178_DoubleToObjectConverter;
+                userType.Activator = Activate_179_DoubleToObjectConverter;
                 userType.AddMemberName("TrueValue");
                 userType.AddMemberName("FalseValue");
                 userType.AddMemberName("NullValue");
@@ -2160,9 +2170,9 @@ namespace WaterShark.WaterShark_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 179:   //  Syncfusion.UI.Xaml.Core.DoubleToVisibilityConverter
+            case 180:   //  Syncfusion.UI.Xaml.Core.DoubleToVisibilityConverter
                 userType = new global::WaterShark.WaterShark_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Syncfusion.UI.Xaml.Core.DoubleToObjectConverter"));
-                userType.Activator = Activate_179_DoubleToVisibilityConverter;
+                userType.Activator = Activate_180_DoubleToVisibilityConverter;
                 userType.SetIsBindable();
                 xamlType = userType;
                 break;

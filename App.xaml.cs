@@ -189,30 +189,34 @@ public partial class App : Application
     }
     protected async override void OnLaunched(LaunchActivatedEventArgs args)
     {
+        
         base.OnLaunched(args);
-        //spalsh
-        Process p = Process.Start("F:/WaterShark/Splash/bin/Debug/net8.0-windows/Splash.exe");
+        if (args == null)
+        {
+            //spalsh
+            Process p = Process.Start("F:/WaterShark/Splash/bin/Debug/net8.0-windows/Splash.exe");
 
-        //loading info
-        Thread threadA = new Thread(GettingScr.GettingPositionA);
-        threadA.Start();
-        Thread threadB = new Thread(GettingScr.GettingPositionB);
-        threadB.Start();
-        Thread threadC = new Thread(GettingScr.GettingPositionC);
-        threadC.Start();
-        Thread threadD = new Thread(GettingScr.GettingPositionD);
-        threadD.Start();
-        Thread threadE = new Thread(GettingScr.GettingPositionE);
-        threadE.Start();
-        Thread threadF = new Thread(GettingScr.GettingPositionF);
-        threadF.Start();
-        Thread.Sleep(8000);
+            //loading info
+            Thread threadA = new Thread(GettingScr.GettingPositionA);
+            threadA.Start();
+            Thread threadB = new Thread(GettingScr.GettingPositionB);
+            threadB.Start();
+            Thread threadC = new Thread(GettingScr.GettingPositionC);
+            threadC.Start();
+            Thread threadD = new Thread(GettingScr.GettingPositionD);
+            threadD.Start();
+            Thread threadE = new Thread(GettingScr.GettingPositionE);
+            threadE.Start();
+            Thread threadF = new Thread(GettingScr.GettingPositionF);
+            threadF.Start();
+            Thread.Sleep(8000);
+            App.GetService<IAppNotificationService>().Show(string.Format("AppNotificationSamplePayload".GetLocalized(), AppContext.BaseDirectory));
 
-        App.GetService<IAppNotificationService>().Show(string.Format("AppNotificationSamplePayload".GetLocalized(), AppContext.BaseDirectory));
+            await App.GetService<IActivationService>().ActivateAsync(args);
 
-        await App.GetService<IActivationService>().ActivateAsync(args);
-
-        //endsplash
-        p.Kill();
+            //endsplash
+            p.Kill();
+        }
+        
     }
 }

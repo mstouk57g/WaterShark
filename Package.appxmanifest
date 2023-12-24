@@ -57,6 +57,9 @@
                   </com:ExeServer>
               </com:ComServer>
           </com:Extension>
+          <uap:Extension Category="windows.protocol">
+              <uap:Protocol Name="zhang.shuisha"/>
+          </uap:Extension>
       </Extensions>
     </Application>
   </Applications>

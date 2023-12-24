@@ -536,3 +536,8 @@ F:\WaterShark\WaterShark\obj\x64\Debug\net7.0-windows10.0.19041.0\WindowForm\Sho
 F:\WaterShark\WaterShark\obj\x64\Debug\net7.0-windows10.0.19041.0\WindowForm\ShowName.g.cs
 F:\WaterShark\WaterShark\obj\x64\Debug\net7.0-windows10.0.19041.0\WindowForm\ShowName.xaml
 F:\WaterShark\WaterShark\obj\x64\Debug\net7.0-windows10.0.19041.0\WindowForm\ShowName.xbf
+F:\WaterShark\WaterShark\bin\x64\Debug\net7.0-windows10.0.19041.0\WindowForm\ShowTime.xbf
+F:\WaterShark\WaterShark\obj\x64\Debug\net7.0-windows10.0.19041.0\WindowForm\ShowTime.g.i.cs
+F:\WaterShark\WaterShark\obj\x64\Debug\net7.0-windows10.0.19041.0\WindowForm\ShowTime.g.cs
+F:\WaterShark\WaterShark\obj\x64\Debug\net7.0-windows10.0.19041.0\WindowForm\ShowTime.xaml
+F:\WaterShark\WaterShark\obj\x64\Debug\net7.0-windows10.0.19041.0\WindowForm\ShowTime.xbf
