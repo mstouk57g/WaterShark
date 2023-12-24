@@ -27,13 +27,18 @@ namespace WaterShark.WindowForm
     {
         private System.Windows.Threading.DispatcherTimer dispatcherTimer = null;
         int kun;
-        
+        int hour;
+        int min;
+        int sec;
         public ShowTime()
         {
             this.InitializeComponent();
+            hour = 20;
+            min = 23;
+            sec = 00;
 
             DateTime now = DateTime.Now;
-            DateTime liu = new DateTime(DateTime.Now.Year, DateTime.Now.Month, DateTime.Now.Day, 21, 23, 00);
+            DateTime liu = new DateTime(DateTime.Now.Year, DateTime.Now.Month, DateTime.Now.Day, hour, min, sec);
             TimeSpan shi = liu - now;
             kun = (int)shi.TotalSeconds;
 
@@ -60,12 +65,60 @@ namespace WaterShark.WindowForm
             int mins = (kun / 60) / 10;
             int ming = (kun / 60) % 10;
             int hor = (mins * 10) + ming;
-            num6.Text = Convert.ToString((hor / 60) / 10);
-            num7.Text = Convert.ToString((hor / 60) % 10);
-            num1.Text = Convert.ToString((hor % 60) / 10);
-            num2.Text = Convert.ToString((hor % 60) / 10);
-            num4.Text = Convert.ToString((kun % 60) / 10);
-            num5.Text = Convert.ToString((kun % 60) % 10);
+
+            int n6 = (hor / 60) / 10;
+            int n7 = (hor / 60) % 10;
+            int n1 = (hor % 60) / 10;
+            int n2 = (hor % 60) % 10;
+            int n4 = (kun % 60) / 10;
+            int n5 = (kun % 60) % 10;
+
+            num6.Text = Convert.ToString(n6);
+            num7.Text = Convert.ToString(n7);
+            num1.Text = Convert.ToString(n1);
+            num2.Text = Convert.ToString(n2);
+            num4.Text = Convert.ToString(n4);
+            num5.Text = Convert.ToString(n5);
+
+            if(n6 == 0 && n7 == 0 && n1 == 0 && n2 == 0 && n4 == 1 && n5 == 0) 
+            { 
+                if(hour == 20 && min == 23 && sec == 00)
+                {
+                    min = 46;
+                }
+                if (hour == 20 && min == 46 && sec == 00)
+                {
+                    hour = 21;
+                    min = 09;
+                }
+                if (hour == 21 && min == 09 && sec == 00)
+                {
+                    min = 22;
+                }
+                if (hour == 21 && min == 22 && sec == 00)
+                {
+                    min = 30;
+                }
+                if (hour == 21 && min == 30 && sec == 00)
+                {
+                    shutdown();
+                }
+            }
+        }
+        private async void shutdown()
+        {
+            var cd = new ContentDialog
+            {
+                Title = "Button Clicker!",
+                Content = "You clicked the button!",
+                PrimaryButtonText = "Save",
+                SecondaryButtonText = "Don't Save",
+                CloseButtonText = "Ok",
+                DefaultButton = ContentDialogButton.Primary
+            };
+            cd.XamlRoot = this.Content.XamlRoot;
+            var result = await cd.ShowAsync();
+
         }
     }
 }
