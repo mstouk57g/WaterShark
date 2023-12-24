@@ -25,6 +25,9 @@
         </StackPanel>
         <StackPanel 
                     Orientation="Horizontal"
+                    CornerRadius="8"
+                    Padding="12"
+                    BorderThickness="1"
                     Margin="10,10,1000,100"
                     BorderBrush="{ThemeResource CardStrokeColorDefaultBrush}"
                     Background="{ThemeResource CardBackgroundFillColorDefaultBrush}">
