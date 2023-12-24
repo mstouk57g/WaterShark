@@ -16,6 +16,7 @@ using System.Windows.Threading;
 using WaterShark.Helpers;
 using System.Media;
 using System.Diagnostics;
+using Windows.UI;
 
 // To learn more about WinUI, the WinUI project structure,
 // and more about our project templates, see: http://aka.ms/winui-project-info.
@@ -83,6 +84,13 @@ namespace WaterShark.WindowForm
 
             if(n6 == 0 && n7 == 0 && n1 == 0 && n2 == 0 && n4 == 1 && n5 == 0)
             {
+                num1.Foreground = (Color.Red);
+                num2.Foreground = (Color.Red);
+                num3.Foreground = (Color.Red);
+                num4.Foreground = (Color.Red);
+                num5.Foreground = (Color.Red);
+                num6.Foreground = (Color.Red);
+                num7.Foreground = (Color.Red);
                 SoundPlayer endding = new SoundPlayer();
                 endding.SoundLocation = @"C:\Program Files (x86)\HiClass\HiteTools\Resource\CountDown.wav";
                 endding.Load();
@@ -117,20 +125,42 @@ namespace WaterShark.WindowForm
                 DateTime liu = new DateTime(DateTime.Now.Year, DateTime.Now.Month, DateTime.Now.Day, hour, min, sec);
                 TimeSpan shi = liu - now;
                 kun = (int)shi.TotalSeconds;
-
+                num1.Foreground = (Color.Black);
+                num2.Foreground = (Color.Black);
+                num3.Foreground = (Color.Black);
+                num4.Foreground = (Color.Black);
+                num5.Foreground = (Color.Black);
+                num6.Foreground = (Color.Black);
+                num7.Foreground = (Color.Black);
             }
+        }
+        int laoliu = 10;
+        private System.Windows.Threading.DispatcherTimer shuttime = null;
+        var cd = new ContentDialog
+        {
+            Title = "关闭计算机",
+            Content = "计算机将在21:30:10时关闭",
+            PrimaryButtonText = "Save",
+            SecondaryButtonText = "Don't Save",
+            CloseButtonText = "Ok",
+            DefaultButton = ContentDialogButton.Primary
+        };
+        private void shuttime_Tick(object sender, EventArgs e)//计时执行的程序
+        {
+            laoliu -= 1;
+            if (laoliu == 0)
+            {
+                shuttime.Stop();
+                return;
+            }
+
         }
         private async void shutdown()
         {
-            var cd = new ContentDialog
-            {
-                Title = "Button Clicker!",
-                Content = "You clicked the button!",
-                PrimaryButtonText = "Save",
-                SecondaryButtonText = "Don't Save",
-                CloseButtonText = "Ok",
-                DefaultButton = ContentDialogButton.Primary
-            };
+            shuttime = new System.Windows.Threading.DispatcherTimer();
+            shuttime.Tick += new EventHandler(shuttime_Tick);
+            shuttime.Interval = new TimeSpan(1000);
+            shuttime.Start();
             cd.XamlRoot = this.Content.XamlRoot;
             var result = await cd.ShowAsync();
 
