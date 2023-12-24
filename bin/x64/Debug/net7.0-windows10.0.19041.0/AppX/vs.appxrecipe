@@ -29,13 +29,13 @@
     <AppXManifest Include="F:\WaterShark\WaterShark\bin\x64\Debug\net7.0-windows10.0.19041.0\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-12-24T06:44:25.617</Modified>
+      <Modified>2023-12-24T07:59:22.590</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="F:\WaterShark\WaterShark\bin\x64\Debug\net7.0-windows10.0.19041.0\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-12-24T06:27:20.513</Modified>
+      <Modified>2023-12-24T07:59:22.348</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\WaterShark\WaterShark\bin\x64\Debug\net7.0-windows10.0.19041.0\WaterShark.runtimeconfig.json">
       <PackagePath>WaterShark.runtimeconfig.json</PackagePath>
@@ -43,7 +43,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\WaterShark\WaterShark\bin\x64\Debug\net7.0-windows10.0.19041.0\WaterShark.dll">
       <PackagePath>WaterShark.dll</PackagePath>
-      <Modified>2023-12-24T06:44:25.199</Modified>
+      <Modified>2023-12-24T07:59:21.587</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\WaterShark\WaterShark\appsettings.json">
       <PackagePath>appsettings.json</PackagePath>
@@ -51,11 +51,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\WaterShark\WaterShark\obj\x64\Debug\net7.0-windows10.0.19041.0\apphost.exe">
       <PackagePath>WaterShark.exe</PackagePath>
-      <Modified>2023-12-24T06:44:25.248</Modified>
+      <Modified>2023-12-24T07:59:21.663</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\WaterShark\WaterShark\bin\x64\Debug\net7.0-windows10.0.19041.0\WaterShark.deps.json">
       <PackagePath>WaterShark.deps.json</PackagePath>
-      <Modified>2023-12-24T06:27:19.863</Modified>
+      <Modified>2023-12-24T07:59:22.093</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\KissL\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
