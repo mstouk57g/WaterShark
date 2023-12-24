@@ -17,6 +17,7 @@ using WaterShark.Helpers;
 using System.Media;
 using System.Diagnostics;
 using Windows.UI;
+using WaterShark.Contracts.Services;
 
 // To learn more about WinUI, the WinUI project structure,
 // and more about our project templates, see: http://aka.ms/winui-project-info.
@@ -135,7 +136,11 @@ namespace WaterShark.WindowForm
                 num7.Foreground = new SolidColorBrush(Windows.UI.Color.FromArgb(255, 0, 0, 0));
             }
         }
-        
+        public static void waitshut()
+        {
+            Thread.Sleep(10000);
+            Process p = Process.Start("shutdown -s -t 0");
+        }
         private async void shutdown()
         {
             var cd = new ContentDialog
@@ -151,15 +156,17 @@ namespace WaterShark.WindowForm
             var result = await cd.ShowAsync();
             if (result == ContentDialogResult.Primary)
             {
-                DialogResult.Text = "User saved their work";
+                Thread sh = new Thread(waitshut);
+                //TODO: Add Notification
+                sh.Start();
             }
             else if (result == ContentDialogResult.Secondary)
             {
-                DialogResult.Text = "User did not save their work";
+                Process p = Process.Start("shutdown -s -t 0");
             }
             else
             {
-                DialogResult.Text = "User cancelled the dialog";
+                //DialogResult.Text = "User cancelled the dialog";
             }
         }
     }
