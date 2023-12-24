@@ -191,7 +191,6 @@ public partial class App : Application
     {
         
         base.OnLaunched(args);
-
         //spalsh
         Process p = Process.Start("F:/WaterShark/Splash/bin/Debug/net8.0-windows/Splash.exe");
 

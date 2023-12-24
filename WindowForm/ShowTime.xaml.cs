@@ -15,6 +15,7 @@ using Microsoft.UI.Xaml.Navigation;
 using System.Windows.Threading;
 using WaterShark.Helpers;
 using System.Media;
+using System.Diagnostics;
 
 // To learn more about WinUI, the WinUI project structure,
 // and more about our project templates, see: http://aka.ms/winui-project-info.
@@ -46,7 +47,7 @@ namespace WaterShark.WindowForm
             display_number();
             dispatcherTimer = new System.Windows.Threading.DispatcherTimer();
             dispatcherTimer.Tick += new EventHandler(dispatcherTimer_Tick);
-            dispatcherTimer.Interval = new TimeSpan(0, 0, 1);
+            dispatcherTimer.Interval = new TimeSpan(100);
             dispatcherTimer.Start();
         }
         private void dispatcherTimer_Tick(object sender, EventArgs e)//计时执行的程序
@@ -89,10 +90,10 @@ namespace WaterShark.WindowForm
             }
             if (n6 == 0 && n7 == 0 && n1 == 0 && n2 == 0 && n4 == 0 && n5 == 1)
             {
-                num5.Text = "0";
-                Thread.Sleep(1000);
                 if (hour == 21 && min == 30 && sec == 00)
                 {
+                    dispatcherTimer.Stop();
+                    num5.Text = "0";
                     shutdown();
                 }
                 if (hour == 21 && min == 22 && sec == 00)
@@ -116,6 +117,7 @@ namespace WaterShark.WindowForm
                 DateTime liu = new DateTime(DateTime.Now.Year, DateTime.Now.Month, DateTime.Now.Day, hour, min, sec);
                 TimeSpan shi = liu - now;
                 kun = (int)shi.TotalSeconds;
+
             }
         }
         private async void shutdown()
