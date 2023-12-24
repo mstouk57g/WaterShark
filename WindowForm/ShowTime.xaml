@@ -8,14 +8,28 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <StackPanel Orientation="Horizontal">
-        <TextBlock x:Name="num6" FontSize="80" Text="0" Margin="20,20,0,0" />
-        <TextBlock x:Name="num7" FontSize="80" Text="0" Margin="20,20,0,0" />
-        <TextBlock x:Name="num8" FontSize="80" Text=":" Margin="20,20,0,0"/>
-        <TextBlock x:Name="num1" FontSize="80" Text="0" Margin="20,20,0,0"/>
-        <TextBlock x:Name="num2" FontSize="80" Text="0" Margin="20,20,0,0"/>
-        <TextBlock x:Name="num3" FontSize="80" Text=":" Margin="20,20,0,0"/>
-        <TextBlock x:Name="num4" FontSize="80" Text="0" Margin="20,20,0,0"/>
-        <TextBlock x:Name="num5" FontSize="80" Text="0" Margin="20,20,0,0"/>
+    <Window.SystemBackdrop>
+        <MicaBackdrop/>
+    </Window.SystemBackdrop>
+    
+    <StackPanel Orientation="Vertical">
+        <StackPanel Orientation="Horizontal">
+            <TextBlock x:Name="num6" FontSize="80" Text="0" Margin="20,20,0,0" />
+            <TextBlock x:Name="num7" FontSize="80" Text="0" Margin="20,20,0,0" />
+            <TextBlock x:Name="num8" FontSize="80" Text=":" Margin="20,20,0,0"/>
+            <TextBlock x:Name="num1" FontSize="80" Text="0" Margin="20,20,0,0"/>
+            <TextBlock x:Name="num2" FontSize="80" Text="0" Margin="20,20,0,0"/>
+            <TextBlock x:Name="num3" FontSize="80" Text=":" Margin="20,20,0,0"/>
+            <TextBlock x:Name="num4" FontSize="80" Text="0" Margin="20,20,0,0"/>
+            <TextBlock x:Name="num5" FontSize="80" Text="0" Margin="20,20,0,0"/>
+        </StackPanel>
+        <StackPanel 
+                    Orientation="Horizontal"
+                    Margin="10,10,1000,100"
+                    BorderBrush="{ThemeResource CardStrokeColorDefaultBrush}"
+                    Background="{ThemeResource CardBackgroundFillColorDefaultBrush}">
+            <TextBlock FontSize="40" Text="当前科目" Margin="20,20,0,0" />
+            <TextBlock  x:Name="subj" FontSize="40" Text="Null" Margin="20,20,0,0" />
+        </StackPanel>
     </StackPanel>
 </Window>

@@ -40,6 +40,7 @@ namespace WaterShark.WindowForm
             hour = 20;
             min = 23;
             sec = 00;
+            subj.Text = "语文";
 
             DateTime now = DateTime.Now;
             DateTime liu = new DateTime(DateTime.Now.Year, DateTime.Now.Month, DateTime.Now.Day, hour, min, sec);
@@ -102,25 +103,30 @@ namespace WaterShark.WindowForm
             {
                 if (hour == 21 && min == 30 && sec == 00)
                 {
+                    subj.Text = "Null";
                     dispatcherTimer.Stop();
                     num5.Text = "0";
                     shutdown();
                 }
                 else if (hour == 21 && min == 22 && sec == 00)
                 {
+                    subj.Text = "化学";
                     min = 30;
                 }
                 else if (hour == 21 && min == 09 && sec == 00)
                 {
+                    subj.Text = "物理";
                     min = 22;
                 }
                 else if (hour == 20 && min == 46 && sec == 00)
                 {
+                    subj.Text = "英语";
                     hour = 21;
                     min = 09;
                 }
                 else if (hour == 20 && min == 23 && sec == 00)
                 {
+                    subj.Text = "数学";
                     min = 46;
                 }
                 DateTime now = DateTime.Now;
@@ -146,28 +152,28 @@ namespace WaterShark.WindowForm
             var cd = new ContentDialog
             {
                 Title = "关闭计算机",
-                Content = "计算机将在21:30:10时关闭",
+                Content = "计算机将在10秒钟后关闭",
                 PrimaryButtonText = "确定",
                 SecondaryButtonText = "现在关闭",
                 CloseButtonText = "取消",
                 DefaultButton = ContentDialogButton.Primary
             }; 
             cd.XamlRoot = this.Content.XamlRoot;
+            Thread sh = new Thread(waitshut);
+            sh.Start();
             var result = await cd.ShowAsync();
             if (result == ContentDialogResult.Primary)
             {
-                Thread sh = new Thread(waitshut);
-                //TODO: Add Notification
-                sh.Start();
+                //TODO: Add Notification 
             }
             else if (result == ContentDialogResult.Secondary)
             {
                 Process p = Process.Start("shutdown -s -t 0");
             }
-            else
-            {
+            //else
+            //{
                 //DialogResult.Text = "User cancelled the dialog";
-            }
+            //}
         }
     }
 }
