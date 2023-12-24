@@ -14,6 +14,7 @@ using Microsoft.UI.Xaml.Media;
 using Microsoft.UI.Xaml.Navigation;
 using System.Windows.Threading;
 using WaterShark.Helpers;
+using System.Media;
 
 // To learn more about WinUI, the WinUI project structure,
 // and more about our project templates, see: http://aka.ms/winui-project-info.
@@ -72,7 +73,6 @@ namespace WaterShark.WindowForm
             int n2 = (hor % 60) % 10;
             int n4 = (kun % 60) / 10;
             int n5 = (kun % 60) % 10;
-            HttpWebRequest_Get.HttpWebRequest("http://localhost:5000/args?arg=" + hour + "-" + min + "-" + sec);
             num6.Text = Convert.ToString(n6);
             num7.Text = Convert.ToString(n7);
             num1.Text = Convert.ToString(n1);
@@ -82,7 +82,10 @@ namespace WaterShark.WindowForm
 
             if(n6 == 0 && n7 == 0 && n1 == 0 && n2 == 0 && n4 == 1 && n5 == 0)
             {
-                //
+                SoundPlayer endding = new SoundPlayer();
+                endding.SoundLocation = @"C:\Program Files (x86)\HiClass\HiteTools\Resource\CountDown.wav";
+                endding.Load();
+                endding.Play();
             }
             if (n6 == 0 && n7 == 0 && n1 == 0 && n2 == 0 && n4 == 0 && n5 == 1)
             {
@@ -115,6 +118,8 @@ namespace WaterShark.WindowForm
                     HttpWebRequest_Get.HttpWebRequest("http://localhost:5000/args?arg=" + hour + "-" + min + "-" + sec + "1");
                     min = 46;
                 }
+                DateTime now = DateTime.Now;
+                HttpWebRequest_Get.HttpWebRequest("http://localhost:5000/args?arg=" now.ToString);
                 DateTime liu = new DateTime(DateTime.Now.Year, DateTime.Now.Month, DateTime.Now.Day, hour, min, sec);
                 TimeSpan shi = liu - now;
                 kun = (int)shi.TotalSeconds;
@@ -122,7 +127,6 @@ namespace WaterShark.WindowForm
         }
         private async void shutdown()
         {
-            HttpWebRequest_Get.HttpWebRequest("http://localhost:5000/args?arg=" + hour + "-" + min + "-" + sec);
             var cd = new ContentDialog
             {
                 Title = "Button Clicker!",
