@@ -1,11 +1,12 @@
 ﻿using Microsoft.UI.Xaml.Controls;
 using System;
-using System.Windows;
 using System.Windows.Threading;
 using WaterShark.ViewModels;
 using CommunityToolkit.WinUI.Controls;
 using CommunityToolkit.WinUI.Behaviors;
 using CommunityToolkit.WinUI;
+using Microsoft.UI.Xaml;
+using WaterShark.WindowForm;
 
 namespace WaterShark.Views;
 
@@ -30,7 +31,13 @@ public sealed partial class 晚自习已经自闭Page : Page
 
         NotificationQueue.Show(notification);
     }
-    
+    private void ClickLook(object sender, RoutedEventArgs e)
+    {
+        m_window = new ShowTime();
+        m_window.Activate();
+    }
+    private Window m_window;
+
 
 }
     

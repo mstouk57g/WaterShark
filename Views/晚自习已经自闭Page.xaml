@@ -91,5 +91,6 @@
                 </local:SettingsCard>
             </local:SettingsExpander.Items>
         </local:SettingsExpander>
+        <Button  Content="查看" Click="ClickLook" Margin="10,50,0,0" x:FieldModifier="public"/>
     </StackPanel>
 </Page>

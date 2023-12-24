@@ -8,8 +8,15 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid>
-
-    </Grid>
+    <StackPanel Orientation="Horizontal">
+        <TextBlock x:ConnectionId='2' x:Name="num6" FontSize="80" Text="0" Margin="20,20,0,0" />
+        <TextBlock x:ConnectionId='3' x:Name="num7" FontSize="80" Text="0" Margin="20,20,0,0" />
+        <TextBlock x:ConnectionId='4' x:Name="num8" FontSize="80" Text=":" Margin="20,20,0,0"/>
+        <TextBlock x:ConnectionId='5' x:Name="num1" FontSize="80" Text="0" Margin="20,20,0,0"/>
+        <TextBlock x:ConnectionId='6' x:Name="num2" FontSize="80" Text="0" Margin="20,20,0,0"/>
+        <TextBlock x:ConnectionId='7' x:Name="num3" FontSize="80" Text=":" Margin="20,20,0,0"/>
+        <TextBlock x:ConnectionId='8' x:Name="num4" FontSize="80" Text="0" Margin="20,20,0,0"/>
+        <TextBlock x:ConnectionId='9' x:Name="num5" FontSize="80" Text="0" Margin="20,20,0,0"/>
+    </StackPanel>
 </Window>
 
