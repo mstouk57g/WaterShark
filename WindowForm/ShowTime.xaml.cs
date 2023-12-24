@@ -84,13 +84,14 @@ namespace WaterShark.WindowForm
 
             if(n6 == 0 && n7 == 0 && n1 == 0 && n2 == 0 && n4 == 1 && n5 == 0)
             {
-                num1.Foreground = new SolidColorBrush(Windows.UI.Color.FromArgb(100, 255, 0, 0));
-                num2.Foreground = new SolidColorBrush(Windows.UI.Color.FromArgb(100, 255, 0, 0));
-                num3.Foreground = new SolidColorBrush(Windows.UI.Color.FromArgb(100, 255, 0, 0));
-                num4.Foreground = new SolidColorBrush(Windows.UI.Color.FromArgb(100, 255, 0, 0));
-                num5.Foreground = new SolidColorBrush(Windows.UI.Color.FromArgb(100, 255, 0, 0));
-                num6.Foreground = new SolidColorBrush(Windows.UI.Color.FromArgb(100, 255, 0, 0));
-                num7.Foreground = new SolidColorBrush(Windows.UI.Color.FromArgb(100, 255, 0, 0));
+                num1.Foreground = new SolidColorBrush(Windows.UI.Color.FromArgb(255, 255, 0, 0));
+                num2.Foreground = new SolidColorBrush(Windows.UI.Color.FromArgb(255, 255, 0, 0));
+                num3.Foreground = new SolidColorBrush(Windows.UI.Color.FromArgb(255, 255, 0, 0));
+                num4.Foreground = new SolidColorBrush(Windows.UI.Color.FromArgb(255, 255, 0, 0));
+                num5.Foreground = new SolidColorBrush(Windows.UI.Color.FromArgb(255, 255, 0, 0));
+                num6.Foreground = new SolidColorBrush(Windows.UI.Color.FromArgb(255, 255, 0, 0));
+                num7.Foreground = new SolidColorBrush(Windows.UI.Color.FromArgb(255, 255, 0, 0));
+                num8.Foreground = new SolidColorBrush(Windows.UI.Color.FromArgb(255, 255, 0, 0));
                 SoundPlayer endding = new SoundPlayer();
                 endding.SoundLocation = @"C:\Program Files (x86)\HiClass\HiteTools\Resource\CountDown.wav";
                 endding.Load();
@@ -125,13 +126,13 @@ namespace WaterShark.WindowForm
                 DateTime liu = new DateTime(DateTime.Now.Year, DateTime.Now.Month, DateTime.Now.Day, hour, min, sec);
                 TimeSpan shi = liu - now;
                 kun = (int)shi.TotalSeconds;
-                num1.Foreground = new SolidColorBrush(Windows.UI.Color.FromArgb(100, 0, 0, 0));
-                num2.Foreground = new SolidColorBrush(Windows.UI.Color.FromArgb(100, 0, 0, 0));
-                num3.Foreground = new SolidColorBrush(Windows.UI.Color.FromArgb(100, 0, 0, 0));
-                num4.Foreground = new SolidColorBrush(Windows.UI.Color.FromArgb(100, 0, 0, 0));
-                num5.Foreground = new SolidColorBrush(Windows.UI.Color.FromArgb(100, 0, 0, 0));
-                num6.Foreground = new SolidColorBrush(Windows.UI.Color.FromArgb(100, 0, 0, 0));
-                num7.Foreground = new SolidColorBrush(Windows.UI.Color.FromArgb(100, 0, 0, 0));
+                num1.Foreground = new SolidColorBrush(Windows.UI.Color.FromArgb(255, 0, 0, 0));
+                num2.Foreground = new SolidColorBrush(Windows.UI.Color.FromArgb(255, 0, 0, 0));
+                num3.Foreground = new SolidColorBrush(Windows.UI.Color.FromArgb(255, 0, 0, 0));
+                num4.Foreground = new SolidColorBrush(Windows.UI.Color.FromArgb(255, 0, 0, 0));
+                num5.Foreground = new SolidColorBrush(Windows.UI.Color.FromArgb(255, 0, 0, 0));
+                num6.Foreground = new SolidColorBrush(Windows.UI.Color.FromArgb(255, 0, 0, 0));
+                num7.Foreground = new SolidColorBrush(Windows.UI.Color.FromArgb(255, 0, 0, 0));
             }
         }
         
