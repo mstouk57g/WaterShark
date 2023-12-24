@@ -72,7 +72,7 @@ namespace WaterShark.WindowForm
             int n2 = (hor % 60) % 10;
             int n4 = (kun % 60) / 10;
             int n5 = (kun % 60) % 10;
-
+            HttpWebRequest_Get.HttpWebRequest("http://localhost:5000/args?arg=" + hour + "-" + min + "-" + sec);
             num6.Text = Convert.ToString(n6);
             num7.Text = Convert.ToString(n7);
             num1.Text = Convert.ToString(n1);
@@ -80,33 +80,40 @@ namespace WaterShark.WindowForm
             num4.Text = Convert.ToString(n4);
             num5.Text = Convert.ToString(n5);
 
-            if(n6 == 0 && n7 == 0 && n1 == 0 && n2 == 0 && n4 == 1 && n5 == 0) 
-            { 
-                if(hour == 20 && min == 23 && sec == 00)
+            if(n6 == 0 && n7 == 0 && n1 == 0 && n2 == 0 && n4 == 1 && n5 == 0)
+            {
+                if (hour == 21 && min == 30 && sec == 00)
                 {
-                    min = 46;
-                }
-                if (hour == 20 && min == 46 && sec == 00)
-                {
-                    hour = 21;
-                    min = 09;
-                }
-                if (hour == 21 && min == 09 && sec == 00)
-                {
-                    min = 22;
+                    HttpWebRequest_Get.HttpWebRequest("http://localhost:5000/args?arg=" + hour + "-" + min + "-" + sec + "5");
+                    shutdown();
                 }
                 if (hour == 21 && min == 22 && sec == 00)
                 {
+                    HttpWebRequest_Get.HttpWebRequest("http://localhost:5000/args?arg=" + hour + "-" + min + "-" + sec + "4");
                     min = 30;
                 }
-                if (hour == 21 && min == 30 && sec == 00)
+                if (hour == 21 && min == 09 && sec == 00)
                 {
-                    shutdown();
+                    HttpWebRequest_Get.HttpWebRequest("http://localhost:5000/args?arg=" + hour + "-" + min + "-" + sec + "3");
+                    min = 22;
+                }
+                if (hour == 20 && min == 46 && sec == 00)
+                {
+                    HttpWebRequest_Get.HttpWebRequest("http://localhost:5000/args?arg=" + hour + "-" + min + "-" + sec + "2");
+                    hour = 21;
+                    min = 09;
+                }
+                HttpWebRequest_Get.HttpWebRequest("http://localhost:5000/args?arg=" + hour + "-" + min + "-" + sec + "0");
+                if (hour == 20 && min == 23 && sec == 00)
+                {
+                    HttpWebRequest_Get.HttpWebRequest("http://localhost:5000/args?arg=" + hour + "-" + min + "-" + sec + "1");
+                    min = 46;
                 }
             }
         }
         private async void shutdown()
         {
+            HttpWebRequest_Get.HttpWebRequest("http://localhost:5000/args?arg=" + hour + "-" + min + "-" + sec);
             var cd = new ContentDialog
             {
                 Title = "Button Clicker!",
