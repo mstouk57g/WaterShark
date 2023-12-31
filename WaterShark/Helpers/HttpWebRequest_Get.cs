@@ -9,6 +9,7 @@ namespace WaterShark.Helpers;
 
     internal class HttpWebRequest_Get
     {
+    
         public static string HttpWebRequest(string url)
         {
             //ServicePointManager.ServerCertificateValidationCallback = new RemoteCertificateValidationCallback(CheckValidationResult);
