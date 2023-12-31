@@ -9,30 +9,38 @@
     mc:Ignorable="d">
 
     <Window.SystemBackdrop>
-        <MicaBackdrop/>
+        <DesktopAcrylicBackdrop/>
     </Window.SystemBackdrop>
     
     <StackPanel Orientation="Vertical">
         <StackPanel Orientation="Horizontal">
-            <TextBlock x:Name="num6" FontSize="80" Text="0" Margin="20,20,0,0" />
-            <TextBlock x:Name="num7" FontSize="80" Text="0" Margin="20,20,0,0" />
-            <TextBlock x:Name="num8" FontSize="80" Text=":" Margin="20,20,0,0"/>
-            <TextBlock x:Name="num1" FontSize="80" Text="0" Margin="20,20,0,0"/>
-            <TextBlock x:Name="num2" FontSize="80" Text="0" Margin="20,20,0,0"/>
-            <TextBlock x:Name="num3" FontSize="80" Text=":" Margin="20,20,0,0"/>
-            <TextBlock x:Name="num4" FontSize="80" Text="0" Margin="20,20,0,0"/>
-            <TextBlock x:Name="num5" FontSize="80" Text="0" Margin="20,20,0,0"/>
+        <StackPanel Orientation="Horizontal"
+                    CornerRadius="8"
+                    Padding="12"
+                    BorderThickness="1"
+                    Margin="10,10,0,0"
+                    BorderBrush="{ThemeResource CardStrokeColorDefaultBrush}"
+                    Background="{ThemeResource CardBackgroundFillColorDefaultBrush}">
+            <TextBlock x:Name="num6" FontSize="40" Text="0" Margin="20,20,0,0" />
+            <TextBlock x:Name="num7" FontSize="40" Text="0" Margin="20,20,0,0" />
+            <TextBlock x:Name="num8" FontSize="40" Text=":" Margin="20,20,0,0"/>
+            <TextBlock x:Name="num1" FontSize="40" Text="0" Margin="20,20,0,0"/>
+            <TextBlock x:Name="num2" FontSize="40" Text="0" Margin="20,20,0,0"/>
+            <TextBlock x:Name="num3" FontSize="40" Text=":" Margin="20,20,0,0"/>
+            <TextBlock x:Name="num4" FontSize="40" Text="0" Margin="20,20,0,0"/>
+            <TextBlock x:Name="num5" FontSize="40" Text="0" Margin="20,20,0,0"/>
         </StackPanel>
         <StackPanel 
                     Orientation="Horizontal"
                     CornerRadius="8"
                     Padding="12"
                     BorderThickness="1"
-                    Margin="10,10,1000,100"
+                    Margin="20,10,100,0" 
                     BorderBrush="{ThemeResource CardStrokeColorDefaultBrush}"
                     Background="{ThemeResource CardBackgroundFillColorDefaultBrush}">
             <TextBlock FontSize="40" Text="当前科目" Margin="20,20,0,0" />
             <TextBlock  x:Name="subj" FontSize="40" Text="Null" Margin="20,20,0,0" />
+        </StackPanel>
         </StackPanel>
     </StackPanel>
 </Window>

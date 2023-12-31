@@ -8,7 +8,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
     <Window.SystemBackdrop>
-        <MicaBackdrop Kind="Base"/>
+        <DesktopAcrylicBackdrop/>
     </Window.SystemBackdrop>
     <RelativePanel>
         <TextBlock x:Name="Homo" Text="名单：" Margin="20,20,0,0"/>
