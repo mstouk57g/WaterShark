@@ -1,1 +1,0 @@
-F:\WaterShark\WaterShark\bin\x86\Debug\net7.0-windows10.0.19041.0\AppPackages\WaterShark_0.3.1.0_x86_Debug_Test\WaterShark_0.3.1.0_x86_Debug.msix
