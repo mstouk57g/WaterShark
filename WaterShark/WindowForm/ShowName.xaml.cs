@@ -13,7 +13,6 @@ using Microsoft.UI.Xaml.Input;
 using Microsoft.UI.Xaml.Media;
 using Microsoft.UI.Xaml.Navigation;
 using Microsoft.UI;
-using Microsoft.UI.Xaml.Shapes;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 // To learn more about WinUI, the WinUI project structure,
@@ -29,6 +28,7 @@ namespace WaterShark.WindowForm
         public ShowName()
         {
             this.InitializeComponent();
+            AppWindow.SetIcon(Path.Combine(AppContext.BaseDirectory, "Assets/WindowIcon.ico"));
             //NameJson.Items.
             Title = "名单查看";
             string path = @"C:\Test\Debug1\";

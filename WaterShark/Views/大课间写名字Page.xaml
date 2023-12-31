@@ -9,14 +9,14 @@
 
     <Grid >
         <RelativePanel x:Name="ContentArea">
-            <ToggleButton x:Name="A1" Content="ToggleButton" Click="ClickA1" x:FieldModifier="public"/>
-            <ToggleButton x:Name="A2" Content="ToggleButton" RelativePanel.RightOf="A1" Click="ClickA2" Margin="20,0,0,0" x:FieldModifier="public"/>
-            <ToggleButton x:Name="A3" Content="ToggleButton" RelativePanel.RightOf="A2" Click="ClickA3" Margin="50,0,0,0" x:FieldModifier="public"/>
-            <ToggleButton x:Name="A4" Content="ToggleButton" RelativePanel.RightOf="A3" Click="ClickA4" Margin="20,0,0,0" x:FieldModifier="public"/>
-            <ToggleButton x:Name="A5" Content="ToggleButton" RelativePanel.RightOf="A4" Click="ClickA5" Margin="50,0,0,0" x:FieldModifier="public"/>
-            <ToggleButton x:Name="A6" Content="ToggleButton" RelativePanel.RightOf="A5" Click="ClickA6" Margin="20,0,0,0" x:FieldModifier="public"/>
-            <ToggleButton x:Name="A7" Content="ToggleButton" RelativePanel.RightOf="A6" Click="ClickA7" Margin="50,0,0,0" x:FieldModifier="public"/>
-            <ToggleButton x:Name="A8" Content="ToggleButton" RelativePanel.RightOf="A7" Click="ClickA8" Margin="20,0,0,0" x:FieldModifier="public"/>
+            <ToggleButton x:Name="A1" Content="ToggleButton" Click="ClickName" x:FieldModifier="public"/>
+            <ToggleButton x:Name="A2" Content="ToggleButton" RelativePanel.RightOf="A1" Click="ClickName" Margin="20,0,0,0" x:FieldModifier="public"/>
+            <ToggleButton x:Name="A3" Content="ToggleButton" RelativePanel.RightOf="A2" Click="ClickName" Margin="50,0,0,0" x:FieldModifier="public"/>
+            <ToggleButton x:Name="A4" Content="ToggleButton" RelativePanel.RightOf="A3" Click="ClickName" Margin="20,0,0,0" x:FieldModifier="public"/>
+            <ToggleButton x:Name="A5" Content="ToggleButton" RelativePanel.RightOf="A4" Click="ClickName" Margin="50,0,0,0" x:FieldModifier="public"/>
+            <ToggleButton x:Name="A6" Content="ToggleButton" RelativePanel.RightOf="A5" Click="ClickName" Margin="20,0,0,0" x:FieldModifier="public"/>
+            <ToggleButton x:Name="A7" Content="ToggleButton" RelativePanel.RightOf="A6" Click="ClickName" Margin="50,0,0,0" x:FieldModifier="public"/>
+            <ToggleButton x:Name="A8" Content="ToggleButton" RelativePanel.RightOf="A7" Click="ClickName" Margin="20,0,0,0" x:FieldModifier="public"/>
             <ToggleButton x:Name="B1" Content="ToggleButton" RelativePanel.Below="A1" Click="ClickB1" Margin="0,20,0,0" x:FieldModifier="public"/>
             <ToggleButton x:Name="B2" Content="ToggleButton" RelativePanel.Below="A2" RelativePanel.RightOf="B1" Click="ClickB2" Margin="20,20,0,0" x:FieldModifier="public"/>
             <ToggleButton x:Name="B3" Content="ToggleButton" RelativePanel.Below="A3" RelativePanel.RightOf="B2" Click="ClickB3" Margin="50,20,0,0" x:FieldModifier="public"/>

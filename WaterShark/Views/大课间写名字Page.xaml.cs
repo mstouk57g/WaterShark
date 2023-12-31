@@ -8,6 +8,8 @@ using Windows.Media.AppBroadcasting;
 using System.Net;
 using System.Text;
 using WaterShark.WindowForm;
+using System.Diagnostics;
+using Microsoft.UI.Xaml.Controls.Primitives;
 
 namespace WaterShark.Views;
 
@@ -87,183 +89,10 @@ public sealed partial class 大课间写名字Page : Page
     }
 
     private Window m_window;
-    private async void ClickA1(object sender, RoutedEventArgs e)
+    private void ClickName(object sender, RoutedEventArgs e)
     {
-        using (System.IO.StreamReader file = System.IO.File.OpenText(jsonfile))
-        {
-            JsonTextReader reader = new JsonTextReader(file);
-
-            JObject o = (JObject)JToken.ReadFrom(reader);
-            string a = o["names"].ToString();
-            JArray b = JArray.Parse(a);
-            string c = b[0]["name"].ToString();
-            bool m = (bool)A1.IsChecked;
-            if (m == false)
-            {
-                JToken item = jarr.FirstOrDefault(arr => arr.Type == JTokenType.String && arr.Value<string>() == c);
-                jarr.Remove(item);
-            }
-            if (m == true)
-            {
-
-                jarr.Add(c);
-            }
-        }
-    }
-    private void ClickA2(object sender, RoutedEventArgs e)
-    {
-        using (System.IO.StreamReader file = System.IO.File.OpenText(jsonfile))
-        {
-            JsonTextReader reader = new JsonTextReader(file);
-
-            JObject o = (JObject)JToken.ReadFrom(reader);
-            string a = o["names"].ToString();
-            JArray b = JArray.Parse(a);
-            string c = b[1]["name"].ToString();
-            bool m = (bool)A2.IsChecked;
-            if (m == false)
-            {
-                JToken item = jarr.FirstOrDefault(arr => arr.Type == JTokenType.String && arr.Value<string>() == c);
-                jarr.Remove(item);
-            }
-            if (m == true)
-            {
-                jarr.Add(c);
-            }
-        }
-    }
-    private void ClickA3(object sender, RoutedEventArgs e)
-    {
-        using (System.IO.StreamReader file = System.IO.File.OpenText(jsonfile))
-        {
-            JsonTextReader reader = new JsonTextReader(file);
-
-            JObject o = (JObject)JToken.ReadFrom(reader);
-            string a = o["names"].ToString();
-            JArray b = JArray.Parse(a);
-            string c = b[2]["name"].ToString();
-            bool m = (bool)A3.IsChecked;
-            if (m == false)
-            {
-                JToken item = jarr.FirstOrDefault(arr => arr.Type == JTokenType.String && arr.Value<string>() == c);
-                jarr.Remove(item);
-            }
-            if (m == true)
-            {
-                jarr.Add(c);
-            }
-        }
-    }
-    private void ClickA4(object sender, RoutedEventArgs e)
-    {
-        using (System.IO.StreamReader file = System.IO.File.OpenText(jsonfile))
-        {
-            JsonTextReader reader = new JsonTextReader(file);
-
-            JObject o = (JObject)JToken.ReadFrom(reader);
-            string a = o["names"].ToString();
-            JArray b = JArray.Parse(a);
-            string c = b[3]["name"].ToString();
-            bool m = (bool)A4.IsChecked;
-            if (m == false)
-            {
-                JToken item = jarr.FirstOrDefault(arr => arr.Type == JTokenType.String && arr.Value<string>() == c);
-                jarr.Remove(item);
-            }
-            if (m == true)
-            {
-                jarr.Add(c);
-            }
-        }
-    }
-    private void ClickA5(object sender, RoutedEventArgs e)
-    {
-        using (System.IO.StreamReader file = System.IO.File.OpenText(jsonfile))
-        {
-            JsonTextReader reader = new JsonTextReader(file);
-
-            JObject o = (JObject)JToken.ReadFrom(reader);
-            string a = o["names"].ToString();
-            JArray b = JArray.Parse(a);
-            string c = b[4]["name"].ToString();
-            bool m = (bool)A5.IsChecked;
-            if (m == false)
-            {
-                JToken item = jarr.FirstOrDefault(arr => arr.Type == JTokenType.String && arr.Value<string>() == c);
-                jarr.Remove(item);
-            }
-            if (m == true)
-            {
-                jarr.Add(c);
-            }
-        }
-    }
-    private void ClickA6(object sender, RoutedEventArgs e)
-    {
-        using (System.IO.StreamReader file = System.IO.File.OpenText(jsonfile))
-        {
-            JsonTextReader reader = new JsonTextReader(file);
-
-            JObject o = (JObject)JToken.ReadFrom(reader);
-            string a = o["names"].ToString();
-            JArray b = JArray.Parse(a);
-            string c = b[5]["name"].ToString();
-            bool m = (bool)A6.IsChecked;
-            if (m == false)
-            {
-                JToken item = jarr.FirstOrDefault(arr => arr.Type == JTokenType.String && arr.Value<string>() == c);
-                jarr.Remove(item);
-            }
-            if (m == true)
-            {
-                jarr.Add(c);
-            }
-        }
-    }
-    private void ClickA7(object sender, RoutedEventArgs e)
-    {
-        using (System.IO.StreamReader file = System.IO.File.OpenText(jsonfile))
-        {
-            JsonTextReader reader = new JsonTextReader(file);
-
-            JObject o = (JObject)JToken.ReadFrom(reader);
-            string a = o["names"].ToString();
-            JArray b = JArray.Parse(a);
-            string c = b[6]["name"].ToString();
-            bool m = (bool)A7.IsChecked;
-            if (m == false)
-            {
-                JToken item = jarr.FirstOrDefault(arr => arr.Type == JTokenType.String && arr.Value<string>() == c);
-                jarr.Remove(item);
-            }
-            if (m == true)
-            {
-                jarr.Add(c);
-            }
-        }
-    }
-    private void ClickA8(object sender, RoutedEventArgs e)
-    {
-        using (System.IO.StreamReader file = System.IO.File.OpenText(jsonfile))
-        {
-            JsonTextReader reader = new JsonTextReader(file);
-
-            JObject o = (JObject)JToken.ReadFrom(reader);
-            string a = o["names"].ToString();
-            JArray b = JArray.Parse(a);
-            string c = b[7]["name"].ToString();
-            bool m = (bool)A8.IsChecked;
-            if (m == false)
-            {
-                JToken item = jarr.FirstOrDefault(arr => arr.Type == JTokenType.String && arr.Value<string>() == c);
-                jarr.Remove(item);
-            }
-            if (m == true)
-            {
-                jarr.Add(c);
-            }
-        }
-    }
+        Trace.WriteLine(((ToggleButton)sender).Name);
+    }    
     private void ClickB1(object sender, RoutedEventArgs e)
     {
         using (System.IO.StreamReader file = System.IO.File.OpenText(jsonfile))

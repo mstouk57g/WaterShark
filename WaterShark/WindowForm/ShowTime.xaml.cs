@@ -37,6 +37,7 @@ namespace WaterShark.WindowForm
         public ShowTime()
         {
             this.InitializeComponent();
+            AppWindow.SetIcon(Path.Combine(AppContext.BaseDirectory, "Assets/WindowIcon.ico"));
             hour = 20;
             min = 22;
             sec = 55;
@@ -144,8 +145,15 @@ namespace WaterShark.WindowForm
         }
         public static void waitshut()
         {
-            Thread.Sleep(10000);
-            Process p = Process.Start("shutdown -s -t 0");
+            try
+            {
+                Thread.Sleep(10000);
+                Process p = Process.Start(@"C:\Windows\System32\shutdown.exe", "-s -t 0");
+            }
+            catch (Exception e)
+            {
+                //TODO:show a dialog
+            }
         }
         private async void shutdown()
         {
@@ -168,12 +176,12 @@ namespace WaterShark.WindowForm
             }
             else if (result == ContentDialogResult.Secondary)
             {
-                Process p = Process.Start("shutdown -s -t 0");
+                Process p = Process.Start(@"C:\Windows\System32\shutdown.exe", "-s -t 0");
             }
-            //else
-            //{
-                //DialogResult.Text = "User cancelled the dialog";
-            //}
+            else
+            {
+                sh.Interrupt();
+            }
         }
     }
 }
