@@ -72,7 +72,59 @@ namespace WaterShark.Helpers
             Thread threadF7 = new Thread(() => { Global.F7 = HttpWebRequest_Get.HttpWebRequest("http://localhost:5000/toggle?value=46&key=name&class=" + c); });
             Thread threadF8 = new Thread(() => { Global.F8 = HttpWebRequest_Get.HttpWebRequest("http://localhost:5000/toggle?value=47&key=name&class=" + c); });
 
-            //Thread tfA1 = new Thread(() => { Global.A1 = HttpWebRequest_Get.HttpWebRequest("http://localhost:5000/gettf?class=" + c + "&button=A1"); });
+            Thread tfA1 = new Thread(() => { Global.TA1 = HttpWebRequest_Get.HttpWebRequest("http://localhost:5000/gettf?class=" + c + "&button=A1"); });
+            Thread tfA2 = new Thread(() => { Global.TA2 = HttpWebRequest_Get.HttpWebRequest("http://localhost:5000/gettf?class=" + c + "&button=A2"); });
+            Thread tfA3 = new Thread(() => { Global.TA3 = HttpWebRequest_Get.HttpWebRequest("http://localhost:5000/gettf?class=" + c + "&button=A3"); });
+            Thread tfA4 = new Thread(() => { Global.TA4 = HttpWebRequest_Get.HttpWebRequest("http://localhost:5000/gettf?class=" + c + "&button=A4"); });
+            Thread tfA5 = new Thread(() => { Global.TA5 = HttpWebRequest_Get.HttpWebRequest("http://localhost:5000/gettf?class=" + c + "&button=A5"); });
+            Thread tfA6 = new Thread(() => { Global.TA6 = HttpWebRequest_Get.HttpWebRequest("http://localhost:5000/gettf?class=" + c + "&button=A6"); });
+            Thread tfA7 = new Thread(() => { Global.TA7 = HttpWebRequest_Get.HttpWebRequest("http://localhost:5000/gettf?class=" + c + "&button=A7"); });
+            Thread tfA8 = new Thread(() => { Global.TA8 = HttpWebRequest_Get.HttpWebRequest("http://localhost:5000/gettf?class=" + c + "&button=A8"); });
+
+            Thread tfB1 = new Thread(() => { Global.TB1 = HttpWebRequest_Get.HttpWebRequest("http://localhost:5000/gettf?class=" + c + "&button=B1"); });
+            Thread tfB2 = new Thread(() => { Global.TB2 = HttpWebRequest_Get.HttpWebRequest("http://localhost:5000/gettf?class=" + c + "&button=B2"); });
+            Thread tfB3 = new Thread(() => { Global.TB3 = HttpWebRequest_Get.HttpWebRequest("http://localhost:5000/gettf?class=" + c + "&button=B3"); });
+            Thread tfB4 = new Thread(() => { Global.TB4 = HttpWebRequest_Get.HttpWebRequest("http://localhost:5000/gettf?class=" + c + "&button=B4"); });
+            Thread tfB5 = new Thread(() => { Global.TB5 = HttpWebRequest_Get.HttpWebRequest("http://localhost:5000/gettf?class=" + c + "&button=B5"); });
+            Thread tfB6 = new Thread(() => { Global.TB6 = HttpWebRequest_Get.HttpWebRequest("http://localhost:5000/gettf?class=" + c + "&button=B6"); });
+            Thread tfB7 = new Thread(() => { Global.TB7 = HttpWebRequest_Get.HttpWebRequest("http://localhost:5000/gettf?class=" + c + "&button=B7"); });
+            Thread tfB8 = new Thread(() => { Global.TB8 = HttpWebRequest_Get.HttpWebRequest("http://localhost:5000/gettf?class=" + c + "&button=B8"); });
+
+            Thread tfC1 = new Thread(() => { Global.TC1 = HttpWebRequest_Get.HttpWebRequest("http://localhost:5000/gettf?class=" + c + "&button=C1"); });
+            Thread tfC2 = new Thread(() => { Global.TC2 = HttpWebRequest_Get.HttpWebRequest("http://localhost:5000/gettf?class=" + c + "&button=C2"); });
+            Thread tfC3 = new Thread(() => { Global.TC3 = HttpWebRequest_Get.HttpWebRequest("http://localhost:5000/gettf?class=" + c + "&button=C3"); });
+            Thread tfC4 = new Thread(() => { Global.TC4 = HttpWebRequest_Get.HttpWebRequest("http://localhost:5000/gettf?class=" + c + "&button=C4"); });
+            Thread tfC5 = new Thread(() => { Global.TC5 = HttpWebRequest_Get.HttpWebRequest("http://localhost:5000/gettf?class=" + c + "&button=C5"); });
+            Thread tfC6 = new Thread(() => { Global.TC6 = HttpWebRequest_Get.HttpWebRequest("http://localhost:5000/gettf?class=" + c + "&button=C6"); });
+            Thread tfC7 = new Thread(() => { Global.TC7 = HttpWebRequest_Get.HttpWebRequest("http://localhost:5000/gettf?class=" + c + "&button=C7"); });
+            Thread tfC8 = new Thread(() => { Global.TC8 = HttpWebRequest_Get.HttpWebRequest("http://localhost:5000/gettf?class=" + c + "&button=C8"); });
+
+            Thread tfD1 = new Thread(() => { Global.TD1 = HttpWebRequest_Get.HttpWebRequest("http://localhost:5000/gettf?class=" + c + "&button=D1"); });
+            Thread tfD2 = new Thread(() => { Global.TD2 = HttpWebRequest_Get.HttpWebRequest("http://localhost:5000/gettf?class=" + c + "&button=D2"); });
+            Thread tfD3 = new Thread(() => { Global.TD3 = HttpWebRequest_Get.HttpWebRequest("http://localhost:5000/gettf?class=" + c + "&button=D3"); });
+            Thread tfD4 = new Thread(() => { Global.TD4 = HttpWebRequest_Get.HttpWebRequest("http://localhost:5000/gettf?class=" + c + "&button=D4"); });
+            Thread tfD5 = new Thread(() => { Global.TD5 = HttpWebRequest_Get.HttpWebRequest("http://localhost:5000/gettf?class=" + c + "&button=D5"); });
+            Thread tfD6 = new Thread(() => { Global.TD6 = HttpWebRequest_Get.HttpWebRequest("http://localhost:5000/gettf?class=" + c + "&button=D6"); });
+            Thread tfD7 = new Thread(() => { Global.TD7 = HttpWebRequest_Get.HttpWebRequest("http://localhost:5000/gettf?class=" + c + "&button=D7"); });
+            Thread tfD8 = new Thread(() => { Global.TD8 = HttpWebRequest_Get.HttpWebRequest("http://localhost:5000/gettf?class=" + c + "&button=D8"); });
+
+            Thread tfE1 = new Thread(() => { Global.TE1 = HttpWebRequest_Get.HttpWebRequest("http://localhost:5000/gettf?class=" + c + "&button=E1"); });
+            Thread tfE2 = new Thread(() => { Global.TE2 = HttpWebRequest_Get.HttpWebRequest("http://localhost:5000/gettf?class=" + c + "&button=E2"); });
+            Thread tfE3 = new Thread(() => { Global.TE3 = HttpWebRequest_Get.HttpWebRequest("http://localhost:5000/gettf?class=" + c + "&button=E3"); });
+            Thread tfE4 = new Thread(() => { Global.TE4 = HttpWebRequest_Get.HttpWebRequest("http://localhost:5000/gettf?class=" + c + "&button=E4"); });
+            Thread tfE5 = new Thread(() => { Global.TE5 = HttpWebRequest_Get.HttpWebRequest("http://localhost:5000/gettf?class=" + c + "&button=E5"); });
+            Thread tfE6 = new Thread(() => { Global.TE6 = HttpWebRequest_Get.HttpWebRequest("http://localhost:5000/gettf?class=" + c + "&button=E6"); });
+            Thread tfE7 = new Thread(() => { Global.TE7 = HttpWebRequest_Get.HttpWebRequest("http://localhost:5000/gettf?class=" + c + "&button=E7"); });
+            Thread tfE8 = new Thread(() => { Global.TE8 = HttpWebRequest_Get.HttpWebRequest("http://localhost:5000/gettf?class=" + c + "&button=E8"); });
+
+            Thread tfF1 = new Thread(() => { Global.TF1 = HttpWebRequest_Get.HttpWebRequest("http://localhost:5000/gettf?class=" + c + "&button=F1"); });
+            Thread tfF2 = new Thread(() => { Global.TF2 = HttpWebRequest_Get.HttpWebRequest("http://localhost:5000/gettf?class=" + c + "&button=F2"); });
+            Thread tfF3 = new Thread(() => { Global.TF3 = HttpWebRequest_Get.HttpWebRequest("http://localhost:5000/gettf?class=" + c + "&button=F3"); });
+            Thread tfF4 = new Thread(() => { Global.TF4 = HttpWebRequest_Get.HttpWebRequest("http://localhost:5000/gettf?class=" + c + "&button=F4"); });
+            Thread tfF5 = new Thread(() => { Global.TF5 = HttpWebRequest_Get.HttpWebRequest("http://localhost:5000/gettf?class=" + c + "&button=F5"); });
+            Thread tfF6 = new Thread(() => { Global.TF6 = HttpWebRequest_Get.HttpWebRequest("http://localhost:5000/gettf?class=" + c + "&button=F6"); });
+            Thread tfF7 = new Thread(() => { Global.TF7 = HttpWebRequest_Get.HttpWebRequest("http://localhost:5000/gettf?class=" + c + "&button=F7"); });
+            Thread tfF8 = new Thread(() => { Global.TF8 = HttpWebRequest_Get.HttpWebRequest("http://localhost:5000/gettf?class=" + c + "&button=F8"); });
 
             threadA1.Start();
             threadA2.Start();
@@ -127,6 +179,60 @@ namespace WaterShark.Helpers
             threadF6.Start();
             threadF7.Start();
             threadF8.Start();
+
+            tfA1.Start();
+            tfA2.Start();
+            tfA3.Start();
+            tfA4.Start();
+            tfA5.Start();
+            tfA6.Start();
+            tfA7.Start();
+            tfA8.Start();
+
+            tfB1.Start();
+            tfB2.Start();
+            tfB3.Start();
+            tfB4.Start();
+            tfB5.Start();
+            tfB6.Start();
+            tfB7.Start();
+            tfB8.Start();
+
+            tfC1.Start();
+            tfC2.Start();
+            tfC3.Start();
+            tfC4.Start();
+            tfC5.Start();
+            tfC6.Start();
+            tfC7.Start();
+            tfC8.Start();
+
+            tfD1.Start();
+            tfD2.Start();
+            tfD3.Start();
+            tfD4.Start();
+            tfD5.Start();
+            tfD6.Start();
+            tfD7.Start();
+            tfD8.Start();
+
+            tfE1.Start();
+            tfE2.Start();
+            tfE3.Start();
+            tfE4.Start();
+            tfE5.Start();
+            tfE6.Start();
+            tfE7.Start();
+            tfE8.Start();
+
+            tfF1.Start();
+            tfF2.Start();
+            tfF3.Start();
+            tfF4.Start();
+            tfF5.Start();
+            tfF6.Start();
+            tfF7.Start();
+            tfF8.Start();
         }
         public static void getcl()
         {

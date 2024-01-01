@@ -27,6 +27,7 @@ public sealed partial class 英语老师专用抽Page : Page
         A6.Content = App.Global.A6;
         A7.Content = App.Global.A7;
         A8.Content = App.Global.A8;
+
         B1.Content = App.Global.B1;
         B2.Content = App.Global.B2;
         B3.Content = App.Global.B3;
@@ -35,6 +36,7 @@ public sealed partial class 英语老师专用抽Page : Page
         B6.Content = App.Global.B6;
         B7.Content = App.Global.B7;
         B8.Content = App.Global.B8;
+
         C1.Content = App.Global.C1;
         C2.Content = App.Global.C2;
         C3.Content = App.Global.C3;
@@ -43,6 +45,7 @@ public sealed partial class 英语老师专用抽Page : Page
         C6.Content = App.Global.C6;
         C7.Content = App.Global.C7;
         C8.Content = App.Global.C8;
+
         D1.Content = App.Global.D1;
         D2.Content = App.Global.D2;
         D3.Content = App.Global.D3;
@@ -51,6 +54,7 @@ public sealed partial class 英语老师专用抽Page : Page
         D6.Content = App.Global.D6;
         D7.Content = App.Global.D7;
         D8.Content = App.Global.D8;
+
         E1.Content = App.Global.E1;
         E2.Content = App.Global.E2;
         E3.Content = App.Global.E3;
@@ -59,6 +63,7 @@ public sealed partial class 英语老师专用抽Page : Page
         E6.Content = App.Global.E6;
         E7.Content = App.Global.E7;
         E8.Content = App.Global.E8;
+
         F1.Content = App.Global.F1;
         F2.Content = App.Global.F2;
         F3.Content = App.Global.F3;
@@ -67,14 +72,60 @@ public sealed partial class 英语老师专用抽Page : Page
         F6.Content = App.Global.F6;
         F7.Content = App.Global.F7;
         F8.Content = App.Global.F8;
-        A8.IsEnabled = false;
-        E1.IsEnabled = false;
-        E2.IsEnabled = false;
-        F1.IsEnabled = false;
-        F2.IsEnabled = false;
-        F6.IsEnabled = false;
-        F7.IsEnabled = false;
-        F8.IsEnabled = false;
+
+        A1.IsEnabled = Convert.ToBoolean(App.Global.TA1);
+        A2.IsEnabled = Convert.ToBoolean(App.Global.TA2);
+        A3.IsEnabled = Convert.ToBoolean(App.Global.TA3);
+        A4.IsEnabled = Convert.ToBoolean(App.Global.TA4);
+        A5.IsEnabled = Convert.ToBoolean(App.Global.TA5);
+        A6.IsEnabled = Convert.ToBoolean(App.Global.TA6);
+        A7.IsEnabled = Convert.ToBoolean(App.Global.TA7);
+        A8.IsEnabled = Convert.ToBoolean(App.Global.TA8);
+
+        B1.IsEnabled = Convert.ToBoolean(App.Global.TB1);
+        B2.IsEnabled = Convert.ToBoolean(App.Global.TB2);
+        B3.IsEnabled = Convert.ToBoolean(App.Global.TB3);
+        B4.IsEnabled = Convert.ToBoolean(App.Global.TB4);
+        B5.IsEnabled = Convert.ToBoolean(App.Global.TB5);
+        B6.IsEnabled = Convert.ToBoolean(App.Global.TB6);
+        B7.IsEnabled = Convert.ToBoolean(App.Global.TB7);
+        B8.IsEnabled = Convert.ToBoolean(App.Global.TB8);
+
+        C1.IsEnabled = Convert.ToBoolean(App.Global.TC1);
+        C2.IsEnabled = Convert.ToBoolean(App.Global.TC2);
+        C3.IsEnabled = Convert.ToBoolean(App.Global.TC3);
+        C4.IsEnabled = Convert.ToBoolean(App.Global.TC4);
+        C5.IsEnabled = Convert.ToBoolean(App.Global.TC5);
+        C6.IsEnabled = Convert.ToBoolean(App.Global.TC6);
+        C7.IsEnabled = Convert.ToBoolean(App.Global.TC7);
+        C8.IsEnabled = Convert.ToBoolean(App.Global.TC8);
+
+        D1.IsEnabled = Convert.ToBoolean(App.Global.TD1);
+        D2.IsEnabled = Convert.ToBoolean(App.Global.TD2);
+        D3.IsEnabled = Convert.ToBoolean(App.Global.TD3);
+        D4.IsEnabled = Convert.ToBoolean(App.Global.TD4);
+        D5.IsEnabled = Convert.ToBoolean(App.Global.TD5);
+        D6.IsEnabled = Convert.ToBoolean(App.Global.TD6);
+        D7.IsEnabled = Convert.ToBoolean(App.Global.TD7);
+        D8.IsEnabled = Convert.ToBoolean(App.Global.TD8);
+
+        E1.IsEnabled = Convert.ToBoolean(App.Global.TE1);
+        E2.IsEnabled = Convert.ToBoolean(App.Global.TE2);
+        E3.IsEnabled = Convert.ToBoolean(App.Global.TE3);
+        E4.IsEnabled = Convert.ToBoolean(App.Global.TE4);
+        E5.IsEnabled = Convert.ToBoolean(App.Global.TE5);
+        E6.IsEnabled = Convert.ToBoolean(App.Global.TE6);
+        E7.IsEnabled = Convert.ToBoolean(App.Global.TE7);
+        E8.IsEnabled = Convert.ToBoolean(App.Global.TE8);
+
+        F1.IsEnabled = Convert.ToBoolean(App.Global.TF1);
+        F2.IsEnabled = Convert.ToBoolean(App.Global.TF2);
+        F3.IsEnabled = Convert.ToBoolean(App.Global.TF3);
+        F4.IsEnabled = Convert.ToBoolean(App.Global.TF4);
+        F5.IsEnabled = Convert.ToBoolean(App.Global.TF5);
+        F6.IsEnabled = Convert.ToBoolean(App.Global.TF6);
+        F7.IsEnabled = Convert.ToBoolean(App.Global.TF7);
+        F8.IsEnabled = Convert.ToBoolean(App.Global.TF8);
     }
     private void clickboom(object sender, RoutedEventArgs e)
     {
