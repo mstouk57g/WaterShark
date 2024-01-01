@@ -44,4 +44,4 @@ def getnames(classes, time):
     for i in range(listnumber):
         co = getname(m = "name", n = i)
         lists.append(co)
-    return lists
+    return "\n".join(lists)
