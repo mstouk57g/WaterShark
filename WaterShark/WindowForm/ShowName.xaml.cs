@@ -39,28 +39,36 @@ namespace WaterShark.WindowForm
             //    NameJson.Items.Add(file);
 
             string classname = "92";
-            string lists = HttpWebRequest_Get.HttpWebRequest("http://localhost:5000/writenamelists?class=" + classname);
-            Trace.WriteLine(lists);
+            string lists = HttpWebRequest_Get.HttpWebRequest("http://localhost:5000/writenamelists?classes=" + classname);
+            // = lists.Substring(0, lists.Length - 1);
+            lists = lists.Substring(0, lists.Length - 2);
+            lists = lists.Substring(1);
+            String[] sArray = lists.Split(',');
+            List<string> list = new List<string>(sArray);
+            NameJson.ItemsSource = list;
         }
         private void ColorComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            string colorName = e.AddedItems[0].ToString();
-            using (System.IO.StreamReader file = System.IO.File.OpenText(colorName))
-            {
-                JsonTextReader reader = new JsonTextReader(file);
-                JObject o = (JObject)JToken.ReadFrom(reader);
-                if (o != null)
-                {
-                    string a = o["id"].ToString();
-                    JArray b = JArray.Parse(a);
-                    string c = b.ToString();
-                    Homo1145.Text = c;
-                }
-                else
-                {
-                    Homo1145.Text = "没有人";
-                }
-            }
+            string classname = "92";
+            string Names = e.AddedItems[0].ToString();
+            string lists = HttpWebRequest_Get.HttpWebRequest("http://localhost:5000/writenames?classes=" + classname + "&time=" + Names);
+            Homo1145.Text = lists;
+            //using (System.IO.StreamReader file = System.IO.File.OpenText(colorName))
+            //{
+            //    JsonTextReader reader = new JsonTextReader(file);
+            //    JObject o = (JObject)JToken.ReadFrom(reader);
+            //    if (o != null)
+            //    {
+            //        string a = o["id"].ToString();
+            //         JArray b = JArray.Parse(a);
+            //        string c = b.ToString();
+            //        Homo1145.Text = c;
+            //    }
+            //   else
+            //   {
+            //       Homo1145.Text = "没有人";
+            //   }
+            //}
         }
     }
 }

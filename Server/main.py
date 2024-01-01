@@ -1,7 +1,7 @@
 
 from flask import Flask, request
 from getnames import getname
-from writenames import writenames, getnamelists
+from writenames import writenames, getnamelists, getnames
 
 app = Flask(__name__)
 
@@ -38,6 +38,13 @@ def writename():
 def writenamelists():
     classes = request.values.get("classes")
     lists = getnamelists(classes = classes)
+    return lists
+
+@app.route('/writenames',methods=['get','post'])
+def writenames():
+    classes = request.values.get("classes")
+    times = request.values.get("time")
+    lists = getnames(classes = classes, time=times)
     return lists
 
 if __name__ == '__main__':

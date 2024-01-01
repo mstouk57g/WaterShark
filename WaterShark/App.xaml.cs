@@ -194,26 +194,13 @@ public partial class App : Application
         //spalsh
         Process p = Process.Start("F:/WaterShark/Splash/bin/Debug/net8.0-windows/Splash.exe");
         GettingScr.nm();
-        //loading info
-        //Thread threadA = new Thread(GettingScr.GettingPositionA);
-        //threadA.Start();
-        //Thread threadB = new Thread(GettingScr.GettingPositionB);
-        //threadB.Start();
-        //Thread threadC = new Thread(GettingScr.GettingPositionC);
-        //threadC.Start();
-        //Thread threadD = new Thread(GettingScr.GettingPositionD);
-        //threadD.Start();
-        //Thread threadE = new Thread(GettingScr.GettingPositionE);
-        //threadE.Start();
-        //Thread threadF = new Thread(GettingScr.GettingPositionF);
-        //threadF.Start();
+        
         
         //App.GetService<IAppNotificationService>().Show(string.Format("AppNotificationSamplePayload".GetLocalized(), AppContext.BaseDirectory));
 
         await App.GetService<IActivationService>().ActivateAsync(args);
-
-        //endsplash
-        Thread.Sleep(3000);
         p.Kill();
+
     }
+    
 }

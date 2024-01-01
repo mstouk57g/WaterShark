@@ -1,13 +1,18 @@
 import json
 
-namejson = "./datas/getnames.json"
-temf = open(namejson, encoding="utf-8")
-jsonfile = json.load(temf)
-temf.close()
-data = list(jsonfile)
+
 
 def getname(m, n):
-    dic = data[n]
-    offline = dic[m]
+    namejson = "./datas/getnames.json"
+    temf = open(namejson, encoding="utf-8")
+    jsonfile = json.load(temf)
+    temf.close()
+    
+    data = dict(jsonfile)
+    key_list = list(data.keys())
+    
+    dic = key_list[n]
+    coser = data[dic]
+    offline = coser[m]
     return offline
     
