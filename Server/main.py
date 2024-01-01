@@ -1,7 +1,7 @@
 
 from flask import Flask, request
 from getnames import getname
-from writenames import writenames
+from writenames import writenames, getnamelists
 
 app = Flask(__name__)
 
@@ -29,10 +29,16 @@ def writename():
     time = request.values.get("time")
     names = request.values.get("names")
     if names == None:
-        return "没有提交任何数据"
+        return "娌℃湁鎻愪氦浠讳綍鏁版嵁"
     else:
         writenames(classes = classes, time = time, names = names)
-        return "提交成功"
+        return "鎻愪氦鎴愬姛"
+    
+@app.route('/writenamelists',methods=['get','post'])
+def writenamelists():
+    classes = request.values.get("classes")
+    lists = getnamelists(classes = classes)
+    return lists
 
 if __name__ == '__main__':
     app.run()

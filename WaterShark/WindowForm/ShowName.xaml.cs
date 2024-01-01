@@ -15,6 +15,8 @@ using Microsoft.UI.Xaml.Navigation;
 using Microsoft.UI;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
+using WaterShark.Helpers;
+using System.Diagnostics;
 // To learn more about WinUI, the WinUI project structure,
 // and more about our project templates, see: http://aka.ms/winui-project-info.
 
@@ -31,10 +33,14 @@ namespace WaterShark.WindowForm
             AppWindow.SetIcon(Path.Combine(AppContext.BaseDirectory, "Assets/WindowIcon.ico"));
             //NameJson.Items.
             Title = "名单查看";
-            string path = @"C:\Test\Debug1\";
-            var files = Directory.GetFiles(path, "*.json");
-            foreach (var file in files)
-                NameJson.Items.Add(file);
+            //string path = @"C:\Test\Debug1\";
+            //var files = Directory.GetFiles(path, "*.json");
+            //foreach (var file in files)
+            //    NameJson.Items.Add(file);
+
+            string classname = "92";
+            string lists = HttpWebRequest_Get.HttpWebRequest("http://localhost:5000/writenamelists?class=" + classname);
+            Trace.WriteLine(lists);
         }
         private void ColorComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {

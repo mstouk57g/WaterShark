@@ -207,12 +207,13 @@ public partial class App : Application
         //threadE.Start();
         //Thread threadF = new Thread(GettingScr.GettingPositionF);
         //threadF.Start();
-        Thread.Sleep(3000);
+        
         //App.GetService<IAppNotificationService>().Show(string.Format("AppNotificationSamplePayload".GetLocalized(), AppContext.BaseDirectory));
 
         await App.GetService<IActivationService>().ActivateAsync(args);
 
         //endsplash
+        Thread.Sleep(3000);
         p.Kill();
     }
 }

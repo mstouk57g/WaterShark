@@ -1,7 +1,6 @@
 import json
-from sqlite3 import DatabaseError
 
-namejson = "C:/Test/python.json"
+namejson = "./datas/getnames.json"
 temf = open(namejson, encoding="utf-8")
 jsonfile = json.load(temf)
 temf.close()

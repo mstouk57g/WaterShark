@@ -26,9 +26,6 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Content Include="libman.json" />
-  </ItemGroup>
-  <ItemGroup>
     <Compile Include="getnames.py">
       <SubType>Code</SubType>
     </Compile>
