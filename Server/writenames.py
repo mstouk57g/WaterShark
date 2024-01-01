@@ -1,9 +1,10 @@
 import json
 from getnames import getname
-namejson = "./datas/writenamelist.json"
+
 
 
 def writenames(classes, time, names):
+    namejson = "./datas/class/" + classes + "/writenamelist.json"
     temf = open(namejson, encoding="utf-8")
     jsonfile = json.load(temf)
     temf.close()
@@ -20,6 +21,7 @@ def writenames(classes, time, names):
         f.write(finish)
 
 def getnamelists(classes):
+    namejson = "./datas/class/" + classes + "/writenamelist.json"
     temf = open(namejson, encoding="utf-8")
     jsonfile = json.load(temf)
     temf.close()
@@ -28,6 +30,7 @@ def getnamelists(classes):
     return key_list
 
 def getnames(classes, time):
+    namejson = "./datas/class/" + classes + "/writenamelist.json"
     time = time[:-1]
     time = time[1:]
     
@@ -42,6 +45,6 @@ def getnames(classes, time):
     listnumber = len(name)
     lists = []
     for i in range(listnumber):
-        co = getname(m = "name", n = i)
+        co = getname(m = "name", n = i, c = classes)
         lists.append(co)
     return "\n".join(lists)

@@ -31,7 +31,6 @@ public sealed partial class 大课间写名字Page : Page
         InitializeComponent();
         大课间写名字 = this;
         ContentArea.Visibility = Visibility.Collapsed;
-        //loading.Visibility = Visibility.Visible;
         
             A1.Content = App.Global.A1;
             A2.Content = App.Global.A2;
@@ -102,7 +101,6 @@ public sealed partial class 大课间写名字Page : Page
         }
         if (m == true)
         {
-            //jarr.Add(c);
             namelist.Add(((ToggleButton)sender).Name);
         }
     }    
@@ -110,15 +108,6 @@ public sealed partial class 大课间写名字Page : Page
     private async void ClickSave(object sender, RoutedEventArgs e)
     {
         string t = DateTime.Now.ToString("yyyy-MM-dd-HH-mm-ss-ffff");
-        //string d = @"C:\Test\Debug1\" + t + ".json";
-        //File.Create(d).Close();
-        //JObject jobj = new JObject();
-        //jobj["id"] = jarr;
-
-        //string jsonjson = JsonConvert.SerializeObject(jobj, Formatting.Indented);
-        //File.WriteAllText(d, jsonjson);
-
-        //string liststr = namelist.ToString();
         string liststr = String.Join(",", namelist);
         string classname = "92";
         string ret = HttpWebRequest_Get.HttpWebRequest("http://localhost:5000/writename?class=" + classname + "&time=" + t + "&names=" + liststr);
@@ -131,7 +120,5 @@ public sealed partial class 大课间写名字Page : Page
         };
         cd.XamlRoot = this.Content.XamlRoot;
         var result = await cd.ShowAsync();
-
-
     }
 }

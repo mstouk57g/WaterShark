@@ -138,6 +138,7 @@ public partial class App : Application
     }
     public static class Global
     {
+        public static string classws;
         public static string A1;
         public static string A2;
         public static string A3;
@@ -194,8 +195,8 @@ public partial class App : Application
         //spalsh
         Process p = Process.Start("F:/WaterShark/Splash/bin/Debug/net8.0-windows/Splash.exe");
         GettingScr.nm();
-        
-        
+        GettingScr.getcl();
+
         //App.GetService<IAppNotificationService>().Show(string.Format("AppNotificationSamplePayload".GetLocalized(), AppContext.BaseDirectory));
 
         await App.GetService<IActivationService>().ActivateAsync(args);

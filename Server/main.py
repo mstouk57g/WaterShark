@@ -1,6 +1,6 @@
 
 from flask import Flask, request
-from getnames import getname
+from getnames import getname, getclassess
 from writenames import writenames, getnamelists, getnames
 
 app = Flask(__name__)
@@ -14,7 +14,7 @@ def toggle():
     m = request.values.get('key')
     n = int(request.values.get('value'))
     c = request.values.get('class')
-    res = getname(m = m, n = n)
+    res = getname(m = m, n = n, c = c)
     return res
 
 @app.route('/args',methods=['get','post'])
@@ -46,6 +46,11 @@ def writenames():
     times = request.values.get("time")
     lists = getnames(classes = classes, time=times)
     return lists
+
+@app.route('/getclasses',methods=['get','post'])
+def getclasses():
+    a = getclassess()
+    return a
 
 if __name__ == '__main__':
     app.run()

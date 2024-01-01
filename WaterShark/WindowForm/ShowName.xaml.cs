@@ -53,22 +53,6 @@ namespace WaterShark.WindowForm
             string Names = e.AddedItems[0].ToString();
             string lists = HttpWebRequest_Get.HttpWebRequest("http://localhost:5000/writenames?classes=" + classname + "&time=" + Names);
             Homo1145.Text = lists;
-            //using (System.IO.StreamReader file = System.IO.File.OpenText(colorName))
-            //{
-            //    JsonTextReader reader = new JsonTextReader(file);
-            //    JObject o = (JObject)JToken.ReadFrom(reader);
-            //    if (o != null)
-            //    {
-            //        string a = o["id"].ToString();
-            //         JArray b = JArray.Parse(a);
-            //        string c = b.ToString();
-            //        Homo1145.Text = c;
-            //    }
-            //   else
-            //   {
-            //       Homo1145.Text = "√ª”–»À";
-            //   }
-            //}
         }
     }
 }
