@@ -13,6 +13,9 @@
     <RelativePanel>
         <TextBlock x:Name="Homo" Text="名单：" Margin="20,20,0,0"/>
         <ComboBox x:Name="NameJson" SelectionChanged="ColorComboBox_SelectionChanged" PlaceholderText="请选择标头" Width="400" Margin="20,50,0,0" RelativePanel.RightOf="Homo"/>
-        <TextBlock x:Name="Homo1145" FontSize="30" RelativePanel.Below="NameJson"/>
+        <StackPanel RelativePanel.Below="NameJson" Margin="20,20,0,0">
+            <TextBlock x:Name="Homo1145" FontSize="30" Margin="0,20,0,0"/>
+        </StackPanel>
+        
     </RelativePanel>
 </Window>
