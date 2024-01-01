@@ -3,6 +3,7 @@ using WaterShark.ViewModels;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using Microsoft.UI.Xaml;
+using Microsoft.UI.Xaml.Controls.Primitives;
 namespace WaterShark.Views;
 
 public sealed partial class 英语老师专用抽Page : Page

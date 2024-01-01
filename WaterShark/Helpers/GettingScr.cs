@@ -72,6 +72,8 @@ namespace WaterShark.Helpers
             Thread threadF7 = new Thread(() => { Global.F7 = HttpWebRequest_Get.HttpWebRequest("http://localhost:5000/toggle?value=46&key=name&class=" + c); });
             Thread threadF8 = new Thread(() => { Global.F8 = HttpWebRequest_Get.HttpWebRequest("http://localhost:5000/toggle?value=47&key=name&class=" + c); });
 
+            //Thread tfA1 = new Thread(() => { Global.A1 = HttpWebRequest_Get.HttpWebRequest("http://localhost:5000/gettf?class=" + c + "&button=A1"); });
+
             threadA1.Start();
             threadA2.Start();
             threadA3.Start();

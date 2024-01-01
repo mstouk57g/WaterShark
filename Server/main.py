@@ -1,7 +1,7 @@
 
 from flask import Flask, request
-from getnames import getname, getclassess
-from writenames import writenames, getnamelists, getnames
+from getnames import *
+from writenames import *
 
 app = Flask(__name__)
 
@@ -17,11 +17,12 @@ def toggle():
     res = getname(m = m, n = n, c = c)
     return res
 
-@app.route('/args',methods=['get','post'])
+@app.route('/gettf',methods=['get','post'])
 def args():
-    arg = request.values.get("arg")
-    print(arg)
-    return "200"
+    button = request.values.get("button")
+    c = request.values.get("class")
+    tf = gettoggletf(c = c, button = button)
+    return tf
 
 @app.route('/writename',methods=['get','post'])
 def writename():
