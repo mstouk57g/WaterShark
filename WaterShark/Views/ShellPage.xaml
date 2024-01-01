@@ -29,7 +29,6 @@
                  Debug Channel</Run>
                 <LineBreak/>
             </TextBlock>
-            <TextBlock x:Name ="classes" Margin="15,15,0,0" VerticalAlignment="Center" FontSize="10" Foreground="DarkGray"/>
         </StackPanel>
         <NavigationView
             x:Name="NavigationViewControl"

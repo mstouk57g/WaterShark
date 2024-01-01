@@ -3,6 +3,11 @@ using System.Diagnostics;
 using WaterShark.Helpers;
 using WaterShark.ViewModels;
 using static WaterShark.App;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
+using WaterShark.Core.Helpers;
+using System.Net.Http.Json;
+using System.Text;
 
 namespace WaterShark.Views;
 
@@ -13,24 +18,32 @@ public sealed partial class SettingsPage : Page
     {
         get;
     }
-
+    string path = "C:/WaterShark/services.json";
     public SettingsPage()
     {
         ViewModel = App.GetService<SettingsViewModel>();
         InitializeComponent();
         string lists = Global.classws;
         lists = lists.Substring(0, lists.Length - 2);
-        Trace.WriteLine(lists);
         lists = lists.Substring(1);
-        Trace.WriteLine(lists);
         String[] sArray = lists.Split(',');
         List<string> list = new List<string>(sArray);
-        Trace.WriteLine(sArray);
         SetterClass.ItemsSource = list;
+        string jsonStr = File.ReadAllText(path);
+        JObject objs = JObject.Parse(jsonStr);
+        string contc = objs["class"].ToString();
+        SetterClass.SelectedItem = '"' + contc + '"';
     }
     
     private void classseter(object sender, SelectionChangedEventArgs e)
     {
         string Names = e.AddedItems[0].ToString();
+        Names = Names.Substring(0, Names.Length - 1);
+        Names = Names.Substring(1);
+        string jsonStr = File.ReadAllText(path);
+        JObject objs = JObject.Parse(jsonStr);
+        objs["class"] = Names;
+        File.WriteAllText(path, objs.ToString(), Encoding.UTF8);
+        GettingScr.nm();
     }
 }
