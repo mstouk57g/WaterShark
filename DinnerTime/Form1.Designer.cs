@@ -46,7 +46,7 @@
             // 
             label1.AutoSize = true;
             label1.BackColor = Color.Transparent;
-            label1.Location = new Point(70, 25);
+            label1.Location = new Point(32, 25);
             label1.Name = "label1";
             label1.Size = new Size(43, 17);
             label1.TabIndex = 0;
@@ -58,7 +58,7 @@
             // 
             label2.AutoSize = true;
             label2.BackColor = Color.Transparent;
-            label2.Location = new Point(320, 25);
+            label2.Location = new Point(165, 25);
             label2.Name = "label2";
             label2.Size = new Size(43, 17);
             label2.TabIndex = 1;
@@ -80,7 +80,7 @@
             // 
             label3.AutoSize = true;
             label3.BackColor = Color.Transparent;
-            label3.Location = new Point(240, 25);
+            label3.Location = new Point(127, 25);
             label3.Name = "label3";
             label3.Size = new Size(11, 17);
             label3.TabIndex = 3;
@@ -91,7 +91,7 @@
             AutoScaleDimensions = new SizeF(7F, 17F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ButtonHighlight;
-            ClientSize = new Size(600, 200);
+            ClientSize = new Size(318, 148);
             ControlBox = false;
             Controls.Add(label3);
             Controls.Add(button1);
@@ -101,7 +101,6 @@
             Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "Form1";
             Text = "Timer";
-            TopMost = true;
             MouseDown += panel1_MouseDown;
             MouseMove += panel1_MouseMove;
             ResumeLayout(false);

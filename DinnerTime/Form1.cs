@@ -13,14 +13,14 @@ namespace DinnerTime
         public Form1()
         {
             InitializeComponent();
+            this.TopMost = true;
 
-
-            this.label1.Text = mint.ToString("D2") + ":";
+            this.label1.Text = mint.ToString("D2");
             this.label2.Text = scss.ToString("D2");
 
-            this.label1.Font = new Font("Microsoft Sans Serif", 100);
-            this.label2.Font = new Font("Microsoft Sans Serif", 100);
-            this.label3.Font = new Font("Microsoft Sans Serif", 100);
+            this.label1.Font = new Font("Microsoft Sans Serif", 50);
+            this.label2.Font = new Font("Microsoft Sans Serif", 50);
+            this.label3.Font = new Font("Microsoft Sans Serif", 50);
 
             timer1.Interval = 1000;
             timer1.Tick += new System.EventHandler(timer1_Tick);
