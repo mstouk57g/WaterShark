@@ -32,7 +32,7 @@ def writename():
     if names == None:
         return "没有提交任何数据"
     else:
-        writenames(classes = classes, time = time, names = names)
+        writenamenm(classes = classes, time = time, names = names)
         return "提交成功"
     
 @app.route('/writenamelists',methods=['get','post'])

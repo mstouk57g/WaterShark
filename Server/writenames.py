@@ -1,9 +1,9 @@
 import json
-from getnames import getname
+from getnames import getname, gettofromxl
 
 
 
-def writenames(classes, time, names):
+def writenamenm(classes, time, names):
     namejson = "./datas/class/" + classes + "/writenamelist.json"
     temf = open(namejson, encoding="utf-8")
     jsonfile = json.load(temf)
@@ -41,10 +41,12 @@ def getnames(classes, time):
     
     names = data[time]
     name = names["names"]
-    
-    listnumber = len(name)
+    listnumber = len(name)  
     lists = []
     for i in range(listnumber):
-        co = getname(m = "name", n = i, c = classes)
+        b = name[i]
+        n = gettofromxl(c = classes, button = b)
+        co = getname(m = "name", n = n, c = classes)
         lists.append(co)
+        
     return "\n".join(lists)

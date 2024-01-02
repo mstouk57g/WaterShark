@@ -57,7 +57,7 @@ namespace DinnerTime
             }
             if (mint == 1 & scss == 9)
             {
-                Process p = Process.Start("tskill msedge");
+                Process p = Process.Start("tskill", "msedge");
                 p.Kill();
                 label1.ForeColor = Color.Orange;
                 label2.ForeColor = Color.Orange;

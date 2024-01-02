@@ -31,4 +31,16 @@ def gettoggletf(c, button):
     a = data[button]
     b = str(a["enable"])
     return b
+
+def gettofromxl(c, button):
+    namejson = "./datas/class/" + c + "/getnames.json"
+    temf = open(namejson, encoding="utf-8")
+    jsonfile = json.load(temf)
+    temf.close()
+    
+    data = dict(jsonfile)
+    dict_keys = list(data.keys())
+    m = dict_keys.index(button)
+    return m
+    
     
