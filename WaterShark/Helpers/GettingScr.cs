@@ -16,7 +16,8 @@ namespace WaterShark.Helpers
         {
             string jsonStr = File.ReadAllText("C:/WaterShark/services.json");
             JObject objs = JObject.Parse(jsonStr);
-            App.Global.classws = objs["class"].ToString();
+            string c = objs["class"].ToString();
+            App.Global.classws = c;
 
             Thread threadA1 = new Thread(() => { Global.A1 = HttpWebRequest_Get.HttpWebRequest("http://localhost:5000/toggle?value=0&key=name&class=" + c); });
             Thread threadA2 = new Thread(() => { Global.A2 = HttpWebRequest_Get.HttpWebRequest("http://localhost:5000/toggle?value=1&key=name&class=" + c); });

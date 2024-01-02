@@ -38,7 +38,7 @@ namespace WaterShark.WindowForm
             //foreach (var file in files)
             //    NameJson.Items.Add(file);
 
-            string classname = "92";
+            string classname = App.Global.classws;
             string lists = HttpWebRequest_Get.HttpWebRequest("http://localhost:5000/writenamelists?classes=" + classname);
             // = lists.Substring(0, lists.Length - 1);
             lists = lists.Substring(0, lists.Length - 2);
@@ -49,7 +49,7 @@ namespace WaterShark.WindowForm
         }
         private void ColorComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            string classname = "92";
+            string classname = App.Global.classws;
             string Names = e.AddedItems[0].ToString();
             string lists = HttpWebRequest_Get.HttpWebRequest("http://localhost:5000/writenames?classes=" + classname + "&time=" + Names);
             Homo1145.Text = lists;
