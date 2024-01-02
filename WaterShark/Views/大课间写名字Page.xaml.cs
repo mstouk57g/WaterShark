@@ -167,7 +167,7 @@ public sealed partial class 大课间写名字Page : Page
     {
         string t = DateTime.Now.ToString("yyyy-MM-dd-HH-mm-ss-ffff");
         string liststr = String.Join(",", namelist);
-        string classname = "92";
+        string classname = App.Global.classws;
         string ret = HttpWebRequest_Get.HttpWebRequest("http://localhost:5000/writename?class=" + classname + "&time=" + t + "&names=" + liststr);
         var cd = new ContentDialog
         {

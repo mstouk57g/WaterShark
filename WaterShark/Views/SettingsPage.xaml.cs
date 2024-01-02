@@ -23,7 +23,7 @@ public sealed partial class SettingsPage : Page
     {
         ViewModel = App.GetService<SettingsViewModel>();
         InitializeComponent();
-        string lists = Global.classws;
+        string lists = Global.classks;
         lists = lists.Substring(0, lists.Length - 2);
         lists = lists.Substring(1);
         String[] sArray = lists.Split(',');

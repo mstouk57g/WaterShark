@@ -139,6 +139,7 @@ public partial class App : Application
     public static class Global
     {
         public static string classws;
+        public static string classks;
         public static string A1;
         public static string A2;
         public static string A3;
