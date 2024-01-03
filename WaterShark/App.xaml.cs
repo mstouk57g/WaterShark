@@ -1,7 +1,9 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿using System.Diagnostics;
+
+using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.UI.Xaml;
-using System.Diagnostics;
+
 using WaterShark.Activation;
 using WaterShark.Contracts.Services;
 using WaterShark.Core.Contracts.Services;
@@ -90,26 +92,6 @@ public partial class App : Application
             services.AddTransient<Web视图Page>();
             services.AddTransient<其他页面ViewModel>();
             services.AddTransient<其他页面Page>();
-            services.AddTransient<空白9ViewModel>();
-            services.AddTransient<空白9Page>();
-            services.AddTransient<空白8ViewModel>();
-            services.AddTransient<空白8Page>();
-            services.AddTransient<空白7ViewModel>();
-            services.AddTransient<空白7Page>();
-            services.AddTransient<空白5ViewModel>();
-            services.AddTransient<空白5Page>();
-            services.AddTransient<空白6ViewModel>();
-            services.AddTransient<空白6Page>();
-            services.AddTransient<空白4ViewModel>();
-            services.AddTransient<空白4Page>();
-            services.AddTransient<空白3ViewModel>();
-            services.AddTransient<空白3Page>();
-            services.AddTransient<空白2ViewModel>();
-            services.AddTransient<空白2Page>();
-            services.AddTransient<空白1ViewModel>();
-            services.AddTransient<空白1Page>();
-            services.AddTransient<空白ViewModel>();
-            services.AddTransient<空白Page>();
             services.AddTransient<晚自习已经自闭ViewModel>();
             services.AddTransient<晚自习已经自闭Page>();
             services.AddTransient<英语老师专用抽ViewModel>();
