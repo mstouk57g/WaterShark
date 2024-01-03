@@ -5,6 +5,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Windows.Storage;
 using static WaterShark.App;
 
 
@@ -14,9 +15,8 @@ namespace WaterShark.Helpers
     {
         public static void nm()
         {
-            string jsonStr = File.ReadAllText("./appsettings.json");
-            JObject objs = JObject.Parse(jsonStr);
-            string c = objs["class"].ToString();
+            ApplicationDataContainer localSettings = Windows.Storage.ApplicationData.Current.LocalSettings;
+            String c = localSettings.Values["class"] as string;
             App.Global.classws = c;
 
             Thread threadA1 = new Thread(() => { Global.A1 = HttpWebRequest_Get.HttpWebRequest("http://localhost:5000/toggle?value=0&key=name&class=" + c); });

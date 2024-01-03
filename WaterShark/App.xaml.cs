@@ -14,6 +14,7 @@ using WaterShark.Notifications;
 using WaterShark.Services;
 using WaterShark.ViewModels;
 using WaterShark.Views;
+using Windows.Storage;
 
 namespace WaterShark;
 
@@ -212,7 +213,6 @@ public partial class App : Application
         //spalsh
         //Thread splash = new Thread(waitforkill);
         //splash.Start();
-        
         GettingScr.nm();
         GettingScr.getcl();
 
@@ -226,4 +226,6 @@ public partial class App : Application
     {
         Thread.Sleep(10000);
     }
+    
 }
+
