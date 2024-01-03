@@ -69,6 +69,7 @@
                     </NavigationViewItem.Icon>
                 </NavigationViewItem>
                 
+                
             </NavigationView.MenuItems>
             <NavigationView.HeaderTemplate>
                 <DataTemplate>

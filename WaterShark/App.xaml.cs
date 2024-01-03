@@ -3,7 +3,7 @@
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.UI.Xaml;
-using WaterShark.WindowForm;
+
 using WaterShark.Activation;
 using WaterShark.Contracts.Services;
 using WaterShark.Core.Contracts.Services;
@@ -14,6 +14,8 @@ using WaterShark.Notifications;
 using WaterShark.Services;
 using WaterShark.ViewModels;
 using WaterShark.Views;
+using WaterShark.WindowForm;
+
 using Windows.Storage;
 
 namespace WaterShark;
@@ -77,6 +79,10 @@ public partial class App : Application
             services.AddSingleton<IFileService, FileService>();
 
             // Views and ViewModels
+            services.AddTransient<SplashViewModel>();
+            services.AddTransient<SplashPage>();
+            services.AddTransient<oobeViewModel>();
+            services.AddTransient<oobePage>();
             services.AddTransient<SettingsViewModel>();
             services.AddTransient<SettingsPage>();
             services.AddTransient<晚自习已经自闭ViewModel>();
@@ -210,22 +216,16 @@ public partial class App : Application
     {
         
         base.OnLaunched(args);
-        //spalsh
-        //Thread splash = new Thread(waitforkill);
-        //splash.Start();
+        
         GettingScr.nm();
         GettingScr.getcl();
-
+        await App.GetService<IActivationService>().ActivateAsync(args);
         //App.GetService<IAppNotificationService>().Show(string.Format("AppNotificationSamplePayload".GetLocalized(), AppContext.BaseDirectory));
 
-        await App.GetService<IActivationService>().ActivateAsync(args);
-        Thread.Sleep(9000);
+
 
     }
-    public void waitforkill()
-    {
-        Thread.Sleep(10000);
-    }
+    
     
 }
 

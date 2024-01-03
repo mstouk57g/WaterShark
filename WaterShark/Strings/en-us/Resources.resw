@@ -209,4 +209,10 @@
   &lt;/actions&gt;
 &lt;/toast&gt;</value>
   </data>
+  <data name="Shell_oobe.Content" xml:space="preserve">
+    <value>oobe</value>
+  </data>
+  <data name="Shell_Splash.Content" xml:space="preserve">
+    <value>Splash</value>
+  </data>
 </root>

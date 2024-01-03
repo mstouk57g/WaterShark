@@ -19,6 +19,8 @@ public class PageService : IPageService
         Configure<英语老师专用抽ViewModel, 英语老师专用抽Page>();
         Configure<晚自习已经自闭ViewModel, 晚自习已经自闭Page>();
         Configure<SettingsViewModel, SettingsPage>();
+        Configure<oobeViewModel, oobePage>();
+        Configure<SplashViewModel, SplashPage>();
     }
 
     public Type GetPageType(string key)

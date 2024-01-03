@@ -37,6 +37,7 @@ namespace WaterShark.WindowForm
         public ShowTime()
         {
             this.InitializeComponent();
+            ExtendsContentIntoTitleBar = true;
             AppWindow.SetIcon(Path.Combine(AppContext.BaseDirectory, "Assets/WindowIcon.ico"));
             hour = 20;
             min = 23;

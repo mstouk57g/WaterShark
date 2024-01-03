@@ -8,6 +8,7 @@ using WaterShark.Helpers;
 using WaterShark.Views;
 using System.Diagnostics;
 using WaterShark.WindowForm;
+using System.Threading;
 namespace WaterShark.Services;
 
 public class ActivationService : IActivationService
@@ -16,7 +17,6 @@ public class ActivationService : IActivationService
     private readonly IEnumerable<IActivationHandler> _activationHandlers;
     private readonly IThemeSelectorService _themeSelectorService;
     private UIElement? _shell = null;
-    private UIElement? _shell2 = null;
 
     public ActivationService(ActivationHandler<LaunchActivatedEventArgs> defaultHandler, IEnumerable<IActivationHandler> activationHandlers, IThemeSelectorService themeSelectorService)
     {
@@ -33,7 +33,7 @@ public class ActivationService : IActivationService
         // Set the MainWindow Content.
         if (App.MainWindow.Content == null)
         {
-            _shell = App.GetService<ShellPage>();
+            _shell = App.GetService<SplashPage>();
             App.MainWindow.Content = _shell ?? new Frame();
         }
 
@@ -44,11 +44,14 @@ public class ActivationService : IActivationService
 
         // Activate the MainWindow.
         App.MainWindow.Activate();
+        //spalsh
+        await Task.Run(() => Thread.Sleep(10000));
 
-        //App.MainWindow.Content = _shell ?? new Frame();
-
+        _shell = App.GetService<ShellPage>();
+        App.MainWindow.Content = _shell ?? new Frame();
         // Execute tasks after activation.
         await StartupAsync();
+
     }
 
     private async Task HandleActivationAsync(object activationArgs)

@@ -30,6 +30,7 @@ namespace WaterShark.WindowForm
         public ShowName()
         {
             this.InitializeComponent();
+            ExtendsContentIntoTitleBar = true;
             AppWindow.SetIcon(Path.Combine(AppContext.BaseDirectory, "Assets/WindowIcon.ico"));
             //NameJson.Items.
             Title = "名单查看";
