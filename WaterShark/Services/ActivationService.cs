@@ -7,6 +7,7 @@ using WaterShark.Contracts.Services;
 using WaterShark.Helpers;
 using WaterShark.Views;
 using System.Diagnostics;
+using WaterShark.WindowForm;
 namespace WaterShark.Services;
 
 public class ActivationService : IActivationService

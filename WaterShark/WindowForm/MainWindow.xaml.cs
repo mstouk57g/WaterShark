@@ -3,7 +3,7 @@ using System.Text;
 using WaterShark.Helpers;
 using WaterShark.Views;
 using Windows.UI.ViewManagement;
-namespace WaterShark;
+namespace WaterShark.WindowForm;
 
 public sealed partial class MainWindow : WindowEx
 {

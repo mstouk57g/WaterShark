@@ -14,7 +14,7 @@ namespace WaterShark.Helpers
     {
         public static void nm()
         {
-            string jsonStr = File.ReadAllText("C:/WaterShark/services.json");
+            string jsonStr = File.ReadAllText("./appsettings.json");
             JObject objs = JObject.Parse(jsonStr);
             string c = objs["class"].ToString();
             App.Global.classws = c;

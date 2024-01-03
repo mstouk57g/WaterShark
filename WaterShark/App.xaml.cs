@@ -3,7 +3,7 @@
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.UI.Xaml;
-
+using WaterShark.WindowForm;
 using WaterShark.Activation;
 using WaterShark.Contracts.Services;
 using WaterShark.Core.Contracts.Services;
