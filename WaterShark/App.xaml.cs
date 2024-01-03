@@ -210,8 +210,8 @@ public partial class App : Application
         
         base.OnLaunched(args);
         //spalsh
-        Thread splash = new Thread(waitforkill);
-        splash.Start();
+        //Thread splash = new Thread(waitforkill);
+        //splash.Start();
         
         GettingScr.nm();
         GettingScr.getcl();

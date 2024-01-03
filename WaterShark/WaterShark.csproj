@@ -82,6 +82,14 @@
   </ItemGroup>
   
   <ItemGroup>
+    <Content Remove="Assets\SplashScreen.scale-100.png" />
+    <Content Remove="Assets\SplashScreen.scale-125.png" />
+    <Content Remove="Assets\SplashScreen.scale-150.png" />
+    <Content Remove="Assets\SplashScreen.scale-200.png" />
+    <Content Remove="Assets\SplashScreen.scale-400.png" />
+  </ItemGroup>
+  
+  <ItemGroup>
     <None Remove="WindowForm\ShowTime.xaml" />
   </ItemGroup>
 </Project>
