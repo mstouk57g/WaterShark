@@ -135,39 +135,6 @@
   <data name="Shell_晚自习已经自闭.Content" xml:space="preserve">
     <value>WaterShark.Views.EmptyPage_3</value>
   </data>
-  <data name="Shell_空白.Content" xml:space="preserve">
-    <value>空白</value>
-  </data>
-  <data name="Shell_空白1.Content" xml:space="preserve">
-    <value>空白1</value>
-  </data>
-  <data name="Shell_空白2.Content" xml:space="preserve">
-    <value>空白2</value>
-  </data>
-  <data name="Shell_空白3.Content" xml:space="preserve">
-    <value>空白3</value>
-  </data>
-  <data name="Shell_空白4.Content" xml:space="preserve">
-    <value>空白4</value>
-  </data>
-  <data name="Shell_空白6.Content" xml:space="preserve">
-    <value>空白6</value>
-  </data>
-  <data name="Shell_空白5.Content" xml:space="preserve">
-    <value>空白5</value>
-  </data>
-  <data name="Shell_空白7.Content" xml:space="preserve">
-    <value>空白7</value>
-  </data>
-  <data name="Shell_空白8.Content" xml:space="preserve">
-    <value>空白8</value>
-  </data>
-  <data name="Shell_空白9.Content" xml:space="preserve">
-    <value>空白9</value>
-  </data>
-  <data name="Shell_其他页面.Content" xml:space="preserve">
-    <value>其他页面</value>
-  </data>
   <data name="WebView_Loading.Text" xml:space="preserve">
     <value>Loading...</value>
   </data>
@@ -201,21 +168,6 @@
   <data name="OpenInBrowserButton.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name" xml:space="preserve">
     <value>Open in browser</value>
   </data>
-  <data name="Shell_Web视图.Content" xml:space="preserve">
-    <value>Web视图</value>
-  </data>
-  <data name="列表详细信息_NoSelection.Text" xml:space="preserve">
-    <value>Select an item from the list.</value>
-  </data>
-  <data name="Shell_列表详细信息.Content" xml:space="preserve">
-    <value>列表详细信息</value>
-  </data>
-  <data name="Shell_内容网格.Content" xml:space="preserve">
-    <value>内容网格</value>
-  </data>
-  <data name="Shell_内容网格1.Content" xml:space="preserve">
-    <value>内容网格1</value>
-  </data>
   <data name="Settings_Personalization.Text" xml:space="preserve">
     <value>Personalization</value>
   </data>
@@ -232,7 +184,7 @@
     <value>Default</value>
   </data>
   <data name="Settings_About.Text" xml:space="preserve">
-    <value>About this application</value>
+    <value>关于</value>
   </data>
   <data name="Settings_AboutDescription.Text" xml:space="preserve">
     <value>TODO: Replace with your app description.</value>
@@ -256,11 +208,5 @@
     &lt;action content="Settings" arguments="action=Settings"/&gt;
   &lt;/actions&gt;
 &lt;/toast&gt;</value>
-  </data>
-  <data name="名单列表查看_NoSelection.Text" xml:space="preserve">
-    <value>Select an item from the list.</value>
-  </data>
-  <data name="Shell_名单列表查看.Content" xml:space="preserve">
-    <value>名单列表查看</value>
   </data>
 </root>
