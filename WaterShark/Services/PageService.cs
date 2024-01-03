@@ -18,14 +18,7 @@ public class PageService : IPageService
         Configure<大课间写名字ViewModel, 大课间写名字Page>();
         Configure<英语老师专用抽ViewModel, 英语老师专用抽Page>();
         Configure<晚自习已经自闭ViewModel, 晚自习已经自闭Page>();
-        Configure<其他页面ViewModel, 其他页面Page>();
-        Configure<Web视图ViewModel, Web视图Page>();
-        Configure<列表详细信息ViewModel, 列表详细信息Page>();
-        Configure<内容网格ViewModel, 内容网格Page>();
-        Configure<内容网格DetailViewModel, 内容网格DetailPage>();
-        Configure<内容网格1ViewModel, 内容网格1Page>();
         Configure<SettingsViewModel, SettingsPage>();
-        Configure<名单列表查看ViewModel, 名单列表查看Page>();
     }
 
     public Type GetPageType(string key)

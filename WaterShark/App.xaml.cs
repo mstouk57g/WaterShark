@@ -76,22 +76,8 @@ public partial class App : Application
             services.AddSingleton<IFileService, FileService>();
 
             // Views and ViewModels
-            services.AddTransient<名单列表查看ViewModel>();
-            services.AddTransient<名单列表查看Page>();
             services.AddTransient<SettingsViewModel>();
             services.AddTransient<SettingsPage>();
-            services.AddTransient<内容网格1ViewModel>();
-            services.AddTransient<内容网格1Page>();
-            services.AddTransient<内容网格DetailViewModel>();
-            services.AddTransient<内容网格DetailPage>();
-            services.AddTransient<内容网格ViewModel>();
-            services.AddTransient<内容网格Page>();
-            services.AddTransient<列表详细信息ViewModel>();
-            services.AddTransient<列表详细信息Page>();
-            services.AddTransient<Web视图ViewModel>();
-            services.AddTransient<Web视图Page>();
-            services.AddTransient<其他页面ViewModel>();
-            services.AddTransient<其他页面Page>();
             services.AddTransient<晚自习已经自闭ViewModel>();
             services.AddTransient<晚自习已经自闭Page>();
             services.AddTransient<英语老师专用抽ViewModel>();
