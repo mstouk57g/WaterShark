@@ -39,8 +39,8 @@ namespace WaterShark.WindowForm
             this.InitializeComponent();
             AppWindow.SetIcon(Path.Combine(AppContext.BaseDirectory, "Assets/WindowIcon.ico"));
             hour = 20;
-            min = 22;
-            sec = 55;
+            min = 23;
+            sec = 00;
             subj.Text = "语文";
 
             DateTime now = DateTime.Now;
@@ -112,23 +112,23 @@ namespace WaterShark.WindowForm
                 else if (hour == 21 && min == 22 && sec == 00)
                 {
                     subj.Text = "化学";
-                    min = 29;
+                    min = 30;
                 }
                 else if (hour == 21 && min == 09 && sec == 00)
                 {
                     subj.Text = "物理";
-                    min = 21;
+                    min = 22;
                 }
                 else if (hour == 20 && min == 46 && sec == 00)
                 {
                     subj.Text = "英语";
                     hour = 21;
-                    min = 08;
+                    min = 09;
                 }
                 else if (hour == 20 && min == 23 && sec == 00)
                 {
                     subj.Text = "数学";
-                    min = 45;
+                    min = 46;
                 }
                 DateTime now = DateTime.Now;
                 DateTime liu = new DateTime(DateTime.Now.Year, DateTime.Now.Month, DateTime.Now.Day, hour, min, sec);
@@ -141,6 +141,7 @@ namespace WaterShark.WindowForm
                 num5.Foreground = new SolidColorBrush(Windows.UI.Color.FromArgb(255, 0, 0, 0));
                 num6.Foreground = new SolidColorBrush(Windows.UI.Color.FromArgb(255, 0, 0, 0));
                 num7.Foreground = new SolidColorBrush(Windows.UI.Color.FromArgb(255, 0, 0, 0));
+                num8.Foreground = new SolidColorBrush(Windows.UI.Color.FromArgb(255, 0, 0, 0));
             }
         }
         public static void waitshut()
