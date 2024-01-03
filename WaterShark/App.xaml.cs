@@ -224,8 +224,6 @@ public partial class App : Application
     }
     public void waitforkill()
     {
-        Process p = Process.Start("F:/WaterShark/Splash/bin/Debug/net8.0-windows/Splash.exe");
         Thread.Sleep(10000);
-        p.Kill();
     }
 }
