@@ -8,6 +8,14 @@
 
 *Recommended Markdown Viewer: [Markdown Editor](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.MarkdownEditor2)*
 
+## How to use:
+
+1、打开Server中的main.py进行运行
+
+2、打开WaterShark(Package)项目运行
+
+3、DinnerTime中的Program.cs也可运行
+
 ## Getting Started
 
 Browse and address `TODO:` comments in `View -> Task List` to learn the codebase and understand next steps for turning the generated code into production code.
